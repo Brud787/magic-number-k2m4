@@ -1,6 +1,8 @@
 {
   "files_compared": 40,
   "status": "PASS",
-  "meaning": "All final mathematical data, replay source, runtime requirements and manuscript source/PDF equal the standalone copy used in the clean replay. Only documentation/release records were completed afterward.",
-  "final_clean_log_unchanged": true
+  "meaning": "Historical binding at the original clean replay: the 40 compared files then matched, including manuscript source/PDF. The final metadata-only pass changes the manuscript availability paragraph and rebuilds the PDF; manuscript byte equality with the earlier replay copy is no longer asserted. Mathematical artifacts, replay implementation, runtime requirements, and original clean replay logs remain unchanged; see final_metadata_validation.json for preservation hashes and package_validation.json for the new source/PDF binding.",
+  "final_clean_log_unchanged": true,
+  "binding_stage": "Before final publication metadata update",
+  "final_metadata_validation": "final_metadata_validation.json"
 }

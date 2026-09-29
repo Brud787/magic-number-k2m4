@@ -1,5 +1,7 @@
 # Exact replay
 
+Public repository: [Brud787/magic-number-k2m4](https://github.com/Brud787/magic-number-k2m4). Reserved Zenodo DOI: [10.5281/zenodo.23028034](https://doi.org/10.5281/zenodo.23028034), version `1.0.0-paper`. The DOI is reserved; publication of the deposit is a separate step. The public repository root contains the supplement files; the ZIP retains the enclosing `publication/` directory.
+
 ## Environment
 
 The release was prepared with Python **3.14.6**, SymPy **1.14.0**, and mpmath **1.3.0**, on macOS **26.5.1**, Darwin arm64. The verifier uses Python's exact integers and `fractions.Fraction`, and SymPy's rational matrix operations. No floating-point rank, determinant, or membership decision is accepted. mpmath is SymPy's dependency; floating-point arithmetic is not a proof mechanism.
@@ -8,7 +10,7 @@ The frozen dependencies are in [requirements.txt](requirements.txt). Other Pytho
 
 ## Install and run
 
-Run these commands from the extracted `publication/` directory:
+Run these commands from the public repository root or the extracted `publication/` directory:
 
 ```sh
 python3 -m venv .venv
@@ -56,7 +58,7 @@ The theorem still uses the symbolic membership/inverse arguments, geometric loca
 
 Replay uses the saved rational witnesses in their frozen order. It performs no random search and has no random seed to choose. Historical trial numbers and search seeds are provenance; they are not rerun to generate replacement witnesses. The verifier does not accept a cached PASS flag or skip membership decisions because a frozen matrix exists. Its reuse of external frames and inverses is confined to in-memory caches for the current process.
 
-The final clean replay took **97.731 seconds** and reported **185,712,640 bytes** of peak resident memory on the tested machine. Allow a few minutes, several hundred megabytes of working memory, and about 200 MB of extracted release space, with additional space for the Python environment. These are planning estimates, not a cross-platform performance guarantee; [the final replay log](logs/final_clean_replay.txt) and [machine-generated metadata](logs/final_clean_replay_metadata.json) record the actual run.
+The preserved clean replay from the certificate-packaging pass took **97.731 seconds** and reported **185,712,640 bytes** of peak resident memory on the tested machine. Allow a few minutes, several hundred megabytes of working memory, and about 200 MB of extracted release space, with additional space for the Python environment. These are planning estimates, not a cross-platform performance guarantee; [the preserved replay log](logs/final_clean_replay.txt) and [machine-generated metadata](logs/final_clean_replay_metadata.json) record the actual run.
 
 The reconstructed A9 is compared entry-for-entry to both the public matrix and the historical promoted matrix. The log also prints a SHA-256 digest of its row-major sequence of 0/1 bytes. This digest concerns mathematical matrix entries, not JSON whitespace. Historical JSON copies retain their original bytes; normalized catalogues add IDs and may have different JSON serialization.
 
@@ -73,6 +75,8 @@ A new interpreter process is sufficient to clear every verification cache. A fre
 Inspect the process exit status and the final line. Preserve the full output on failure. A new replay may differ from the supplied log in elapsed time or platform metadata while checking the same exact mathematical objects. Do not regenerate frozen certificate data or the published manifest to make a failed comparison pass.
 
 [SHA256SUMS.txt](SHA256SUMS.txt) covers the frozen manuscript, PDF, certificates, verifier sources, documentation, expected replay output and supplied final clean log. It cannot hash itself. During release preparation the clean replay is captured outside the package, then copied into the package and frozen; the manifest is finalized and checked again with `ARTIFACT-HASHES`. This avoids writing a log while checking its own hash. Readers should write fresh output to a new local file, as above, and must not overwrite `logs/final_clean_replay.txt`. A local replay log is not a new frozen certificate. `ARTIFACT-HASHES` checks the manifest without rebuilding or modifying it.
+
+The final metadata-only pass inserts the public repository URL and reserved DOI, rebuilds the manuscript and submission packages, and refreshes hashes. Its checks are limited to compilation, links, metadata, and artifact integrity. It does not rerun mathematical certificates, conduct a broad proof audit, or alter theorem scope or proof content. The supplied clean replay remains evidence from the earlier certificate-packaging pass.
 
 The normalizer `build_catalogues.py` is a release-maintenance tool, not a required verification step. Its inputs are preserved copies, and its output is frozen before replay. Re-running it is unnecessary for readers and changes release artifacts; compare the independently reconstructed mathematical data through `verify_all.py` instead.
 
@@ -91,8 +95,9 @@ offline build after that bundle is installed. The final release and isolated
 arXiv builds both used `--only-cached` and produced byte-identical PDFs; see
 [the build record](audit/package_validation.json) and [build log](logs/paper_build.txt).
 The distributed `paper.pdf` is the resulting `main.pdf` renamed for clarity.
-TeX reported only underfull spacing warnings in the dependency table, with no
-overfull boxes or unresolved references. Certificate replay does not invoke TeX.
+TeX reported only underfull spacing warnings in the dependency table and
+availability paragraph, with no overfull boxes or unresolved references.
+Certificate replay does not invoke TeX.
 
 ## Regression baseline and failure policy
 

@@ -4,7 +4,7 @@ This directory makes the existing preprint's finite computational certificates a
 
 Read the [18-page manuscript](paper/paper.pdf) or its [LaTeX source](paper/main.tex). The appendix specifies the finite objects and verification conditions; the index supplies direct file links and commands.
 
-The release is prepared locally for public deposition. Suggested release tag: `v1.0.0-paper`. Repository URL: **[PUBLIC REPOSITORY URL TO BE INSERTED]**. Archive DOI: **[ZENODO DOI TO BE INSERTED AFTER RELEASE]**. These placeholders do not denote an existing public deposit.
+The public repository is [Brud787/magic-number-k2m4](https://github.com/Brud787/magic-number-k2m4). Release version: `1.0.0-paper`; intended tag: `v1.0.0-paper`. The reserved Zenodo DOI is [10.5281/zenodo.23028034](https://doi.org/10.5281/zenodo.23028034). DOI reservation does not establish that the deposit has been published.
 
 ## Verify
 
@@ -56,8 +56,8 @@ ALL PUBLICATION-CRITICAL CERTIFICATES PASSED
 
 [PROOF_DEPENDENCIES.md](PROOF_DEPENDENCIES.md) separates finite computations from symbolic arguments and external theorems. The package concerns the existing rank-two, m = 4 all-Z theorem. A finite indicator matrix supplies necessary equations on all-Z relations; its kernel is identified with K9 only through the paper's local theorem and dimension argument. Neither sampled membership nor passing unit tests alone proves the all-n theorem.
 
-The research repository is preserved in place. Release copies add stable IDs without overwriting historical results. The original root README describes an early research stage; this supplement and the authoritative `magic_number_k2_m4_preprint.tex` identify the manuscript packaged here.
+The research repository is preserved in place. Release copies add stable IDs without overwriting historical results. In the working repository, this supplement is `publication/` and the authoritative manuscript is `magic_number_k2_m4_preprint.tex`. Copy the complete contents of `publication/`, including `.zenodo.json`, into the public repository root. In the release ZIP, the supplement retains its enclosing `publication/` directory. The public repository's manuscript source is [paper/main.tex](paper/main.tex).
 
 ## License and citation
 
-Code is licensed under MIT. The manuscript and certificate data are licensed under CC BY 4.0; see [LICENSE](LICENSE) for the scope and attribution details. Use [CITATION.cff](CITATION.cff) when citing the release and replace the repository/DOI placeholders only after actual deposition. AI tools are not authors; the manuscript's disclosure describes their assistance and the human author's responsibility.
+Code is licensed under MIT. The manuscript and certificate data are licensed under CC BY 4.0; see [LICENSE](LICENSE) for the scope and attribution details. [CITATION.cff](CITATION.cff) records the public repository and reserved archive DOI. AI tools are not authors; the manuscript's disclosure describes their assistance and the human author's responsibility.

@@ -1,6 +1,8 @@
 # Certificate index
 
-Every command below runs from the `publication/` directory after installing [requirements.txt](requirements.txt). Each certificate ID below is accepted by:
+Release `1.0.0-paper` identifies the [public repository](https://github.com/Brud787/magic-number-k2m4) and reserved Zenodo DOI [10.5281/zenodo.23028034](https://doi.org/10.5281/zenodo.23028034). DOI reservation does not establish publication of the deposit.
+
+Every command below runs from the public repository root or the extracted `publication/` directory after installing [requirements.txt](requirements.txt). Each certificate ID below is accepted by:
 
 ```sh
 python verify_all.py --certificate ID

@@ -6,15 +6,7 @@ warning: main.tex:1164: Underfull \hbox (badness 10000) in paragraph at lines 11
 warning: main.tex:1166: Underfull \hbox (badness 4660) in paragraph at lines 1165--1166
 warning: main.tex:1172: Underfull \hbox (badness 7925) in paragraph at lines 1171--1172
 warning: main.tex:1172: Underfull \hbox (badness 1609) in paragraph at lines 1171--1172
-warning: main.tex:1231: Underfull \hbox (badness 2158) in paragraph at lines 1221--1231
-note: Rerunning TeX because "main.out" changed ...
-warning: main.tex:1162: Underfull \hbox (badness 2245) in paragraph at lines 1162--1162
-warning: main.tex:1164: Underfull \hbox (badness 10000) in paragraph at lines 1163--1164
-warning: main.tex:1164: Underfull \hbox (badness 10000) in paragraph at lines 1163--1164
-warning: main.tex:1166: Underfull \hbox (badness 4660) in paragraph at lines 1165--1166
-warning: main.tex:1172: Underfull \hbox (badness 7925) in paragraph at lines 1171--1172
-warning: main.tex:1172: Underfull \hbox (badness 1609) in paragraph at lines 1171--1172
-warning: main.tex:1231: Underfull \hbox (badness 2158) in paragraph at lines 1221--1231
+warning: main.tex:1232: Underfull \hbox (badness 2158) in paragraph at lines 1221--1232
 note: Rerunning TeX because "main.aux" changed ...
 warning: main.tex:1162: Underfull \hbox (badness 2245) in paragraph at lines 1162--1162
 warning: main.tex:1164: Underfull \hbox (badness 10000) in paragraph at lines 1163--1164
@@ -22,9 +14,17 @@ warning: main.tex:1164: Underfull \hbox (badness 10000) in paragraph at lines 11
 warning: main.tex:1166: Underfull \hbox (badness 4660) in paragraph at lines 1165--1166
 warning: main.tex:1172: Underfull \hbox (badness 7925) in paragraph at lines 1171--1172
 warning: main.tex:1172: Underfull \hbox (badness 1609) in paragraph at lines 1171--1172
-warning: main.tex:1231: Underfull \hbox (badness 2158) in paragraph at lines 1221--1231
+warning: main.tex:1232: Underfull \hbox (badness 2158) in paragraph at lines 1221--1232
+note: Rerunning TeX because "main.aux" changed ...
+warning: main.tex:1162: Underfull \hbox (badness 2245) in paragraph at lines 1162--1162
+warning: main.tex:1164: Underfull \hbox (badness 10000) in paragraph at lines 1163--1164
+warning: main.tex:1164: Underfull \hbox (badness 10000) in paragraph at lines 1163--1164
+warning: main.tex:1166: Underfull \hbox (badness 4660) in paragraph at lines 1165--1166
+warning: main.tex:1172: Underfull \hbox (badness 7925) in paragraph at lines 1171--1172
+warning: main.tex:1172: Underfull \hbox (badness 1609) in paragraph at lines 1171--1172
+warning: main.tex:1232: Underfull \hbox (badness 2158) in paragraph at lines 1221--1232
 warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
 note: Running xdvipdfmx ...
-note: Writing `/tmp/magic-number-arxiv-build/main.log` (22.416015625 KiB)
-note: Writing `/tmp/magic-number-arxiv-build/main.pdf` (158.0146484375 KiB)
+note: Writing `main.log` (22.416015625 KiB)
+note: Writing `main.pdf` (157.6884765625 KiB)
 note: Skipped writing 2 intermediate files (use --keep-intermediates to keep them)

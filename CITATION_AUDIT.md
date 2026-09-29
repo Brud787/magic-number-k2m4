@@ -32,6 +32,8 @@ historical note discusses it.
 Local literature-PDF links in preserved historical notes are not bundled;
 follow the live source links in this table for those papers.
 
-No external archive DOI for this manuscript has been assigned. The placeholder
-`[ZENODO DOI TO BE INSERTED AFTER RELEASE]` is not a citation to an existing
-deposit.
+Publication metadata update (2026-09-28): the public repository is
+[Brud787/magic-number-k2m4](https://github.com/Brud787/magic-number-k2m4), and
+the reserved Zenodo DOI is [10.5281/zenodo.23028034](https://doi.org/10.5281/zenodo.23028034).
+The DOI becomes resolvable when the deposit is published. This metadata-only
+update does not repeat the citation or mathematical audit above.

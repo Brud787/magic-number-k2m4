@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 message: >-
   Please cite the manuscript and this computational supplement. This is a
-  prepared local release; replace the archive DOI placeholder after deposition.
+  prepared release with a reserved Zenodo DOI; DOI reservation does not imply
+  that the deposit has been published.
 type: software
 title: 'The Magic Number Conjecture for k=2, m=4: computational proof certificates'
 authors:
@@ -9,12 +10,15 @@ authors:
     given-names: Jack
     affiliation: University of Houston
 version: 1.0.0-paper
+repository-code: 'https://github.com/Brud787/magic-number-k2m4'
+url: 'https://github.com/Brud787/magic-number-k2m4'
+doi: 10.5281/zenodo.23028034
 abstract: >-
   Exact rational certificate data and deterministic replay tools accompanying
   the existing k=2, m=4 Magic Number preprint. CERTIFICATE_INDEX.md connects paper
   claims to stable certificate identifiers, literal data, and verification
   commands. Code is licensed under MIT; manuscript, documentation, and original
-  data under CC BY 4.0. Archive DOI: [ZENODO DOI TO BE INSERTED AFTER RELEASE].
+  data under CC BY 4.0. Reserved archive DOI: 10.5281/zenodo.23028034.
 license:
   - MIT
   - CC-BY-4.0
@@ -26,6 +30,8 @@ keywords:
   - reproducibility
 preferred-citation:
   type: article
+  doi: 10.5281/zenodo.23028034
+  url: 'https://github.com/Brud787/magic-number-k2m4'
   title: 'The Magic Number Conjecture for the Rank-Two m=4 Amplituhedron: A simplicial reduction of global tile relations to finite local data'
   authors:
     - family-names: Tavakoli

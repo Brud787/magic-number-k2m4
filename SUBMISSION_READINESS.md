@@ -7,12 +7,21 @@ architecture are retained. **READY FOR EXTERNAL REVIEW** means that a referee
 can access and replay this supplement; it does not assert peer acceptance,
 public deposition, or a new proof of the symbolic premises.
 
-The standalone full run exited zero in **97.731 seconds**, using Python
+The preserved standalone full run from the certificate-packaging pass exited
+zero in **97.731 seconds**, using Python
 3.14.6, SymPy 1.14.0, and exact rational arithmetic. Its unedited
 [log](logs/final_clean_replay.txt) ends with
 `ALL PUBLICATION-CRITICAL CERTIFICATES PASSED`. The 30 PASS lines and final
 verdict match [the expected output](logs/expected_output.txt). The log was
 then frozen and the final artifact manifest checked again.
+
+The final metadata-only pass records the public repository
+[Brud787/magic-number-k2m4](https://github.com/Brud787/magic-number-k2m4) and
+reserved Zenodo DOI [10.5281/zenodo.23028034](https://doi.org/10.5281/zenodo.23028034).
+It rebuilds the manuscript and packages and refreshes the manifests, with
+checks limited to compilation, links, metadata, and artifact integrity.
+The existing certificate replay is preserved; no certificates are recomputed,
+and no theorem scope, proof content, or broad proof audit is changed.
 
 `PASS — retained` below identifies previously audited symbolic input,
 preserved and linked for human review; it does not mean that Python verified
@@ -62,11 +71,12 @@ explained in [the development record](audit/DEVELOPMENT_CHECKS.md). The final
 replay rebuilt the original mathematical matrices without altering them.
 The theorem's symbolic arguments remain subject to normal external review.
 
-Manual publication steps remain: human-author review; commit/tag the release;
-publish the repository and deposit the supplement; replace the visible URL,
-release-commit and Zenodo DOI placeholders; rebuild and rehash any changed
-paper copies; and submit the prepared sources. No upload, DOI, or external
-submission has been claimed or performed. These are publication logistics,
-not unresolved certificate failures.
+Manual publication steps remain: human-author review; copy the complete
+contents of `publication/`, including `.zenodo.json`, into the existing public
+repository root; commit/tag the release; upload and publish the supplement
+and matching PDF in the reserved Zenodo deposit; and submit the prepared
+sources. The DOI reservation does not establish that the deposit is published.
+This pass performs no upload or external submission. These are publication
+logistics, not unresolved certificate failures.
 
 SUBMISSION STATUS: READY FOR EXTERNAL REVIEW

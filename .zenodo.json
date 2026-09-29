@@ -8,6 +8,14 @@
     }
   ],
   "version": "1.0.0-paper",
+  "doi": "10.5281/zenodo.23028034",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Brud787/magic-number-k2m4",
+      "relation": "isVersionOf",
+      "scheme": "url"
+    }
+  ],
   "upload_type": "software",
   "access_right": "open",
   "license": "cc-by-4.0",
@@ -19,5 +27,5 @@
     "exact rational arithmetic",
     "reproducibility"
   ],
-  "notes": "Prepared metadata only. Suggested release tag: v1.0.0-paper. No DOI or public repository URL is assigned here. Human author to review before deposition. Software components use the MIT license; original manuscript and data components use CC BY 4.0."
+  "notes": "Prepared metadata for version 1.0.0-paper, intended tag v1.0.0-paper, at https://github.com/Brud787/magic-number-k2m4. Zenodo DOI 10.5281/zenodo.23028034 is reserved; reservation does not establish that the deposit has been published. Software components use the MIT license; original manuscript and data components use CC BY 4.0."
 }

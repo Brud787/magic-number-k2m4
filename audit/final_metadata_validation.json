@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "scope": "Final metadata-only publication pass: compile, links, metadata, and artifact integrity only.",
+  "public_repository": "https://github.com/Brud787/magic-number-k2m4",
+  "reserved_zenodo_doi": "10.5281/zenodo.23028034",
+  "external_link_checks": {
+    "github_http_status": 200,
+    "doi_http_status": 404,
+    "doi_status": "Reserved, not yet resolving; no deposit publication claimed."
+  },
+  "manuscript_change_boundary": "Only the code/data availability paragraph differs from the pre-pass authoritative source; all other text, including theorem statements and proofs, is byte-identical.",
+  "previous_source_sha256": "ead64ce53920039dfc7163f2d984d5ee93789fee1a7e0dedd0927c0cb26d4377",
+  "source_sha256": "b8217aefa19a7d7862b366e0edeb3a0f72ab5d29a921545f17d75c9514085662",
+  "pdf_sha256": "d604e42854ce40feeeeef59c9dee57940a1cff9406dfb4dec6f45c9ce6aaca02",
+  "source_copies_equal": true,
+  "pdf_pages": 18,
+  "release_arxiv_and_journal_pdfs_byte_equal": true,
+  "doi_exact_match_in_pdf_text": true,
+  "repository_and_doi_pdf_hyperlinks_match": true,
+  "metadata_checks": "CFF YAML and Zenodo JSON parse; targeted field/type, author, license, version, URL, and DOI consistency checks passed. Not full external-schema validation.",
+  "active_metadata_files_checked": 13,
+  "active_identifier_placeholders_remaining": 0,
+  "relative_links_and_fragments_checked": 137,
+  "missing_relative_links": [],
+  "invalid_fragments": [],
+  "protected_files_sha256_unchanged": 223,
+  "protected_scope": "All certificates, proof notes, replay implementation, engineering tests, runtime requirements, maintenance/verifier scripts, and original clean replay evidence present in the pre-pass manifest.",
+  "original_clean_replay_log_unchanged": true,
+  "certificate_recomputation_performed": false,
+  "mathematical_research_or_proof_audit_performed": false,
+  "previous_publication_manifest_sha256": "a728631761535d2508af391f9498b5f807c0276a550d3199113716efc667b0c0",
+  "arxiv_input_files": [
+    "main.tex"
+  ],
+  "arxiv_source_complete": "Inline bibliography; no external input, figures, bibliography data, or private style files.",
+  "compile_record": "package_validation.json",
+  "final_manifest_check": "../logs/final_manifest_check.txt"
+}

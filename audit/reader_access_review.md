@@ -1,5 +1,14 @@
 # Final reader-access review
 
+> Publication metadata update (2026-09-28): this document records the earlier
+> certificate-access pass. Its references to repository/DOI placeholders and
+> pending replay describe that earlier state. The public repository is now
+> [Brud787/magic-number-k2m4](https://github.com/Brud787/magic-number-k2m4), and
+> the reserved Zenodo DOI is
+> [10.5281/zenodo.23028034](https://doi.org/10.5281/zenodo.23028034).
+> Current build and metadata checks are recorded in
+> [the final metadata record](final_metadata_validation.json); the original certificate replay is preserved and was not rerun.
+
 Reviewed on 2026-09-28. Scope: navigation, identifiers, literal-file access,
 replay-command registry, and disclosure consistency. This is not a new
 mathematical proof audit or a replay of previously checked arithmetic.

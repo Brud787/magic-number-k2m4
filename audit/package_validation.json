@@ -1,6 +1,6 @@
 {
-  "source_sha256": "ead64ce53920039dfc7163f2d984d5ee93789fee1a7e0dedd0927c0cb26d4377",
-  "pdf_sha256": "110605ecac1d115ce62907c52f0c9a71ede1e058d22de4d52bf40ace8922d60a",
+  "source_sha256": "b8217aefa19a7d7862b366e0edeb3a0f72ab5d29a921545f17d75c9514085662",
+  "pdf_sha256": "d604e42854ce40feeeeef59c9dee57940a1cff9406dfb4dec6f45c9ce6aaca02",
   "pdf_pages": 18,
   "source_copies_equal": true,
   "release_arxiv_pdf_byte_equality": true,
@@ -13,5 +13,10 @@
   "bibliography": "Self-contained thebibliography in main.tex; no external bib or style files required.",
   "compile_network": "First build downloaded TeX bundle; final builds used --only-cached.",
   "compile_command": "SOURCE_DATE_EPOCH=1790553600 tectonic --only-cached --untrusted --keep-logs main.tex",
-  "remaining_tex_warnings": "Underfull boxes in dependency table; no overfull boxes or unresolved references."
+  "remaining_tex_warnings": "Underfull boxes in the dependency table and availability paragraph; no overfull boxes or unresolved references.",
+  "publication_repository": "https://github.com/Brud787/magic-number-k2m4",
+  "reserved_zenodo_doi": "10.5281/zenodo.23028034",
+  "doi_present_in_pdf_text": true,
+  "repository_and_doi_pdf_links_verified": true,
+  "validation_scope": "Final metadata-only build; no proof audit or certificate recomputation."
 }

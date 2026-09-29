@@ -617,7 +617,7 @@ Underfull \hbox (badness 1609) in paragraph at lines 1171--1172
  []
 
 [16]
-Underfull \hbox (badness 2158) in paragraph at lines 1221--1231
+Underfull \hbox (badness 2158) in paragraph at lines 1221--1232
  []\T1/lmr/bx/n/10.95 Code and data avail-abil-ity.[] \T1/lmr/m/n/10.95 The ac-
 com-pa-ny-ing sup-ple-ment is the can-di-date re-lease
  []
@@ -626,4 +626,4 @@ com-pa-ny-ing sup-ple-ment is the can-di-date re-lease
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2035412C01B3201574D7EB27F1DBB900;4808.
  )
-Output written on main.xdv (18 pages, 106052 bytes).
+Output written on main.xdv (18 pages, 106332 bytes).
