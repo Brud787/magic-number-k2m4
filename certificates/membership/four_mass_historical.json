@@ -1,0 +1,332 @@
+{
+  "fixture_kind": "EXACT_FIXED_Z_DISCONNECTED_PARENT_FIBER_AND_NON_TILE_CERTIFICATE",
+  "n": 8,
+  "k": 2,
+  "m": 4,
+  "parent_affine": [
+    2,
+    5,
+    4,
+    7,
+    6,
+    8,
+    9,
+    11
+  ],
+  "parent_classes": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ]
+  ],
+  "proof_reference": "research/run3/LARGER_SUPPORT.md",
+  "claim_tag": "PROVED",
+  "external_matrix": [
+    [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "1",
+      "2",
+      "4",
+      "8",
+      "16",
+      "32"
+    ],
+    [
+      "1",
+      "3",
+      "9",
+      "27",
+      "81",
+      "243"
+    ],
+    [
+      "1",
+      "4",
+      "16",
+      "64",
+      "256",
+      "1024"
+    ],
+    [
+      "1",
+      "5",
+      "25",
+      "125",
+      "625",
+      "3125"
+    ],
+    [
+      "1",
+      "6",
+      "36",
+      "216",
+      "1296",
+      "7776"
+    ],
+    [
+      "1",
+      "7",
+      "49",
+      "343",
+      "2401",
+      "16807"
+    ],
+    [
+      "1",
+      "8",
+      "64",
+      "512",
+      "4096",
+      "32768"
+    ]
+  ],
+  "external_positivity_proof": "Every six-minor is a positive Vandermonde product.",
+  "base_homogeneous_point": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "4",
+    "1",
+    "4"
+  ],
+  "fiber_tangent": [
+    "1",
+    "-1",
+    "53/16",
+    "-59/16",
+    "75/8",
+    "-37/8",
+    "21/4",
+    "35/4",
+    "17/4",
+    "23/4"
+  ],
+  "strict_positive_orthant_interval": [
+    "-8/75",
+    "8/37"
+  ],
+  "order_minor_polynomial": "s*(7*s - 1)",
+  "positive_parent_fiber_components": [
+    [
+      "-8/75",
+      "0"
+    ],
+    [
+      "1/7",
+      "8/37"
+    ]
+  ],
+  "four_mass_affine": [
+    2,
+    5,
+    4,
+    7,
+    6,
+    9,
+    8,
+    11
+  ],
+  "four_mass_classes": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "four_mass_positive_preimages": [
+    [
+      [
+        "1",
+        "1",
+        "1",
+        "1",
+        "0",
+        "0",
+        "-1",
+        "-1"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "4",
+        "4"
+      ]
+    ],
+    [
+      [
+        "8/7",
+        "6/7",
+        "165/112",
+        "53/112",
+        "0",
+        "0",
+        "-7/4",
+        "-45/28"
+      ],
+      [
+        "0",
+        "0",
+        "165/112",
+        "53/112",
+        "131/56",
+        "19/56",
+        "21/4",
+        "135/28"
+      ]
+    ]
+  ],
+  "four_mass_image_row_operation": [
+    [
+      "123/112",
+      "-15/112"
+    ],
+    [
+      "1/112",
+      "137/112"
+    ]
+  ],
+  "row_operation_determinant": "8433/6272",
+  "distinctness_witness": {
+    "minor_ratio": "Delta13/Delta23",
+    "first": "1",
+    "second": "4/3"
+  },
+  "ordinary_fiber_endpoints": [
+    {
+      "parameter": "-8/75",
+      "homogeneous_coordinates": [
+        "67/75",
+        "83/75",
+        "97/150",
+        "209/150",
+        "0",
+        "112/75",
+        "11/25",
+        "46/15",
+        "41/75",
+        "254/75"
+      ],
+      "order_minor": "1048/5625",
+      "affine_permutation": [
+        2,
+        6,
+        4,
+        7,
+        5,
+        8,
+        9,
+        11
+      ],
+      "parallel_classes": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ]
+      ],
+      "tile_status": "CERTIFIED_TILE",
+      "tile_kind": "BCFW"
+    },
+    {
+      "parameter": "8/37",
+      "homogeneous_coordinates": [
+        "45/37",
+        "29/37",
+        "127/74",
+        "15/74",
+        "112/37",
+        "0",
+        "79/37",
+        "218/37",
+        "71/37",
+        "194/37"
+      ],
+      "order_minor": "152/1369",
+      "affine_permutation": [
+        2,
+        5,
+        4,
+        7,
+        8,
+        6,
+        9,
+        11
+      ],
+      "parallel_classes": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ]
+      ],
+      "tile_status": "CERTIFIED_TILE",
+      "tile_kind": "BCFW"
+    }
+  ],
+  "relation_certification": "NONE",
+  "scope_warning": "The quadratic wall is a nonadmissible four-mass source; dropping it does not produce a tile relation or Magic Number counterexample."
+}

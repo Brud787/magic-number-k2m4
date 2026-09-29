@@ -1,0 +1,10 @@
+{
+  "start_utc": "2026-09-29T01:06:46.155368+00:00",
+  "end_utc": "2026-09-29T01:08:23.885378+00:00",
+  "elapsed_seconds": 97.731,
+  "exit_code": 0,
+  "clean_copy": true,
+  "network_used": false,
+  "dependency_environment": "Existing pinned interpreter environment; no research source on PYTHONPATH.",
+  "max_rss_bytes_macos": 185712640
+}

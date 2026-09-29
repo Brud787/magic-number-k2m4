@@ -1,0 +1,1 @@
+Exact computational proof certificates and deterministic replay for the k=2, m=4 Magic Number preprint: stable claim-to-certificate index, rational witnesses, matrices, and manuscript.

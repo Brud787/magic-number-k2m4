@@ -1,0 +1,39 @@
+{
+  "claim_tag": "PROVED",
+  "global_kernel_generation_counterexamples": [],
+  "unequal_complete_tilings": [],
+  "global_result": "K_n=L_n for every n>=6 by independently audited simplicial normalization",
+  "proof_reference": "research/run7/GLOBAL_GENERATION.md",
+  "failed_candidate_mechanisms": [
+    {
+      "id": "NAIVE_DELETION",
+      "claim_tag": "FAILED",
+      "scope": "proposed quotient map",
+      "result": "delta_j(L_(n+1))=V_n at every fixed slot",
+      "fixture": "results/run7/deletion_defects.json"
+    },
+    {
+      "id": "BINOMIAL_EXTRAPOLATION",
+      "claim_tag": "FAILED",
+      "scope": "proposed all-n rank formula",
+      "predicted_normalized_n10": 1,
+      "actual_normalized_n10": 0,
+      "predicted_quotient_n10": 1675,
+      "actual_quotient_n10": 1674,
+      "fixture": "results/run7/normalized_core_ranks.json"
+    },
+    {
+      "id": "PARENT_ROWS_ARE_ALL_MATROID_CIRCUITS",
+      "claim_tag": "FAILED",
+      "scope": "matroid circuit-set identification",
+      "fixture": "results/run7/circuit_elimination_failure.json"
+    },
+    {
+      "id": "SAVED_LAMBDA_DEPENDS_ONLY_ON_SOURCE_PROFILE",
+      "claim_tag": "FAILED",
+      "scope": "particular finite saved weight vectors, not all possible functionals",
+      "fixture": "results/run7/unit_weight_probes.json"
+    }
+  ],
+  "all_prior_hostile_fixtures_preserved": true
+}

@@ -1,0 +1,72 @@
+{
+  "claim_tag": "COMPUTATIONALLY-VERIFIED",
+  "date": "2026-09-06",
+  "baseline": {
+    "command": "PYTHONPATH=src .venv/bin/python -m pytest -q",
+    "passed": 100,
+    "duration_seconds": 20.51,
+    "before_modifications": true
+  },
+  "final_suite": {
+    "command": "PYTHONPATH=src .venv/bin/python -m pytest -q",
+    "passed": 142,
+    "duration_seconds": 24.7,
+    "exit_code": 0
+  },
+  "history_audit": {
+    "prior_files": 149,
+    "unchanged_count": 142,
+    "exact_prefix_append_count": 7,
+    "appended_files": [
+      "research/EXPERIMENTS.md",
+      "research/KNOWN_RESULTS.md",
+      "research/STATUS.md",
+      "research/CANDIDATES.md",
+      "research/K2.md",
+      "research/REVIEW.md",
+      "research/RELATIONS.md"
+    ],
+    "rewritten_or_missing_prior_files": [],
+    "old_catalogs_and_all_prior_source_tests_fixtures_unchanged": true
+  },
+  "required_outputs": [
+    "research/run4/STATUS.md",
+    "research/run4/CORE_TABLE.md",
+    "research/run4/SIGN_MECHANISMS.md",
+    "research/run4/Q10_334.md",
+    "research/run4/MERGER_WALLS.md",
+    "research/run4/COUNTEREXAMPLE_SEARCH.md",
+    "research/run4/REVIEW.md",
+    "results/run4/core_status.json",
+    "results/run4/sign_relations.json",
+    "results/run4/counterexample_search.json"
+  ],
+  "core_accounting": {
+    "collapsed": 12,
+    "balanced": 15,
+    "hostile_zero_relation_kernels": 2,
+    "untreated": 0
+  },
+  "relation_kernel_dimensions": {
+    "zero": 14,
+    "one_balanced_span": 15
+  },
+  "independent_checks": [
+    "All90 ten-wall overlap endpoints: Fraction source minors and target Pluckers",
+    "Both8x8 hostile indicator determinants: Fraction elimination",
+    "Five ten-wall trees: independent graph propagation",
+    "All10 circuit prototypes: nine symbolic opposite-pair constructions each",
+    "Every core facet and explicit prototype-to-inventory dihedral map"
+  ],
+  "proof_review": "research/run4/REVIEW.md",
+  "scope_review": "research/run4/FINAL_SCOPE_REVIEW.md",
+  "theorem": "research/run4/LOCAL_PARENT_THEOREM.md",
+  "run4_success_level": "D",
+  "complete_tiling_enumeration": false,
+  "relation_generation_search": false,
+  "Magic_Number_proved": false,
+  "new_research_local_links_valid": true,
+  "new_json_files_validated": 18,
+  "final_assembly_scope_review": "PASS_AFTER_EXPLICIT_SAME_REGION_QUALIFICATION",
+  "final_assembly_changes_after_tests": "Documentation only; no source, tests, or mathematical fixtures changed"
+}

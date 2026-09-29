@@ -1,0 +1,17 @@
+{
+  "source_sha256": "ead64ce53920039dfc7163f2d984d5ee93789fee1a7e0dedd0927c0cb26d4377",
+  "pdf_sha256": "110605ecac1d115ce62907c52f0c9a71ede1e058d22de4d52bf40ace8922d60a",
+  "pdf_pages": 18,
+  "source_copies_equal": true,
+  "release_arxiv_pdf_byte_equality": true,
+  "journal_pdf_byte_equality": true,
+  "tex_engine": "Tectonic 0.17.0",
+  "SOURCE_DATE_EPOCH": 1790553600,
+  "arxiv_input_files": [
+    "main.tex"
+  ],
+  "bibliography": "Self-contained thebibliography in main.tex; no external bib or style files required.",
+  "compile_network": "First build downloaded TeX bundle; final builds used --only-cached.",
+  "compile_command": "SOURCE_DATE_EPOCH=1790553600 tectonic --only-cached --untrusted --keep-logs main.tex",
+  "remaining_tex_warnings": "Underfull boxes in dependency table; no overfull boxes or unresolved references."
+}

@@ -1,0 +1,20 @@
+[INFO] Python 3.14.6; Darwin arm64; SymPy 1.14.0
+[PASS] membership-core classification
+[PASS] membership-core counts
+[PASS] four-mass two-preimage certificate
+[PASS] spurion inversion certificate
+[PASS] 29 parent-core exhaustion
+[PASS] 3<->3 relation certificates
+[PASS] 5<->5 relation certificates
+[FAIL] Publication certificate verification stopped; no ready verdict.
+Traceback (most recent call last):
+  File "[REPOSITORY]/publication/verify_all.py", line 44, in <module>
+    main()
+    ~~~~^^
+  File "[REPOSITORY]/publication/verify_all.py", line 23, in main
+    checks.overlaps();passed('ten-wall rank-nine certificates')
+    ~~~~~~~~~~~~~~~^^
+  File "[REPOSITORY]/publication/verifier/checks.py", line 154, in overlaps
+    assert edges==d['edge_incidence_matrix'] and len(edges)==9
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,37 @@
+Publication supplement licensing
+================================
+
+Copyright (c) 2026 Jack Tavakoli.
+
+The human author has authorized the following licenses for this publication
+release:
+
+* Software source code, including the exact verifiers, independent replay
+  programs, build scripts, and regression tests: MIT License.
+  Full text: LICENSES/MIT.txt.
+
+* The manuscript, documentation, original mathematical exposition, certificate
+  catalogues, matrices, witness data, and other original research data:
+  Creative Commons Attribution 4.0 International (CC BY 4.0).
+  Full text: LICENSES/CC-BY-4.0.txt.
+
+These are licenses for different components, not a choice of license for every
+file. Directory location does not override the distinction: a Python program
+inside a certificate directory is software; JSON certificate data are data.
+
+Attribution: Jack Tavakoli, University of Houston, "The Magic Number Conjecture
+for the Rank-Two m=4 Amplituhedron", publication supplement, version
+1.0.0-paper. See CITATION.cff.
+When a public repository address and archive DOI exist, use those identifiers.
+
+Third-party dependencies retain their own licenses. References to publications
+do not relicense those publications. Third-party literature PDFs are not part
+of this public supplement. Any explicitly attributed third-party quotation
+retains its original rights status.
+
+Official license pages:
+https://opensource.org/license/mit
+https://creativecommons.org/licenses/by/4.0/
+
+The CC BY 4.0 legal text was downloaded without modification from
+https://creativecommons.org/licenses/by/4.0/legalcode.txt on 2026-09-28.

@@ -1,0 +1,23 @@
+{
+  "claim_tag": "COMPUTATIONALLY-VERIFIED exact independent membership certificate",
+  "source_reference": "results/run6/indicator_kernel_n9.json",
+  "audited_payload_sha256": "cc2a6753ab72687f97767d5def113024dc693f17a7a1041552a8236532cc06fd",
+  "target_count": 472,
+  "tile_count": 942,
+  "exact_membership_decisions": 444624,
+  "decision_counts": {
+    "SIX_ROW": 83054,
+    "MIXED": 360154,
+    "SPURION": 1416
+  },
+  "twistors_independently_nonzero": 59472,
+  "spurion_ambient_system_shape": [
+    12,
+    13
+  ],
+  "independent_backend": "SymPy exact rational ambient equations",
+  "all_source_minors_checked_when_inverse_exists": true,
+  "all_indicator_rows_match": true,
+  "elapsed_seconds": 82.625,
+  "scope": "Full fixed-Z open-neighborhood membership audit; no all-n generation assertion"
+}

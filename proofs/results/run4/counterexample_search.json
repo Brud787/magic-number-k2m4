@@ -1,0 +1,63 @@
+{
+  "scope": "CONSTANT_COEFFICIENT_ALL_Z_INDICATOR_RELATIONS_MOD_DIM_LT_8_ON_ONE_PARENT_FACET_SET",
+  "cores": [
+    {
+      "n": 8,
+      "rank": 8,
+      "determinant": "1",
+      "admissible_facets": 8,
+      "nonzero_all_Z_indicator_relation": "EXCLUDED",
+      "all_Z_admissible_facet_cover": "UNRESOLVED",
+      "fixture": "fixtures/run4/hostile_q8_indicator_rank.json",
+      "claim_tag": "PROVED",
+      "proof_reference": "research/run4/COUNTEREXAMPLE_SEARCH.md"
+    },
+    {
+      "n": 9,
+      "rank": 8,
+      "determinant": "1",
+      "admissible_facets": 8,
+      "nonzero_all_Z_indicator_relation": "EXCLUDED",
+      "all_Z_admissible_facet_cover": "EXCLUDED_BY_RUN3_OPEN_HOLE",
+      "fixture": "fixtures/run4/hostile_q9_indicator_rank.json",
+      "claim_tag": "PROVED",
+      "proof_reference": "research/run4/COUNTEREXAMPLE_SEARCH.md"
+    }
+  ],
+  "bounded_endpoint_screen": {
+    "scope": "A bounded exact screen only; no all-Z q8 cover or no-cover conclusion",
+    "sample_count": 200,
+    "histogram": [
+      {
+        "signs": [
+          -1,
+          1
+        ],
+        "count": 67
+      },
+      {
+        "signs": [
+          1,
+          1
+        ],
+        "count": 133
+      }
+    ],
+    "claim_tag": "COMPUTATIONALLY-VERIFIED"
+  },
+  "claim_tag": "PROVED",
+  "all_core_accounting": {
+    "BALANCED_LOCAL_DECOMPOSITION": 15,
+    "COLLAPSED": 12,
+    "NO_NONZERO_ALL_Z_FACET_RELATION": 2
+  },
+  "all_Z_unbalanced_parent_facet_relation": "EXCLUDED_FOR_ALL_29_CORES",
+  "proof_reference": "research/run4/LOCAL_PARENT_THEOREM.md",
+  "relation_kernel_certificates_complete": true,
+  "positive_relation_count": 15,
+  "positive_relations_reference": "results/run4/sign_relations.json",
+  "tested_merger_omission": "FAILED_2_VS_3_CANDIDATE_REPAIRED_TO_3_VS_3_BY_REQUIRED_MERGER",
+  "four_spurion_q10_wall_sum": 0,
+  "complete_tilings_enumerated": false,
+  "global_Magic_Number_counterexample": "NOT_FOUND_NOT_EXCLUDED_BY_LOCAL_THEOREM"
+}

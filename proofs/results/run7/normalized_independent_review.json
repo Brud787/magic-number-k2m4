@@ -1,0 +1,24 @@
+{
+  "claim_tag": "COMPUTATIONALLY-VERIFIED exact independent certificate",
+  "scope": "All normalized generators eliminated at source sizes10 and11",
+  "records": [
+    {
+      "n": 10,
+      "complete_normalized_column_count": 35,
+      "certified_projected_rows": 141,
+      "literal_transports_checked": 188,
+      "independent_Fraction_determinant": "-1",
+      "normalized_quotient_is_zero": true
+    },
+    {
+      "n": 11,
+      "complete_normalized_column_count": 5,
+      "certified_projected_rows": 46,
+      "literal_transports_checked": 52,
+      "independent_Fraction_determinant": "1",
+      "normalized_quotient_is_zero": true
+    }
+  ],
+  "no_full_n10_matrix": true,
+  "simplicial_and_amalgamation_scope": "REQUIRE SEPARATE GEOMETRIC PROOFS"
+}

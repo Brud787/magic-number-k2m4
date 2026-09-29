@@ -1,0 +1,2709 @@
+{
+  "claim_tag": "COMPUTATIONALLY-VERIFIED",
+  "proof_reference": "research/run6/SPURION_INVERSION.md",
+  "scope": "Exact regression of a separately proved all-Z inverse, not numerical tile certification",
+  "source_affine": [
+    2,
+    3,
+    7,
+    5,
+    6,
+    10,
+    8,
+    9,
+    13
+  ],
+  "source_classes": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6
+    ],
+    [
+      7,
+      8,
+      9
+    ]
+  ],
+  "external_matrix": [
+    [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "1",
+      "2",
+      "4",
+      "8",
+      "16",
+      "32"
+    ],
+    [
+      "1",
+      "3",
+      "9",
+      "27",
+      "81",
+      "243"
+    ],
+    [
+      "1",
+      "4",
+      "16",
+      "64",
+      "256",
+      "1024"
+    ],
+    [
+      "1",
+      "5",
+      "25",
+      "125",
+      "625",
+      "3125"
+    ],
+    [
+      "1",
+      "6",
+      "36",
+      "216",
+      "1296",
+      "7776"
+    ],
+    [
+      "1",
+      "7",
+      "49",
+      "343",
+      "2401",
+      "16807"
+    ],
+    [
+      "1",
+      "8",
+      "64",
+      "512",
+      "4096",
+      "32768"
+    ],
+    [
+      "1",
+      "9",
+      "81",
+      "729",
+      "6561",
+      "59049"
+    ]
+  ],
+  "cases": [
+    {
+      "kind": "OPEN",
+      "changed_coordinate": null,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "41",
+          "184",
+          "914",
+          "4792",
+          "25970",
+          "143944"
+        ],
+        [
+          "90",
+          "639",
+          "4767",
+          "36957",
+          "295059",
+          "2409069"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 1,
+        "reason": "COMPLETE_THREE_DIRECTION_INVERSE",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "9639",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-138413106790400/2023",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP",
+        "positive_source_coordinates": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ]
+      },
+      "strict_inverse": {
+        "indicator": 1,
+        "reason": "COMPLETE_THREE_DIRECTION_INVERSE",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "9639",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-138413106790400/2023",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "STRICT_OPEN_MEMBERSHIP_OR_CLOSED_NONMEMBERSHIP_ON_AN_OPEN_NEIGHBORHOOD",
+        "positive_source_coordinates": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "merger_exclusion_gates": [
+          {
+            "class_positions": [
+              0,
+              1,
+              2
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "81694656"
+          },
+          {
+            "class_positions": [
+              3,
+              4,
+              5
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "-6079104"
+          },
+          {
+            "class_positions": [
+              6,
+              7,
+              8
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "7504704"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "NEGATIVE",
+      "changed_coordinate": 0,
+      "source_coordinates": [
+        "-2",
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "-2",
+          "3",
+          "5",
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "37",
+          "180",
+          "910",
+          "4788",
+          "25966",
+          "143940"
+        ],
+        [
+          "90",
+          "639",
+          "4767",
+          "36957",
+          "295059",
+          "2409069"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "7443",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "18314116595712000/683929",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "-2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "7443",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "18314116595712000/683929",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "-2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "STRICT_OPEN_MEMBERSHIP_OR_CLOSED_NONMEMBERSHIP_ON_AN_OPEN_NEIGHBORHOOD",
+        "merger_exclusion_gates": [
+          {
+            "class_positions": [
+              0,
+              1,
+              2
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "81694656"
+          },
+          {
+            "class_positions": [
+              3,
+              4,
+              5
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "1046016"
+          },
+          {
+            "class_positions": [
+              6,
+              7,
+              8
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "230976"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "NEGATIVE",
+      "changed_coordinate": 1,
+      "source_coordinates": [
+        "2",
+        "-3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "-3",
+          "5",
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "35",
+          "172",
+          "890",
+          "4744",
+          "25874",
+          "143752"
+        ],
+        [
+          "90",
+          "639",
+          "4767",
+          "36957",
+          "295059",
+          "2409069"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "6885",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-16192018841600/289",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "-3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "6885",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-16192018841600/289",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "-3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "STRICT_OPEN_MEMBERSHIP_OR_CLOSED_NONMEMBERSHIP_ON_AN_OPEN_NEIGHBORHOOD",
+        "merger_exclusion_gates": [
+          {
+            "class_positions": [
+              0,
+              1,
+              2
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "81694656"
+          },
+          {
+            "class_positions": [
+              3,
+              4,
+              5
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "-2362176"
+          },
+          {
+            "class_positions": [
+              6,
+              7,
+              8
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "2605824"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "NEGATIVE",
+      "changed_coordinate": 2,
+      "source_coordinates": [
+        "2",
+        "3",
+        "-5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "-5",
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "31",
+          "154",
+          "824",
+          "4522",
+          "25160",
+          "141514"
+        ],
+        [
+          "90",
+          "639",
+          "4767",
+          "36957",
+          "295059",
+          "2409069"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "5949",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-64005509991628800/436921",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "-5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "5949",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-64005509991628800/436921",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "-5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "STRICT_OPEN_MEMBERSHIP_OR_CLOSED_NONMEMBERSHIP_ON_AN_OPEN_NEIGHBORHOOD",
+        "merger_exclusion_gates": [
+          {
+            "class_positions": [
+              0,
+              1,
+              2
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "81694656"
+          },
+          {
+            "class_positions": [
+              3,
+              4,
+              5
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "-4762944"
+          },
+          {
+            "class_positions": [
+              6,
+              7,
+              8
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "4667904"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "NEGATIVE",
+      "changed_coordinate": 3,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        "-7",
+        "11",
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          "-7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-7",
+          "11",
+          "13",
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "27",
+          "128",
+          "690",
+          "3896",
+          "22386",
+          "129608"
+        ],
+        [
+          "76",
+          "583",
+          "4543",
+          "36061",
+          "291475",
+          "2394733"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "6013",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-594306778359398400/5165167",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "-7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "6013",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-594306778359398400/5165167",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "-7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "STRICT_OPEN_MEMBERSHIP_OR_CLOSED_NONMEMBERSHIP_ON_AN_OPEN_NEIGHBORHOOD",
+        "merger_exclusion_gates": [
+          {
+            "class_positions": [
+              0,
+              1,
+              2
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "71493696"
+          },
+          {
+            "class_positions": [
+              3,
+              4,
+              5
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "-6079104"
+          },
+          {
+            "class_positions": [
+              6,
+              7,
+              8
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "993024"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "NEGATIVE",
+      "changed_coordinate": 4,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "-11",
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          "7",
+          "-11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "-11",
+          "13",
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "19",
+          "74",
+          "364",
+          "2042",
+          "12220",
+          "75194"
+        ],
+        [
+          "68",
+          "529",
+          "4217",
+          "34207",
+          "281309",
+          "2340319"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "5019",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "512206936473600/399847",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "-11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "5019",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "512206936473600/399847",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "-11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "STRICT_OPEN_MEMBERSHIP_OR_CLOSED_NONMEMBERSHIP_ON_AN_OPEN_NEIGHBORHOOD",
+        "merger_exclusion_gates": [
+          {
+            "class_positions": [
+              0,
+              1,
+              2
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "32102784"
+          },
+          {
+            "class_positions": [
+              3,
+              4,
+              5
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "-6079104"
+          },
+          {
+            "class_positions": [
+              6,
+              7,
+              8
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "1403136"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "NEGATIVE",
+      "changed_coordinate": 5,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "11",
+        "-13",
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          "7",
+          "11",
+          "-13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "-13",
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "15",
+          "28",
+          "-22",
+          "-824",
+          "-7726",
+          "-58232"
+        ],
+        [
+          "64",
+          "483",
+          "3831",
+          "31341",
+          "261363",
+          "2206893"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "5453",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-318431477720678400/4247887",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "-13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "5453",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-318431477720678400/4247887",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "-13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "STRICT_OPEN_MEMBERSHIP_OR_CLOSED_NONMEMBERSHIP_ON_AN_OPEN_NEIGHBORHOOD",
+        "merger_exclusion_gates": [
+          {
+            "class_positions": [
+              0,
+              1,
+              2
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "-21901824"
+          },
+          {
+            "class_positions": [
+              3,
+              4,
+              5
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "-6079104"
+          },
+          {
+            "class_positions": [
+              6,
+              7,
+              8
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "5108544"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "NEGATIVE",
+      "changed_coordinate": 6,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "-17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          "-17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "41",
+          "184",
+          "914",
+          "4792",
+          "25970",
+          "143944"
+        ],
+        [
+          "56",
+          "401",
+          "3101",
+          "25295",
+          "213425",
+          "1837631"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "6137",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-5933359953071308800/37662769",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "-17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "6137",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-5933359953071308800/37662769",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "-17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "STRICT_OPEN_MEMBERSHIP_OR_CLOSED_NONMEMBERSHIP_ON_AN_OPEN_NEIGHBORHOOD",
+        "merger_exclusion_gates": [
+          {
+            "class_positions": [
+              0,
+              1,
+              2
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "69993216"
+          },
+          {
+            "class_positions": [
+              3,
+              4,
+              5
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "-5589504"
+          },
+          {
+            "class_positions": [
+              6,
+              7,
+              8
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "7504704"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "NEGATIVE",
+      "changed_coordinate": 7,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "-19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          "17",
+          "-19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "41",
+          "184",
+          "914",
+          "4792",
+          "25970",
+          "143944"
+        ],
+        [
+          "52",
+          "335",
+          "2335",
+          "17501",
+          "139411",
+          "1163885"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "4167",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-47383610248396800/214369",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "-19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "4167",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-47383610248396800/214369",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "-19/23",
+          "1"
+        ],
+        "scope": "STRICT_OPEN_MEMBERSHIP_OR_CLOSED_NONMEMBERSHIP_ON_AN_OPEN_NEIGHBORHOOD",
+        "merger_exclusion_gates": [
+          {
+            "class_positions": [
+              0,
+              1,
+              2
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "41475456"
+          },
+          {
+            "class_positions": [
+              3,
+              4,
+              5
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "-3485376"
+          },
+          {
+            "class_positions": [
+              6,
+              7,
+              8
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "7504704"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "NEGATIVE",
+      "changed_coordinate": 8,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19",
+        "-23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          "17",
+          "19",
+          "-23"
+        ]
+      ],
+      "target": [
+        [
+          "41",
+          "184",
+          "914",
+          "4792",
+          "25970",
+          "143944"
+        ],
+        [
+          "44",
+          "225",
+          "1041",
+          "3423",
+          "-6747",
+          "-307185"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "1129",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-3414533627628748800/1274641",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "-2/23",
+          "-3/23",
+          "-5/23",
+          "-7/23",
+          "-11/23",
+          "-13/23",
+          "-17/23",
+          "-19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": {
+        "indicator": 0,
+        "reason": "MIXED_STRICT_KERNEL_COORDINATES",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "1129",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-3414533627628748800/1274641",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "-2/23",
+          "-3/23",
+          "-5/23",
+          "-7/23",
+          "-11/23",
+          "-13/23",
+          "-17/23",
+          "-19/23",
+          "1"
+        ],
+        "scope": "STRICT_OPEN_MEMBERSHIP_OR_CLOSED_NONMEMBERSHIP_ON_AN_OPEN_NEIGHBORHOOD",
+        "merger_exclusion_gates": [
+          {
+            "class_positions": [
+              0,
+              1,
+              2
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "-29774016"
+          },
+          {
+            "class_positions": [
+              3,
+              4,
+              5
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "2995776"
+          },
+          {
+            "class_positions": [
+              6,
+              7,
+              8
+            ],
+            "rank": 5,
+            "pivot_columns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "nonzero_pivot_minor": "7504704"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "ZERO",
+      "changed_coordinate": 0,
+      "source_coordinates": [
+        0,
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          0,
+          "3",
+          "5",
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "39",
+          "182",
+          "912",
+          "4790",
+          "25968",
+          "143942"
+        ],
+        [
+          "90",
+          "639",
+          "4767",
+          "36957",
+          "295059",
+          "2409069"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "ZERO_KERNEL_COORDINATE",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "8541",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-30083057477222400/900601",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "0",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": null
+    },
+    {
+      "kind": "ZERO",
+      "changed_coordinate": 1,
+      "source_coordinates": [
+        "2",
+        0,
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          0,
+          "5",
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "38",
+          "178",
+          "902",
+          "4768",
+          "25922",
+          "143848"
+        ],
+        [
+          "90",
+          "639",
+          "4767",
+          "36957",
+          "295059",
+          "2409069"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "ZERO_KERNEL_COORDINATE",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "8262",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-171711527321600/2601",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "0",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": null
+    },
+    {
+      "kind": "ZERO",
+      "changed_coordinate": 2,
+      "source_coordinates": [
+        "2",
+        "3",
+        0,
+        "7",
+        "11",
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          0,
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "36",
+          "169",
+          "869",
+          "4657",
+          "25565",
+          "142729"
+        ],
+        [
+          "90",
+          "639",
+          "4767",
+          "36957",
+          "295059",
+          "2409069"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "ZERO_KERNEL_COORDINATE",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "7794",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-17810717692723200/187489",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "0",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": null
+    },
+    {
+      "kind": "ZERO",
+      "changed_coordinate": 3,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        0,
+        "11",
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          0,
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          0,
+          "11",
+          "13",
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "34",
+          "156",
+          "802",
+          "4344",
+          "24178",
+          "136776"
+        ],
+        [
+          "83",
+          "611",
+          "4655",
+          "36509",
+          "293267",
+          "2401901"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "ZERO_KERNEL_COORDINATE",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "7826",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-187804396501401600/2187367",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "0",
+          "11/23",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": null
+    },
+    {
+      "kind": "ZERO",
+      "changed_coordinate": 4,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        "7",
+        0,
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          "7",
+          0,
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          0,
+          "13",
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "30",
+          "129",
+          "639",
+          "3417",
+          "19095",
+          "109569"
+        ],
+        [
+          "79",
+          "584",
+          "4492",
+          "35582",
+          "288184",
+          "2374694"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "ZERO_KERNEL_COORDINATE",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "7329",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-50195473956864000/852607",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "0",
+          "13/23",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": null
+    },
+    {
+      "kind": "ZERO",
+      "changed_coordinate": 5,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "11",
+        0,
+        "17",
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          "7",
+          "11",
+          0,
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          0,
+          "17",
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "28",
+          "106",
+          "446",
+          "1984",
+          "9122",
+          "42856"
+        ],
+        [
+          "77",
+          "561",
+          "4299",
+          "34149",
+          "278211",
+          "2307981"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "ZERO_KERNEL_COORDINATE",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "7546",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-13938180356505600/184877",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "0",
+          "17/23",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": null
+    },
+    {
+      "kind": "ZERO",
+      "changed_coordinate": 6,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        0,
+        "19",
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          0,
+          "19",
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "41",
+          "184",
+          "914",
+          "4792",
+          "25970",
+          "143944"
+        ],
+        [
+          "73",
+          "520",
+          "3934",
+          "31126",
+          "254242",
+          "2123350"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "ZERO_KERNEL_COORDINATE",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "7888",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-24004411540300800/243049",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "0",
+          "19/23",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": null
+    },
+    {
+      "kind": "ZERO",
+      "changed_coordinate": 7,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        0,
+        "23"
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          "17",
+          0,
+          "23"
+        ]
+      ],
+      "target": [
+        [
+          "41",
+          "184",
+          "914",
+          "4792",
+          "25970",
+          "143944"
+        ],
+        [
+          "71",
+          "487",
+          "3551",
+          "27229",
+          "217235",
+          "1786477"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "ZERO_KERNEL_COORDINATE",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "6903",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "fiber_pivot_minor": "-62931920899276800/588289",
+        "free_coordinate": 8,
+        "kernel_coefficients": [
+          "2/23",
+          "3/23",
+          "5/23",
+          "7/23",
+          "11/23",
+          "13/23",
+          "17/23",
+          "0",
+          "1"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": null
+    },
+    {
+      "kind": "ZERO",
+      "changed_coordinate": 8,
+      "source_coordinates": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "19",
+        0
+      ],
+      "source_matrix": [
+        [
+          "2",
+          "3",
+          "5",
+          "7",
+          "11",
+          "13",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "7",
+          "11",
+          "13",
+          "17",
+          "19",
+          0
+        ]
+      ],
+      "target": [
+        [
+          "41",
+          "184",
+          "914",
+          "4792",
+          "25970",
+          "143944"
+        ],
+        [
+          "67",
+          "432",
+          "2904",
+          "20190",
+          "144156",
+          "1050942"
+        ]
+      ],
+      "open_inverse": {
+        "indicator": 0,
+        "reason": "ZERO_KERNEL_COORDINATE",
+        "fiber_rank": 8,
+        "target_pivot_columns": [
+          0,
+          1
+        ],
+        "target_pivot_minor": "5384",
+        "fiber_pivot_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "fiber_pivot_minor": "18989448855552000/452929",
+        "free_coordinate": 7,
+        "kernel_coefficients": [
+          "2/19",
+          "3/19",
+          "5/19",
+          "7/19",
+          "11/19",
+          "13/19",
+          "17/19",
+          "1",
+          "0"
+        ],
+        "scope": "COMPLETE_OPEN_MEMBERSHIP"
+      },
+      "strict_inverse": null
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "claim_tag": "COMPUTATIONALLY-VERIFIED",
+  "command": "PYTHONPATH=src .venv/bin/python -m pytest -q",
+  "passed": 100,
+  "duration_seconds": 20.51,
+  "prior_files": 149,
+  "scope": "Full baseline before Run4 modifications"
+}

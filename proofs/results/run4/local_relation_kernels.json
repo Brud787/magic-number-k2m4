@@ -1,0 +1,42 @@
+{
+  "n8_alternating": {
+    "scope": "At this exact Z and for constant-coefficient all-Z relations; not every fixed Z",
+    "seed_bound": 99,
+    "seeds_used": 40,
+    "connected": true,
+    "incidence_rank": 9,
+    "certified_relation_space_dimension": 1
+  },
+  "n9_spurion": {
+    "scope": "At this exact Z and for constant-coefficient all-Z relations; not every fixed Z",
+    "seed_bound": 99,
+    "seeds_used": 40,
+    "connected": true,
+    "incidence_rank": 9,
+    "certified_relation_space_dimension": 1
+  },
+  "n9_reflected_1323": {
+    "scope": "At this exact Z and for constant-coefficient all-Z relations; not every fixed Z",
+    "seed_bound": 99,
+    "seeds_used": 40,
+    "connected": true,
+    "incidence_rank": 9,
+    "certified_relation_space_dimension": 1
+  },
+  "n10_433": {
+    "scope": "At this exact Z and for constant-coefficient all-Z relations; not every fixed Z",
+    "seed_bound": 99,
+    "seeds_used": 40,
+    "connected": true,
+    "incidence_rank": 9,
+    "certified_relation_space_dimension": 1
+  },
+  "n10_424": {
+    "scope": "At this exact Z and for constant-coefficient all-Z relations; not every fixed Z",
+    "seed_bound": 99,
+    "seeds_used": 40,
+    "connected": true,
+    "incidence_rank": 9,
+    "certified_relation_space_dimension": 1
+  }
+}

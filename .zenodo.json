@@ -1,0 +1,23 @@
+{
+  "title": "The Magic Number Conjecture for k=2, m=4: computational proof certificates",
+  "description": "Exact rational certificate data and deterministic replay tools accompanying Jack Tavakoli's existing k=2, m=4 Magic Number preprint. The supplement provides stable certificate IDs, a claim-to-certificate index, literal witnesses and matrices, exact verifiers, reproducibility instructions, and a hash manifest. Code is licensed under MIT; manuscript, documentation, and original research data are licensed under CC BY 4.0. The deposit-level CC BY 4.0 metadata refer to manuscript and data; see LICENSE for component-specific scope. This metadata file is prepared locally and does not establish that deposition has occurred.",
+  "creators": [
+    {
+      "name": "Tavakoli, Jack",
+      "affiliation": "University of Houston"
+    }
+  ],
+  "version": "1.0.0-paper",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "amplituhedron",
+    "positive Grassmannian",
+    "Magic Number Conjecture",
+    "computer-assisted proof",
+    "exact rational arithmetic",
+    "reproducibility"
+  ],
+  "notes": "Prepared metadata only. Suggested release tag: v1.0.0-paper. No DOI or public repository URL is assigned here. Human author to review before deposition. Software components use the MIT license; original manuscript and data components use CC BY 4.0."
+}

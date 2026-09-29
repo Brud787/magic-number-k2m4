@@ -1,0 +1,21 @@
+[INFO] Python 3.14.6; Darwin arm64; SymPy 1.14.0
+[PASS] membership-core classification
+[PASS] membership-core counts
+[PASS] four-mass two-preimage certificate
+[PASS] spurion inversion certificate
+[PASS] 29 parent-core exhaustion
+[PASS] 3<->3 relation certificates
+[PASS] 5<->5 relation certificates
+[PASS] ten-wall rank-nine certificates
+[FAIL] Publication certificate verification stopped; no ready verdict.
+Traceback (most recent call last):
+  File "[REPOSITORY]/publication/verify_all.py", line 44, in <module>
+    main()
+    ~~~~^^
+  File "[REPOSITORY]/publication/verify_all.py", line 25, in main
+    checks.hostile(n);passed(f'hostile parent {i} determinant')
+    ~~~~~~~~~~~~~~^^^
+  File "[REPOSITORY]/publication/verifier/checks.py", line 178, in hostile
+    assert rows==d['indicator_matrix'] and determinant(rows)==1
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

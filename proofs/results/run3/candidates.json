@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "scope": "Bounded Run3 decisions; no open-ended continuation or generation search launched",
+  "certified_unbalanced_admissible_relation_found": false,
+  "negative_result_scope": "Only the certified prototypes and exact hostile fixtures in this run",
+  "ranked_structural_explanations": [
+    {
+      "rank": 1,
+      "id": "ORDERED_POSITIVE_MINORS",
+      "status": "PROVED",
+      "scope": "Seven-support Gale parents; repaired spurion pattern; complete two-class parent sector",
+      "mechanism": "Nonzero ordered positive minors determine wall signs; an even alternating list or the spurion sum 0+2-1-1 forces zero total",
+      "extension_status": "CONJECTURAL",
+      "next_core": [3, 3, 4],
+      "why_this_test": "Ten admissible walls include four spurions; three merger walls are collapsed",
+      "kill_tests": [
+        "A required determinant vanishes or changes sign within the positive external/wall parameter space",
+        "A complete source chart has an omitted full-dimensional boundary or a second positive branch",
+        "Certified image-side coefficients have unequal positive and negative counts"
+      ],
+      "proof_references": ["research/run3/SPURION_SIGN_MECHANISM.md", "research/run3/SIGN_FORMULA.md", "research/run3/TWO_CLASS_THEOREM.md"]
+    },
+    {
+      "rank": 2,
+      "id": "ORIENTATION_REVERSING_REFLECTION",
+      "status": "PROVED",
+      "scope": "Explicit submersion, transverse constant-sign walls and an actual source/target symmetry; verified for the alternating-singleton n8 parent",
+      "mechanism": "Reflection reverses source orientation and preserves target orientation, pairing opposite fiber-wall signs",
+      "extension_status": "CONJECTURAL",
+      "next_core": [1, 3, 2, 3],
+      "kill_tests": [
+        "The combinatorial reflection does not intertwine the positive source and external-data maps",
+        "The source and target orientation actions fail to reverse fiber orientation",
+        "A wall is fixed, nontransverse, nonadmissible, or lacks a globally constant sign"
+      ],
+      "limitation": "Does not explain the asymmetric spurion parent or arbitrary asymmetric cores",
+      "proof_reference": "research/run3/SIGN_FORMULA.md"
+    },
+    {
+      "rank": 3,
+      "id": "SIGNED_REAL_PREIMAGE_FUNCTIONS",
+      "status": "CONJECTURAL",
+      "scope": "Possible relation language retaining all internal strata and each oriented real branch",
+      "mechanism": "A fiber-boundary identity is pointwise in Y and groups signed preimages into constructible functions",
+      "required_new_input": "A separate functional or conservation law on these functions; topology supplies no constant wall-type sum",
+      "kill_tests": [
+        "Any step substitutes complex degree for a positive-real or signed-real multiplicity function",
+        "The proposed functional gives unequal weight to the two sides of the degree-one triangle relation",
+        "The construction discards the nonadmissible endpoint in the exact one-positive-root conic fixture"
+      ],
+      "warning": "Not a constructed unit functional and not a balance theorem",
+      "proof_reference": "research/run3/MULTIPLICITY.md"
+    }
+  ],
+  "hostile_results": [
+    {
+      "id": "ADJACENT_SINGLETON_DISCONNECTION",
+      "status": "PROVED",
+      "scope": "Exact fixed positive moment-curve Z at n8",
+      "parent": [[1,2],[3,4],[5,6],[7],[8]],
+      "positive_fiber": "(-8/75,0) union (1/7,8/37)",
+      "failed_claim": "Every nine-dimensional parent with linear ambient fiber equations has a connected positive fiber",
+      "claim_status": "FAILED",
+      "fixture_reference": "fixtures/run3/linear_n8_adjacent_disconnected.json"
+    },
+    {
+      "id": "FOUR_MASS_VARIABLE_POSITIVE_MULTIPLICITY",
+      "status": "PROVED",
+      "scope": "Three exact targets at the same positive rational n9 Z",
+      "positive_preimage_counts": [0,1,2],
+      "two_sheet_local_jacobian_signs": [1,-1],
+      "failed_claim": "A complex-degree-two source wall always contributes two positive sheets with a fixed common orientation",
+      "claim_status": "FAILED",
+      "fixture_reference": "fixtures/run3/hostile_conic_multiplicity.json"
+    },
+    {
+      "id": "ADMISSIBLE_FACET_OPEN_HOLE",
+      "status": "PROVED",
+      "scope": "Exact fixed-Z open subset of the image of (12)(34)(56)(789)",
+      "admissible_facet_count": 8,
+      "admissible_closed_facet_images_containing_target": 0,
+      "full_source_closure_strata_checked": 3033,
+      "gauge_degenerations_excluded": 2403,
+      "nonzero_twistors": 126,
+      "failed_claim": "Every such parent image can be covered by its admissible source-facet tiles",
+      "claim_status": "FAILED",
+      "not_implied": ["No relation on smaller local regions", "No cover using other tiles", "Unbalanced tile relation", "Magic Number counterexample"],
+      "fixture_reference": "fixtures/run3/hostile_closed_facet_exclusion.json",
+      "proof_reference": "research/run3/MULTIPLICITY.md"
+    },
+    {
+      "id": "TOPOLOGICAL_DEGREE_WEIGHTED_TYPE_SUM",
+      "status": "FAILED",
+      "counterexample": "Triangle projection: [0,1]+[1,2]-[0,2]=0 modulo endpoints, all three edge maps degree one, coefficient sum one",
+      "scope": "Abstract topological mechanism; not an amplituhedron counterexample"
+    }
+  ],
+  "deferred_core_targets": [
+    {"profile": [3,3,4], "status": "CONJECTURAL", "reason": "Four spurion facets; seek complete linear chart and symbolic sign count"},
+    {"profile": [2,4,4], "status": "CONJECTURAL", "reason": "Ten admissible walls without four-mass terms; no global signs asserted"},
+    {"profile": [1,4,5], "status": "CONJECTURAL", "reason": "Do not omit the admissible (5,5) merger when auditing chart limits"},
+    {"profile": [2,3,5], "status": "CONJECTURAL", "reason": "Do not omit the admissible (5,5) merger when auditing chart limits"}
+  ],
+  "stopping_decision": "Stop after bounded verification; no all-core, all-n generation, or complete-tiling search launched"
+}

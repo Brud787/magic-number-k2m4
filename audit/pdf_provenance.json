@@ -1,0 +1,10 @@
+{
+  "historical_pdf": "audit/original_k2m4preprint.pdf",
+  "historical_pages": 13,
+  "printed_date": "September 9, 2026",
+  "historical_source": "audit/original_manuscript.tex",
+  "historical_build_binding": "No source-hash binding or reproducible build record was present. Historical PDF retained as provenance, not represented as the new release PDF.",
+  "release_source": "paper/main.tex",
+  "release_pdf": "paper/paper.pdf",
+  "release_binding": "Generated directly from synchronized authoritative source in this packaging pass; see logs/paper_build.txt and audit/package_validation.json."
+}

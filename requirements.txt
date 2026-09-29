@@ -1,0 +1,3 @@
+# Runtime dependencies for python verify_all.py; no network used during replay.
+sympy==1.14.0
+mpmath==1.3.0

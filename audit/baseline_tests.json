@@ -1,0 +1,10 @@
+{
+  "command": ".venv/bin/python -m pytest -q -ra",
+  "exit_code": 0,
+  "passed": 240,
+  "failed": 0,
+  "elapsed_seconds": 142.43,
+  "final_output": "240 passed in 142.43s (0:02:22)",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "python": "3.14.6 (v3.14.6:c63aec69bd5, Jun 10 2026, 08:07:54) [Clang 21.0.0 (clang-2100.1.1.101)]"
+}

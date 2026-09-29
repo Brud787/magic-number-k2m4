@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: >-
+  Please cite the manuscript and this computational supplement. This is a
+  prepared local release; replace the archive DOI placeholder after deposition.
+type: software
+title: 'The Magic Number Conjecture for k=2, m=4: computational proof certificates'
+authors:
+  - family-names: Tavakoli
+    given-names: Jack
+    affiliation: University of Houston
+version: 1.0.0-paper
+abstract: >-
+  Exact rational certificate data and deterministic replay tools accompanying
+  the existing k=2, m=4 Magic Number preprint. CERTIFICATE_INDEX.md connects paper
+  claims to stable certificate identifiers, literal data, and verification
+  commands. Code is licensed under MIT; manuscript, documentation, and original
+  data under CC BY 4.0. Archive DOI: [ZENODO DOI TO BE INSERTED AFTER RELEASE].
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - amplituhedron
+  - positive Grassmannian
+  - computer-assisted proof
+  - exact arithmetic
+  - reproducibility
+preferred-citation:
+  type: article
+  title: 'The Magic Number Conjecture for the Rank-Two m=4 Amplituhedron: A simplicial reduction of global tile relations to finite local data'
+  authors:
+    - family-names: Tavakoli
+      given-names: Jack
+      affiliation: University of Houston

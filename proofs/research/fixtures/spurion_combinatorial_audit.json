@@ -1,0 +1,101 @@
+{
+  "provenance": {
+    "title": "A cluster of results on amplituhedron tiles",
+    "arxiv": "https://arxiv.org/abs/2402.15568",
+    "doi": "https://doi.org/10.1007/s11005-024-01854-4",
+    "local_pdf": "literature/m4_spurion_tiles.pdf",
+    "local_pdf_page": 42,
+    "license": "CC BY 4.0; mathematical data transcribed from Appendix A",
+    "note": "Literal published fixture, including potentially inconsistent replacement indices; no geometric correction applied."
+  },
+  "scope": "Exact combinatorial transcription/audit; no geometric tiling certificate.",
+  "spurion_count": 50,
+  "literal_replacement_bcfw_count": 50,
+  "literal_common_count": 45,
+  "all_55_labels_agree_between_encodings": true,
+  "all_55_cells_have_dimension_8": true,
+  "printed_parent_classes": [
+    [
+      9,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8
+    ]
+  ],
+  "printed_parent_affine": [
+    2,
+    6,
+    4,
+    5,
+    8,
+    7,
+    9,
+    12,
+    10
+  ],
+  "printed_parent_contains_removed_indices": [
+    28
+  ],
+  "printed_parent_contains_replacement_positions": [],
+  "alternative_parent_classes": [
+    [
+      9,
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7,
+      8
+    ]
+  ],
+  "alternative_parent_affine": [
+    3,
+    6,
+    4,
+    5,
+    9,
+    7,
+    8,
+    11,
+    10
+  ],
+  "alternative_parent_contains_removed_indices": [
+    28,
+    34,
+    35
+  ],
+  "alternative_parent_contains_replacement_positions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "alternative_parent_dimension_8_faces_in_appendix": [
+    28,
+    34,
+    35,
+    39,
+    45
+  ],
+  "alternative_parent_facet_count": 12
+}

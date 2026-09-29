@@ -1,0 +1,41 @@
+{
+  "claim_tag": "PROVED",
+  "n": 9,
+  "scope": "Certified exclusions within the complete all-Z admissible tile universe",
+  "type_A_all_Z_indicator_relation_outside_L9": {
+    "exists": false,
+    "reason": "K_all,9=L9"
+  },
+  "type_B_complete_all_Z_tiling_difference_outside_L9": {
+    "exists": false,
+    "reason": "D9=L9"
+  },
+  "type_C_unequal_complete_all_Z_tiling_cardinalities": {
+    "exists": false,
+    "reason": "Every such tiling has50tiles"
+  },
+  "source_deletion_preserves_local_relations": {
+    "claim_tag": "FAILED",
+    "counterexample": "results/run6/deletion_obstruction.json",
+    "projected_coefficient_sum": 1
+  },
+  "raw_loopless_tile_count_is_a_local_invariant": {
+    "claim_tag": "FAILED",
+    "violating_n9_parent_rows": 18,
+    "absolute_nonzero_coefficient_sum": 2,
+    "reference": "results/run6/support_blocks.json"
+  },
+  "signed_loopless_BCFW_minus_spurion_count": {
+    "claim_tag": "PROVED",
+    "all_Z_complete_n9_tiling_value": 2,
+    "reference": "research/run6/PROFILE_WEIGHTS.md"
+  },
+  "all_n_indicator_or_tiling_counterexample_search": "No long all-n search launched; n>=10 global relations unresolved",
+  "prior_failure_artifacts": "Preserved byte-identically by results/run6/baseline_hashes.json",
+  "not_claimed": [
+    "Every fixed-Z tile universe classified",
+    "All-n generation",
+    "All-n Magic Number",
+    "Full flip connectivity"
+  ]
+}

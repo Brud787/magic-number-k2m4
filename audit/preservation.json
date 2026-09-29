@@ -1,0 +1,9 @@
+{
+  "baseline_file_count": 1621,
+  "unchanged_files": 1620,
+  "changed_files": [
+    "magic_number_k2_m4_preprint.tex"
+  ],
+  "missing_files": [],
+  "allowed_changes": "Only authoritative manuscript revised; original saved in audit/original_manuscript.tex. All historical research, results, fixtures, source, tests and PDFs match baseline SHA256 hashes."
+}

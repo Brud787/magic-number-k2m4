@@ -1,0 +1,359 @@
+{
+  "fixture_kind": "PRINTED",
+  "source_fixture": "research/fixtures/spurion_a9_2_4.json",
+  "source": "literature/m4_spurion_tiles.pdf Section5.3.1 and AppendixA",
+  "parent_classes": [
+    [
+      9,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8
+    ]
+  ],
+  "parent_affine": [
+    2,
+    6,
+    4,
+    5,
+    8,
+    7,
+    9,
+    12,
+    10
+  ],
+  "removed_rows": [
+    {
+      "affine_permutation": [
+        2,
+        6,
+        4,
+        5,
+        9,
+        7,
+        8,
+        12,
+        10
+      ],
+      "parallel_classes": [
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          9,
+          1,
+          2
+        ]
+      ],
+      "appendix_index": 28
+    },
+    {
+      "affine_permutation": [
+        3,
+        6,
+        4,
+        5,
+        9,
+        8,
+        7,
+        11,
+        10
+      ],
+      "parallel_classes": [
+        [
+          9,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "appendix_index": 34
+    },
+    {
+      "affine_permutation": [
+        3,
+        6,
+        4,
+        5,
+        10,
+        7,
+        8,
+        11,
+        9
+      ],
+      "parallel_classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "appendix_index": 35
+    },
+    {
+      "affine_permutation": [
+        3,
+        6,
+        5,
+        4,
+        8,
+        7,
+        11,
+        9,
+        10
+      ],
+      "parallel_classes": [
+        [
+          8,
+          9,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "appendix_index": 38
+    },
+    {
+      "affine_permutation": [
+        6,
+        3,
+        4,
+        9,
+        5,
+        7,
+        8,
+        10,
+        11
+      ],
+      "parallel_classes": [
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "appendix_index": 46
+    }
+  ],
+  "added_bcfw_cells": [
+    {
+      "affine_permutation": [
+        1,
+        6,
+        4,
+        5,
+        9,
+        7,
+        8,
+        11,
+        12
+      ],
+      "parallel_classes": [
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          9
+        ]
+      ]
+    },
+    {
+      "affine_permutation": [
+        3,
+        6,
+        4,
+        5,
+        9,
+        7,
+        11,
+        8,
+        10
+      ],
+      "parallel_classes": [
+        [
+          9,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "affine_permutation": [
+        3,
+        6,
+        4,
+        9,
+        5,
+        7,
+        8,
+        11,
+        10
+      ],
+      "parallel_classes": [
+        [
+          9,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "affine_permutation": [
+        3,
+        7,
+        4,
+        5,
+        9,
+        6,
+        8,
+        11,
+        10
+      ],
+      "parallel_classes": [
+        [
+          9,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "affine_permutation": [
+        4,
+        6,
+        3,
+        5,
+        9,
+        7,
+        8,
+        11,
+        10
+      ],
+      "parallel_classes": [
+        [
+          9,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ]
+    }
+  ],
+  "actual_removed_rows_in_parent_closure": [
+    28
+  ],
+  "actual_added_bcfw_positions_in_parent_closure": [],
+  "geometric_certification": "FAILED_LITERAL_COMMON_PARENT_INCIDENCE",
+  "scope": "Preserves printed data exactly; no substitution of proposed corrected rows."
+}

@@ -1,0 +1,76 @@
+[INFO] Python 3.14.6; Darwin arm64; SymPy 1.14.0
+[PASS] membership-core classification
+[PASS] membership-core counts
+[PASS] four-mass two-preimage certificate
+[PASS] spurion inversion certificate
+[PASS] 29 parent-core exhaustion
+[PASS] 3<->3 relation certificates
+[PASS] 5<->5 relation certificates
+[PASS] ten-wall rank-nine certificates
+[PASS] hostile parent 1 determinant
+[PASS] hostile parent 2 determinant
+[PASS] n=9 tile universe = 942
+[PASS] n=9 local relations = 693
+[PASS] rank(L9) = 470
+[INFO] independent membership replay: 16/472 witnesses
+[INFO] independent membership replay: 32/472 witnesses
+[INFO] independent membership replay: 48/472 witnesses
+[INFO] independent membership replay: 64/472 witnesses
+[INFO] independent membership replay: 80/472 witnesses
+[INFO] independent membership replay: 96/472 witnesses
+[INFO] independent membership replay: 112/472 witnesses
+[INFO] independent membership replay: 128/472 witnesses
+[INFO] independent membership replay: 144/472 witnesses
+[INFO] independent membership replay: 160/472 witnesses
+[INFO] independent membership replay: 176/472 witnesses
+[INFO] independent membership replay: 192/472 witnesses
+[INFO] independent membership replay: 208/472 witnesses
+[INFO] independent membership replay: 224/472 witnesses
+[INFO] independent membership replay: 240/472 witnesses
+[INFO] independent membership replay: 256/472 witnesses
+[INFO] independent membership replay: 272/472 witnesses
+[INFO] independent membership replay: 288/472 witnesses
+[INFO] independent membership replay: 304/472 witnesses
+[INFO] independent membership replay: 320/472 witnesses
+[INFO] independent membership replay: 336/472 witnesses
+[INFO] independent membership replay: 352/472 witnesses
+[INFO] independent membership replay: 368/472 witnesses
+[INFO] independent membership replay: 384/472 witnesses
+[INFO] independent membership replay: 400/472 witnesses
+[INFO] independent membership replay: 416/472 witnesses
+[INFO] independent membership replay: 432/472 witnesses
+[INFO] independent membership replay: 448/472 witnesses
+[INFO] independent membership replay: 464/472 witnesses
+[PASS] n=9 witnesses = 472
+[PASS] n=9 exact membership decisions = 444624
+[INFO] reconstructed A9 row-major 0/1-byte SHA256: 87e19c16d187552fc3fa1bbd1931bfc524a05dd06f67b4f05ee828c534dcfd37
+[PASS] rank(A9) = 472
+[PASS] selected indicator determinant = 4
+[PASS] A9 R9^T = 0
+[INFO] dim L9 = 470; dim ker A9 = 942 - 472 = 470; L9 subset K9 subset ker A9; therefore K9 = L9 (using the stated all-Z local theorem and strict-neighborhood inverse proposition).
+[PASS] K9 = L9 certificate chain
+[PASS] normalized n=6
+[PASS] normalized n=7
+[PASS] normalized n=8
+[PASS] normalized n=9
+[PASS] normalized n=10 determinant = -1
+[PASS] normalized n=11 determinant = 1
+[PASS] support cutoff
+[FAIL] Publication certificate verification stopped; no ready verdict.
+Traceback (most recent call last):
+  File "[REPOSITORY]/publication/verify_all.py", line 44, in <module>
+    main()
+    ~~~~^^
+  File "[REPOSITORY]/publication/verify_all.py", line 37, in main
+    checks.hashes();passed('publication artifact hashes')
+    ~~~~~~~~~~~~~^^
+  File "[REPOSITORY]/publication/verifier/checks.py", line 248, in hashes
+    lines=path.read_text().splitlines()
+          ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 787, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '[REPOSITORY]/publication/SHA256SUMS.txt'

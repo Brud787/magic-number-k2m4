@@ -1,0 +1,1015 @@
+{
+  "fixture_kind": "REPAIRED_CANDIDATE_INDEPENDENT_GEOMETRIC_ARGUMENT",
+  "printed_fixture_unchanged": true,
+  "original_parent_affine": [
+    3,
+    6,
+    4,
+    5,
+    9,
+    7,
+    8,
+    11,
+    10
+  ],
+  "rotated_parent_affine": [
+    2,
+    4,
+    7,
+    5,
+    6,
+    10,
+    8,
+    9,
+    12
+  ],
+  "proof_reference": "research/run2/SPURION_ATTEMPT.md",
+  "walls": [
+    {
+      "coordinate": "a1",
+      "wall_index": 0,
+      "original_label": "row35",
+      "original_affine": [
+        3,
+        6,
+        4,
+        5,
+        10,
+        7,
+        8,
+        11,
+        9
+      ],
+      "original_classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "rotated_affine": [
+        1,
+        4,
+        7,
+        5,
+        6,
+        11,
+        8,
+        9,
+        12
+      ],
+      "coefficient": 1,
+      "sample_transverse_derivative": "1",
+      "sample_kernel_wall_row": [
+        "1",
+        "0"
+      ],
+      "sample_rank": 8,
+      "sample_deleted_column_rank": 8,
+      "admissibility_argument": "DIRECT_POSITIVE_DETERMINANT",
+      "standard_recipe": {
+        "standard_record": {
+          "upper_path_shape": [
+            2,
+            0
+          ],
+          "lower_path_shape": [
+            2,
+            2
+          ],
+          "oplus_shape": [
+            6,
+            6
+          ],
+          "oplus_plus_positions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "affine": [
+            3,
+            6,
+            4,
+            5,
+            9,
+            7,
+            8,
+            10
+          ]
+        },
+        "orientation": 1,
+        "cyclic_shift": 0,
+        "ordered_support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "sample_scope": "Exact rational sign evaluation; see proof for sign constancy."
+    },
+    {
+      "coordinate": "a2",
+      "wall_index": 1,
+      "original_label": "B1",
+      "original_affine": [
+        1,
+        6,
+        4,
+        5,
+        9,
+        7,
+        8,
+        11,
+        12
+      ],
+      "original_classes": [
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "rotated_affine": [
+        4,
+        2,
+        7,
+        5,
+        6,
+        10,
+        8,
+        9,
+        12
+      ],
+      "coefficient": -1,
+      "sample_transverse_derivative": "-1",
+      "sample_kernel_wall_row": [
+        "0",
+        "1"
+      ],
+      "sample_rank": 8,
+      "sample_deleted_column_rank": 8,
+      "admissibility_argument": "DIRECT_POSITIVE_DETERMINANT",
+      "standard_recipe": {
+        "standard_record": {
+          "upper_path_shape": [
+            2,
+            0
+          ],
+          "lower_path_shape": [
+            2,
+            2
+          ],
+          "oplus_shape": [
+            6,
+            6
+          ],
+          "oplus_plus_positions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "affine": [
+            3,
+            6,
+            4,
+            5,
+            9,
+            7,
+            8,
+            10
+          ]
+        },
+        "orientation": 1,
+        "cyclic_shift": 7,
+        "ordered_support": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "sample_scope": "Exact rational sign evaluation; see proof for sign constancy."
+    },
+    {
+      "coordinate": "u",
+      "wall_index": 2,
+      "original_label": "row45",
+      "original_affine": [
+        6,
+        3,
+        4,
+        5,
+        9,
+        7,
+        8,
+        11,
+        10
+      ],
+      "original_classes": [
+        [
+          9,
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "rotated_affine": [
+        2,
+        7,
+        4,
+        5,
+        6,
+        10,
+        8,
+        9,
+        12
+      ],
+      "coefficient": 1,
+      "sample_transverse_derivative": "28/9",
+      "sample_kernel_wall_row": [
+        "14/9",
+        "-14/9"
+      ],
+      "sample_rank": 8,
+      "sample_deleted_column_rank": 8,
+      "admissibility_argument": "KWZ_STANDARD_DIHEDRAL_ZERO_INSERTION",
+      "standard_recipe": {
+        "standard_record": {
+          "upper_path_shape": [
+            3,
+            0
+          ],
+          "lower_path_shape": [
+            3,
+            2
+          ],
+          "oplus_shape": [
+            7,
+            6
+          ],
+          "oplus_plus_positions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "affine": [
+            2,
+            7,
+            4,
+            5,
+            6,
+            10,
+            8,
+            9,
+            12
+          ]
+        },
+        "orientation": 1,
+        "cyclic_shift": 8,
+        "ordered_support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "sample_scope": "Exact rational sign evaluation; see proof for sign constancy."
+    },
+    {
+      "coordinate": "v",
+      "wall_index": 3,
+      "original_label": "row28",
+      "original_affine": [
+        2,
+        6,
+        4,
+        5,
+        9,
+        7,
+        8,
+        12,
+        10
+      ],
+      "original_classes": [
+        [
+          9,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "rotated_affine": [
+        2,
+        3,
+        7,
+        5,
+        6,
+        10,
+        8,
+        9,
+        13
+      ],
+      "coefficient": 1,
+      "sample_transverse_derivative": "12/7",
+      "sample_kernel_wall_row": [
+        "6/7",
+        "-6/7"
+      ],
+      "sample_rank": 8,
+      "sample_deleted_column_rank": 8,
+      "admissibility_argument": "PUBLISHED_SPURION_INJECTIVITY",
+      "standard_recipe": null,
+      "sample_scope": "Exact rational sign evaluation; see proof for sign constancy."
+    },
+    {
+      "coordinate": "c4",
+      "wall_index": 4,
+      "original_label": "B5",
+      "original_affine": [
+        4,
+        6,
+        3,
+        5,
+        9,
+        7,
+        8,
+        11,
+        10
+      ],
+      "original_classes": [
+        [
+          9,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "rotated_affine": [
+        2,
+        5,
+        7,
+        4,
+        6,
+        10,
+        8,
+        9,
+        12
+      ],
+      "coefficient": -1,
+      "sample_transverse_derivative": "-922/189",
+      "sample_kernel_wall_row": [
+        "-461/189",
+        "461/189"
+      ],
+      "sample_rank": 8,
+      "sample_deleted_column_rank": 8,
+      "admissibility_argument": "DIRECT_POSITIVE_DETERMINANT",
+      "standard_recipe": null,
+      "sample_scope": "Exact rational sign evaluation; see proof for sign constancy."
+    },
+    {
+      "coordinate": "c5",
+      "wall_index": 5,
+      "original_label": "row39",
+      "original_affine": [
+        3,
+        6,
+        5,
+        4,
+        9,
+        7,
+        8,
+        11,
+        10
+      ],
+      "original_classes": [
+        [
+          9,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "rotated_affine": [
+        2,
+        4,
+        7,
+        6,
+        5,
+        10,
+        8,
+        9,
+        12
+      ],
+      "coefficient": 1,
+      "sample_transverse_derivative": "590/189",
+      "sample_kernel_wall_row": [
+        "295/189",
+        "-295/189"
+      ],
+      "sample_rank": 8,
+      "sample_deleted_column_rank": 8,
+      "admissibility_argument": "DIRECT_POSITIVE_DETERMINANT",
+      "standard_recipe": null,
+      "sample_scope": "Exact rational sign evaluation; see proof for sign constancy."
+    },
+    {
+      "coordinate": "c6",
+      "wall_index": 6,
+      "original_label": "B3",
+      "original_affine": [
+        3,
+        6,
+        4,
+        9,
+        5,
+        7,
+        8,
+        11,
+        10
+      ],
+      "original_classes": [
+        [
+          9,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "rotated_affine": [
+        2,
+        4,
+        7,
+        5,
+        10,
+        6,
+        8,
+        9,
+        12
+      ],
+      "coefficient": -1,
+      "sample_transverse_derivative": "-166/189",
+      "sample_kernel_wall_row": [
+        "-83/189",
+        "83/189"
+      ],
+      "sample_rank": 8,
+      "sample_deleted_column_rank": 8,
+      "admissibility_argument": "DIRECT_POSITIVE_DETERMINANT",
+      "standard_recipe": null,
+      "sample_scope": "Exact rational sign evaluation; see proof for sign constancy."
+    },
+    {
+      "coordinate": "d7",
+      "wall_index": 7,
+      "original_label": "B4",
+      "original_affine": [
+        3,
+        7,
+        4,
+        5,
+        9,
+        6,
+        8,
+        11,
+        10
+      ],
+      "original_classes": [
+        [
+          9,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "rotated_affine": [
+        2,
+        4,
+        8,
+        5,
+        6,
+        10,
+        7,
+        9,
+        12
+      ],
+      "coefficient": -1,
+      "sample_transverse_derivative": "-64/27",
+      "sample_kernel_wall_row": [
+        "-32/27",
+        "32/27"
+      ],
+      "sample_rank": 8,
+      "sample_deleted_column_rank": 8,
+      "admissibility_argument": "KWZ_STANDARD_DIHEDRAL_ZERO_INSERTION",
+      "standard_recipe": {
+        "standard_record": {
+          "upper_path_shape": [
+            2,
+            0
+          ],
+          "lower_path_shape": [
+            2,
+            1
+          ],
+          "oplus_shape": [
+            6,
+            5
+          ],
+          "oplus_plus_positions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "affine": [
+            2,
+            6,
+            4,
+            5,
+            7,
+            9,
+            8,
+            11
+          ]
+        },
+        "orientation": -1,
+        "cyclic_shift": 6,
+        "ordered_support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "sample_scope": "Exact rational sign evaluation; see proof for sign constancy."
+    },
+    {
+      "coordinate": "d8",
+      "wall_index": 8,
+      "original_label": "row34",
+      "original_affine": [
+        3,
+        6,
+        4,
+        5,
+        9,
+        8,
+        7,
+        11,
+        10
+      ],
+      "original_classes": [
+        [
+          9,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "rotated_affine": [
+        2,
+        4,
+        7,
+        5,
+        6,
+        10,
+        9,
+        8,
+        12
+      ],
+      "coefficient": 1,
+      "sample_transverse_derivative": "44/27",
+      "sample_kernel_wall_row": [
+        "22/27",
+        "-22/27"
+      ],
+      "sample_rank": 8,
+      "sample_deleted_column_rank": 8,
+      "admissibility_argument": "KWZ_STANDARD_DIHEDRAL_ZERO_INSERTION",
+      "standard_recipe": {
+        "standard_record": {
+          "upper_path_shape": [
+            2,
+            0
+          ],
+          "lower_path_shape": [
+            2,
+            1
+          ],
+          "oplus_shape": [
+            6,
+            5
+          ],
+          "oplus_plus_positions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "affine": [
+            2,
+            6,
+            4,
+            5,
+            7,
+            9,
+            8,
+            11
+          ]
+        },
+        "orientation": -1,
+        "cyclic_shift": 6,
+        "ordered_support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ]
+      },
+      "sample_scope": "Exact rational sign evaluation; see proof for sign constancy."
+    },
+    {
+      "coordinate": "d9",
+      "wall_index": 9,
+      "original_label": "B2",
+      "original_affine": [
+        3,
+        6,
+        4,
+        5,
+        9,
+        7,
+        11,
+        8,
+        10
+      ],
+      "original_classes": [
+        [
+          9,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "rotated_affine": [
+        2,
+        4,
+        7,
+        5,
+        6,
+        10,
+        8,
+        12,
+        9
+      ],
+      "coefficient": -1,
+      "sample_transverse_derivative": "-10/27",
+      "sample_kernel_wall_row": [
+        "-5/27",
+        "5/27"
+      ],
+      "sample_rank": 8,
+      "sample_deleted_column_rank": 8,
+      "admissibility_argument": "KWZ_STANDARD_DIHEDRAL_ZERO_INSERTION",
+      "standard_recipe": {
+        "standard_record": {
+          "upper_path_shape": [
+            2,
+            0
+          ],
+          "lower_path_shape": [
+            2,
+            1
+          ],
+          "oplus_shape": [
+            6,
+            5
+          ],
+          "oplus_plus_positions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "affine": [
+            2,
+            6,
+            4,
+            5,
+            7,
+            9,
+            8,
+            11
+          ]
+        },
+        "orientation": -1,
+        "cyclic_shift": 6,
+        "ordered_support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "sample_scope": "Exact rational sign evaluation; see proof for sign constancy."
+    }
+  ]
+}

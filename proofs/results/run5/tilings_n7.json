@@ -1,0 +1,10930 @@
+{
+  "n": 7,
+  "k": 2,
+  "m": 4,
+  "claim_tag": "PROVED",
+  "certificate_type": "EXACT_EXHAUSTIVE_FINITE_CERTIFICATE",
+  "proof_reference": "research/run5/N7_PROOF.md",
+  "prior_art_scope": "Finite explicit reconstruction of known parity/cyclic-polytope behavior; no novelty claim",
+  "source_cell_count": 28,
+  "admissible_tile_count": 21,
+  "excluded_source_affines": [
+    [
+      3,
+      4,
+      5,
+      8,
+      6,
+      7,
+      9
+    ],
+    [
+      3,
+      4,
+      7,
+      5,
+      6,
+      8,
+      9
+    ],
+    [
+      3,
+      6,
+      4,
+      5,
+      7,
+      8,
+      9
+    ],
+    [
+      5,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      11
+    ],
+    [
+      3,
+      4,
+      5,
+      6,
+      9,
+      7,
+      8
+    ],
+    [
+      2,
+      4,
+      5,
+      6,
+      7,
+      10,
+      8
+    ]
+  ],
+  "tiles": [
+    {
+      "affine": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "classes": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        9,
+        7
+      ],
+      "simplex_support": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        7,
+        10
+      ],
+      "classes": [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        6,
+        9
+      ],
+      "simplex_support": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        2,
+        4,
+        5,
+        7,
+        6,
+        8,
+        10
+      ],
+      "classes": [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        1,
+        3,
+        4,
+        6,
+        5,
+        7,
+        9
+      ],
+      "simplex_support": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        2,
+        4,
+        6,
+        5,
+        7,
+        8,
+        10
+      ],
+      "classes": [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        1,
+        3,
+        5,
+        4,
+        6,
+        7,
+        9
+      ],
+      "simplex_support": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        2,
+        5,
+        4,
+        6,
+        7,
+        8,
+        10
+      ],
+      "classes": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        1,
+        4,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "simplex_support": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        7
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "dual_rank_one_affine": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        6,
+        7
+      ],
+      "simplex_support": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        3,
+        4,
+        5,
+        7,
+        6,
+        9,
+        8
+      ],
+      "classes": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "dual_rank_one_affine": [
+        2,
+        3,
+        4,
+        6,
+        5,
+        8,
+        7
+      ],
+      "simplex_support": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        6,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        2,
+        3,
+        4,
+        7,
+        5,
+        6,
+        8
+      ],
+      "simplex_support": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        3,
+        4,
+        6,
+        5,
+        7,
+        9,
+        8
+      ],
+      "classes": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "dual_rank_one_affine": [
+        2,
+        3,
+        5,
+        4,
+        6,
+        8,
+        7
+      ],
+      "simplex_support": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        3,
+        4,
+        6,
+        5,
+        8,
+        7,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        2,
+        3,
+        5,
+        4,
+        7,
+        6,
+        8
+      ],
+      "simplex_support": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        3,
+        4,
+        6,
+        7,
+        5,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        2,
+        3,
+        6,
+        4,
+        5,
+        7,
+        8
+      ],
+      "simplex_support": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        3,
+        5,
+        4,
+        6,
+        7,
+        9,
+        8
+      ],
+      "classes": [
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "dual_rank_one_affine": [
+        2,
+        4,
+        3,
+        5,
+        6,
+        8,
+        7
+      ],
+      "simplex_support": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        3,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        2,
+        4,
+        3,
+        5,
+        7,
+        6,
+        8
+      ],
+      "simplex_support": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        3,
+        5,
+        4,
+        7,
+        6,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        2,
+        4,
+        3,
+        6,
+        5,
+        7,
+        8
+      ],
+      "simplex_support": [
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        3,
+        5,
+        6,
+        4,
+        7,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        2,
+        5,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "simplex_support": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "simplex_support": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        4,
+        3,
+        5,
+        6,
+        7,
+        9,
+        8
+      ],
+      "classes": [
+        [
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "dual_rank_one_affine": [
+        3,
+        2,
+        4,
+        5,
+        6,
+        8,
+        7
+      ],
+      "simplex_support": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        4,
+        3,
+        5,
+        6,
+        8,
+        7,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        3,
+        2,
+        4,
+        5,
+        7,
+        6,
+        8
+      ],
+      "simplex_support": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        4,
+        3,
+        5,
+        7,
+        6,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        3,
+        2,
+        4,
+        6,
+        5,
+        7,
+        8
+      ],
+      "simplex_support": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        4,
+        3,
+        6,
+        5,
+        7,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        3,
+        2,
+        5,
+        4,
+        6,
+        7,
+        8
+      ],
+      "simplex_support": [
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    },
+    {
+      "affine": [
+        4,
+        5,
+        3,
+        6,
+        7,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "dual_rank_one_affine": [
+        4,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "simplex_support": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "admissibility": "CERTIFIED_TILE",
+      "proof": "GL Theorem 3.5(1), rank-one simplex injectivity; also BCFW"
+    }
+  ],
+  "cyclic_polytope_simplex_order": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      7
+    ],
+    [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    [
+      1,
+      2,
+      3,
+      5,
+      7
+    ],
+    [
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    [
+      1,
+      2,
+      4,
+      5,
+      7
+    ],
+    [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    [
+      1,
+      2,
+      5,
+      6,
+      7
+    ],
+    [
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      1,
+      3,
+      4,
+      5,
+      7
+    ],
+    [
+      1,
+      3,
+      4,
+      6,
+      7
+    ],
+    [
+      1,
+      3,
+      5,
+      6,
+      7
+    ],
+    [
+      1,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    [
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    [
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    [
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "fixed_exclusion_matrix_rows": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    [
+      1,
+      3,
+      9,
+      27,
+      81
+    ],
+    [
+      1,
+      4,
+      16,
+      64,
+      256
+    ],
+    [
+      1,
+      5,
+      25,
+      125,
+      625
+    ],
+    [
+      1,
+      6,
+      36,
+      216,
+      1296
+    ],
+    [
+      1,
+      7,
+      49,
+      343,
+      2401
+    ]
+  ],
+  "pair_count": 210,
+  "compatibility_edge_count": 84,
+  "pair_certificates": [
+    {
+      "vertices": [
+        0,
+        1
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "7",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "-1/5",
+        "0"
+      ],
+      "left_coefficients": [
+        "121/496",
+        "15/62",
+        "65/248",
+        "15/62",
+        "5/496"
+      ],
+      "right_coefficients": [
+        "15/62",
+        "125/496",
+        "15/62",
+        "65/248",
+        "1/496"
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        2
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "6",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "0",
+        "-1/15"
+      ],
+      "left_coefficients": [
+        "145/589",
+        "144/589",
+        "153/589",
+        "144/589",
+        "3/589"
+      ],
+      "right_coefficients": [
+        "144/589",
+        "24/95",
+        "144/589",
+        "8/31",
+        "1/2945"
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        3
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        0,
+        4
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        0,
+        5
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        0,
+        6
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "7",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "-1/10",
+        "0"
+      ],
+      "left_coefficients": [
+        "121/496",
+        "15/62",
+        "5/248",
+        "15/62",
+        "125/496"
+      ],
+      "right_coefficients": [
+        "15/62",
+        "125/496",
+        "65/248",
+        "15/62",
+        "1/496"
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        7
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "6",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "0",
+        "-1/45"
+      ],
+      "left_coefficients": [
+        "145/589",
+        "144/589",
+        "9/589",
+        "144/589",
+        "147/589"
+      ],
+      "right_coefficients": [
+        "144/589",
+        "24/95",
+        "8/31",
+        "144/589",
+        "1/2945"
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        8
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "13/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "-1"
+      ],
+      "left_coefficients": [
+        "1451/4481",
+        "1440/4481",
+        "105/4481",
+        "1440/4481",
+        "45/4481"
+      ],
+      "right_coefficients": [
+        "1440/4481",
+        "1494/4481",
+        "1540/4481",
+        "6/4481",
+        "1/4481"
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        9
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        0,
+        10
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        0,
+        11
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        0,
+        12
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        0,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        0,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        0,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "7",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "0"
+      ],
+      "left_coefficients": [
+        "1/496",
+        "15/62",
+        "65/248",
+        "15/62",
+        "125/496"
+      ],
+      "right_coefficients": [
+        "125/496",
+        "15/62",
+        "65/248",
+        "15/62",
+        "1/496"
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "6",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "0",
+        "-1/5"
+      ],
+      "left_coefficients": [
+        "1/589",
+        "144/589",
+        "153/589",
+        "144/589",
+        "147/589"
+      ],
+      "right_coefficients": [
+        "24/95",
+        "144/589",
+        "8/31",
+        "144/589",
+        "1/2945"
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "13/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "-1"
+      ],
+      "left_coefficients": [
+        "11/4481",
+        "1440/4481",
+        "1545/4481",
+        "1440/4481",
+        "45/4481"
+      ],
+      "right_coefficients": [
+        "1494/4481",
+        "1440/4481",
+        "1540/4481",
+        "6/4481",
+        "1/4481"
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        0,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "13/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "-1"
+      ],
+      "left_coefficients": [
+        "11/4481",
+        "1440/4481",
+        "105/4481",
+        "1440/4481",
+        "1485/4481"
+      ],
+      "right_coefficients": [
+        "1494/4481",
+        "1540/4481",
+        "1440/4481",
+        "6/4481",
+        "1/4481"
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        1,
+        2
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "1",
+        "-1/3"
+      ],
+      "left_coefficients": [
+        "181/730",
+        "18/73",
+        "75/292",
+        "18/73",
+        "3/1460"
+      ],
+      "right_coefficients": [
+        "18/73",
+        "369/1460",
+        "18/73",
+        "37/146",
+        "1/1460"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        3
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-7",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "1/10",
+        "0"
+      ],
+      "left_coefficients": [
+        "15/62",
+        "125/496",
+        "15/62",
+        "5/248",
+        "121/496"
+      ],
+      "right_coefficients": [
+        "121/496",
+        "15/62",
+        "65/248",
+        "5/496",
+        "15/62"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        4
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "41/10",
+        "-1"
+      ],
+      "left_coefficients": [
+        "45/137",
+        "363/1096",
+        "45/137",
+        "5/548",
+        "3/1096"
+      ],
+      "right_coefficients": [
+        "721/2192",
+        "45/137",
+        "735/2192",
+        "15/2192",
+        "1/2192"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        5
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        1,
+        6
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        1,
+        7
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "4",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "22/5",
+        "-1"
+      ],
+      "left_coefficients": [
+        "241/730",
+        "24/73",
+        "1/146",
+        "24/73",
+        "2/365"
+      ],
+      "right_coefficients": [
+        "24/73",
+        "122/365",
+        "24/73",
+        "1/146",
+        "1/730"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        8
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "1/5",
+        "-1/15"
+      ],
+      "left_coefficients": [
+        "181/730",
+        "18/73",
+        "3/292",
+        "18/73",
+        "363/1460"
+      ],
+      "right_coefficients": [
+        "18/73",
+        "369/1460",
+        "37/146",
+        "18/73",
+        "1/1460"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        9
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "7/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "22/5",
+        "-1"
+      ],
+      "left_coefficients": [
+        "289/878",
+        "144/439",
+        "3/878",
+        "2/439",
+        "147/439"
+      ],
+      "right_coefficients": [
+        "144/439",
+        "729/2195",
+        "9/878",
+        "144/439",
+        "7/4390"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        10
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-7",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "1/5",
+        "0"
+      ],
+      "left_coefficients": [
+        "15/62",
+        "5/496",
+        "15/62",
+        "65/248",
+        "121/496"
+      ],
+      "right_coefficients": [
+        "121/496",
+        "65/248",
+        "15/62",
+        "5/496",
+        "15/62"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        11
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "5",
+        "-1"
+      ],
+      "left_coefficients": [
+        "45/137",
+        "3/1096",
+        "45/137",
+        "185/548",
+        "3/1096"
+      ],
+      "right_coefficients": [
+        "721/2192",
+        "735/2192",
+        "45/137",
+        "15/2192",
+        "1/2192"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        12
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        1,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "5",
+        "-1"
+      ],
+      "left_coefficients": [
+        "45/137",
+        "3/1096",
+        "45/137",
+        "5/548",
+        "363/1096"
+      ],
+      "right_coefficients": [
+        "721/2192",
+        "735/2192",
+        "15/2192",
+        "45/137",
+        "1/2192"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        1,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        1,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "3",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "4",
+        "-1"
+      ],
+      "left_coefficients": [
+        "1/1100",
+        "18/55",
+        "18/55",
+        "37/110",
+        "9/1100"
+      ],
+      "right_coefficients": [
+        "33/100",
+        "18/55",
+        "18/55",
+        "3/220",
+        "1/550"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "3/2",
+        "-1/2"
+      ],
+      "left_coefficients": [
+        "1/730",
+        "18/73",
+        "75/292",
+        "18/73",
+        "363/1460"
+      ],
+      "right_coefficients": [
+        "369/1460",
+        "18/73",
+        "37/146",
+        "18/73",
+        "1/1460"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "9/2",
+        "-11/10"
+      ],
+      "left_coefficients": [
+        "1/1475",
+        "96/295",
+        "96/295",
+        "4/295",
+        "494/1475"
+      ],
+      "right_coefficients": [
+        "482/1475",
+        "97/295",
+        "1/59",
+        "96/295",
+        "3/1475"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "4",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "8",
+        "-9/5"
+      ],
+      "left_coefficients": [
+        "1/730",
+        "24/73",
+        "1/146",
+        "24/73",
+        "122/365"
+      ],
+      "right_coefficients": [
+        "122/365",
+        "24/73",
+        "1/146",
+        "24/73",
+        "1/730"
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "3/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "29",
+        "-6"
+      ],
+      "left_coefficients": [
+        "1/4481",
+        "6/4481",
+        "1440/4481",
+        "1540/4481",
+        "1494/4481"
+      ],
+      "right_coefficients": [
+        "1485/4481",
+        "1440/4481",
+        "105/4481",
+        "1440/4481",
+        "11/4481"
+      ]
+    },
+    {
+      "vertices": [
+        2,
+        3
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-11/2",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-14/5",
+        "1"
+      ],
+      "left_coefficients": [
+        "96/295",
+        "494/1475",
+        "96/295",
+        "4/295",
+        "1/1475"
+      ],
+      "right_coefficients": [
+        "483/1475",
+        "96/295",
+        "101/295",
+        "1/295",
+        "2/1475"
+      ]
+    },
+    {
+      "vertices": [
+        2,
+        4
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-6",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "0",
+        "1/40"
+      ],
+      "left_coefficients": [
+        "144/589",
+        "24/95",
+        "144/589",
+        "8/589",
+        "721/2945"
+      ],
+      "right_coefficients": [
+        "145/589",
+        "144/589",
+        "153/589",
+        "3/589",
+        "144/589"
+      ]
+    },
+    {
+      "vertices": [
+        2,
+        5
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-5",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-3/10",
+        "1/10"
+      ],
+      "left_coefficients": [
+        "18/73",
+        "369/1460",
+        "18/73",
+        "1/146",
+        "361/1460"
+      ],
+      "right_coefficients": [
+        "181/730",
+        "18/73",
+        "75/292",
+        "3/1460",
+        "18/73"
+      ]
+    },
+    {
+      "vertices": [
+        2,
+        6
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        2,
+        7
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        2,
+        8
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        2,
+        9
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        2,
+        10
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-11/2",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-14/5",
+        "1"
+      ],
+      "left_coefficients": [
+        "96/295",
+        "14/1475",
+        "96/295",
+        "20/59",
+        "1/1475"
+      ],
+      "right_coefficients": [
+        "483/1475",
+        "101/295",
+        "96/295",
+        "1/295",
+        "2/1475"
+      ]
+    },
+    {
+      "vertices": [
+        2,
+        11
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-6",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "0",
+        "1/24"
+      ],
+      "left_coefficients": [
+        "144/589",
+        "24/2945",
+        "144/589",
+        "8/31",
+        "721/2945"
+      ],
+      "right_coefficients": [
+        "145/589",
+        "153/589",
+        "144/589",
+        "3/589",
+        "144/589"
+      ]
+    },
+    {
+      "vertices": [
+        2,
+        12
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-5",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-1/3",
+        "1/9"
+      ],
+      "left_coefficients": [
+        "18/73",
+        "9/1460",
+        "18/73",
+        "37/146",
+        "361/1460"
+      ],
+      "right_coefficients": [
+        "181/730",
+        "75/292",
+        "18/73",
+        "3/1460",
+        "18/73"
+      ]
+    },
+    {
+      "vertices": [
+        2,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-11/2",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "2/5"
+      ],
+      "left_coefficients": [
+        "96/295",
+        "14/1475",
+        "96/295",
+        "4/295",
+        "481/1475"
+      ],
+      "right_coefficients": [
+        "483/1475",
+        "101/295",
+        "1/295",
+        "2/1475",
+        "96/295"
+      ]
+    },
+    {
+      "vertices": [
+        2,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        2,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        2,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        2,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        2,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        2,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        2,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        3,
+        4
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "4",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "1",
+        "-1/4"
+      ],
+      "left_coefficients": [
+        "241/970",
+        "24/97",
+        "49/194",
+        "24/97",
+        "2/485"
+      ],
+      "right_coefficients": [
+        "24/97",
+        "122/485",
+        "24/97",
+        "49/194",
+        "1/970"
+      ]
+    },
+    {
+      "vertices": [
+        3,
+        5
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        3,
+        6
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "7",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "-1/10",
+        "0"
+      ],
+      "left_coefficients": [
+        "121/496",
+        "15/62",
+        "5/248",
+        "125/496",
+        "15/62"
+      ],
+      "right_coefficients": [
+        "15/62",
+        "125/496",
+        "5/248",
+        "15/62",
+        "121/496"
+      ]
+    },
+    {
+      "vertices": [
+        3,
+        7
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "39/10",
+        "-1"
+      ],
+      "left_coefficients": [
+        "181/550",
+        "18/55",
+        "3/220",
+        "18/55",
+        "3/1100"
+      ],
+      "right_coefficients": [
+        "18/55",
+        "369/1100",
+        "1/110",
+        "18/55",
+        "1/1100"
+      ]
+    },
+    {
+      "vertices": [
+        3,
+        8
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "6",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "14/5",
+        "-1"
+      ],
+      "left_coefficients": [
+        "29/89",
+        "144/445",
+        "9/445",
+        "3/445",
+        "144/445"
+      ],
+      "right_coefficients": [
+        "144/445",
+        "744/2225",
+        "8/445",
+        "144/445",
+        "1/2225"
+      ]
+    },
+    {
+      "vertices": [
+        3,
+        9
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "4",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "4/5",
+        "-1/5"
+      ],
+      "left_coefficients": [
+        "241/970",
+        "24/97",
+        "1/194",
+        "24/97",
+        "122/485"
+      ],
+      "right_coefficients": [
+        "24/97",
+        "122/485",
+        "49/194",
+        "24/97",
+        "1/970"
+      ]
+    },
+    {
+      "vertices": [
+        3,
+        10
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        3,
+        11
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        3,
+        12
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        3,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        3,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        3,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "7",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "0"
+      ],
+      "left_coefficients": [
+        "1/496",
+        "15/62",
+        "65/248",
+        "125/496",
+        "15/62"
+      ],
+      "right_coefficients": [
+        "125/496",
+        "15/62",
+        "5/248",
+        "15/62",
+        "121/496"
+      ]
+    },
+    {
+      "vertices": [
+        3,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "39/10",
+        "-1"
+      ],
+      "left_coefficients": [
+        "1/550",
+        "18/55",
+        "15/44",
+        "18/55",
+        "3/1100"
+      ],
+      "right_coefficients": [
+        "369/1100",
+        "18/55",
+        "1/110",
+        "18/55",
+        "1/1100"
+      ]
+    },
+    {
+      "vertices": [
+        3,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "6",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "14/5",
+        "-1"
+      ],
+      "left_coefficients": [
+        "1/445",
+        "144/445",
+        "153/445",
+        "3/445",
+        "144/445"
+      ],
+      "right_coefficients": [
+        "744/2225",
+        "144/445",
+        "8/445",
+        "144/445",
+        "1/2225"
+      ]
+    },
+    {
+      "vertices": [
+        3,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "4",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "4",
+        "-1"
+      ],
+      "left_coefficients": [
+        "1/970",
+        "24/97",
+        "49/194",
+        "24/97",
+        "122/485"
+      ],
+      "right_coefficients": [
+        "122/485",
+        "24/97",
+        "49/194",
+        "24/97",
+        "1/970"
+      ]
+    },
+    {
+      "vertices": [
+        3,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "11/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "39/10",
+        "-1"
+      ],
+      "left_coefficients": [
+        "3/1475",
+        "96/295",
+        "1/59",
+        "97/295",
+        "482/1475"
+      ],
+      "right_coefficients": [
+        "494/1475",
+        "4/295",
+        "96/295",
+        "96/295",
+        "1/1475"
+      ]
+    },
+    {
+      "vertices": [
+        3,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        4,
+        5
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-4",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-4/5",
+        "1/5"
+      ],
+      "left_coefficients": [
+        "24/97",
+        "122/485",
+        "24/97",
+        "1/194",
+        "241/970"
+      ],
+      "right_coefficients": [
+        "241/970",
+        "24/97",
+        "49/194",
+        "2/485",
+        "24/97"
+      ]
+    },
+    {
+      "vertices": [
+        4,
+        6
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "-23/5",
+        "1"
+      ],
+      "left_coefficients": [
+        "721/2192",
+        "45/137",
+        "15/2192",
+        "735/2192",
+        "1/2192"
+      ],
+      "right_coefficients": [
+        "45/137",
+        "363/1096",
+        "5/548",
+        "45/137",
+        "3/1096"
+      ]
+    },
+    {
+      "vertices": [
+        4,
+        7
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "6",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "0",
+        "-1/45"
+      ],
+      "left_coefficients": [
+        "145/589",
+        "144/589",
+        "9/589",
+        "147/589",
+        "144/589"
+      ],
+      "right_coefficients": [
+        "144/589",
+        "24/95",
+        "8/589",
+        "144/589",
+        "721/2945"
+      ]
+    },
+    {
+      "vertices": [
+        4,
+        8
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "1/5"
+      ],
+      "left_coefficients": [
+        "721/2192",
+        "45/137",
+        "15/2192",
+        "15/2192",
+        "721/2192"
+      ],
+      "right_coefficients": [
+        "45/137",
+        "363/1096",
+        "5/548",
+        "3/1096",
+        "45/137"
+      ]
+    },
+    {
+      "vertices": [
+        4,
+        9
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        4,
+        10
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-3",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-23/5",
+        "1"
+      ],
+      "left_coefficients": [
+        "18/55",
+        "3/1100",
+        "18/55",
+        "15/44",
+        "1/550"
+      ],
+      "right_coefficients": [
+        "361/1100",
+        "18/55",
+        "1/110",
+        "18/55",
+        "9/1100"
+      ]
+    },
+    {
+      "vertices": [
+        4,
+        11
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        4,
+        12
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-3",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-8/5",
+        "3/8"
+      ],
+      "left_coefficients": [
+        "18/55",
+        "3/1100",
+        "18/55",
+        "3/220",
+        "181/550"
+      ],
+      "right_coefficients": [
+        "361/1100",
+        "18/55",
+        "1/110",
+        "9/1100",
+        "18/55"
+      ]
+    },
+    {
+      "vertices": [
+        4,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-4",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "1/4"
+      ],
+      "left_coefficients": [
+        "24/97",
+        "2/485",
+        "24/97",
+        "49/194",
+        "241/970"
+      ],
+      "right_coefficients": [
+        "241/970",
+        "49/194",
+        "24/97",
+        "2/485",
+        "24/97"
+      ]
+    },
+    {
+      "vertices": [
+        4,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-5/2",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-23/5",
+        "1"
+      ],
+      "left_coefficients": [
+        "96/295",
+        "2/1475",
+        "1/295",
+        "101/295",
+        "483/1475"
+      ],
+      "right_coefficients": [
+        "481/1475",
+        "4/295",
+        "96/295",
+        "14/1475",
+        "96/295"
+      ]
+    },
+    {
+      "vertices": [
+        4,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "-6",
+        "1"
+      ],
+      "left_coefficients": [
+        "1/2192",
+        "45/137",
+        "735/2192",
+        "735/2192",
+        "1/2192"
+      ],
+      "right_coefficients": [
+        "363/1096",
+        "45/137",
+        "5/548",
+        "45/137",
+        "3/1096"
+      ]
+    },
+    {
+      "vertices": [
+        4,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "6",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "0",
+        "-1/5"
+      ],
+      "left_coefficients": [
+        "1/589",
+        "144/589",
+        "153/589",
+        "147/589",
+        "144/589"
+      ],
+      "right_coefficients": [
+        "24/95",
+        "144/589",
+        "8/589",
+        "144/589",
+        "721/2945"
+      ]
+    },
+    {
+      "vertices": [
+        4,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "0"
+      ],
+      "left_coefficients": [
+        "1/2192",
+        "45/137",
+        "735/2192",
+        "15/2192",
+        "721/2192"
+      ],
+      "right_coefficients": [
+        "363/1096",
+        "45/137",
+        "5/548",
+        "3/1096",
+        "45/137"
+      ]
+    },
+    {
+      "vertices": [
+        4,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        4,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "0"
+      ],
+      "left_coefficients": [
+        "1/2192",
+        "45/137",
+        "15/2192",
+        "735/2192",
+        "721/2192"
+      ],
+      "right_coefficients": [
+        "363/1096",
+        "5/548",
+        "45/137",
+        "3/1096",
+        "45/137"
+      ]
+    },
+    {
+      "vertices": [
+        4,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        5,
+        6
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        5,
+        7
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "9/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "11/10",
+        "-3/10"
+      ],
+      "left_coefficients": [
+        "1447/4390",
+        "144/439",
+        "9/878",
+        "9/2195",
+        "144/439"
+      ],
+      "right_coefficients": [
+        "144/439",
+        "147/439",
+        "2/439",
+        "3/878",
+        "289/878"
+      ]
+    },
+    {
+      "vertices": [
+        5,
+        8
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "1/5",
+        "-1/15"
+      ],
+      "left_coefficients": [
+        "181/730",
+        "18/73",
+        "3/292",
+        "363/1460",
+        "18/73"
+      ],
+      "right_coefficients": [
+        "18/73",
+        "369/1460",
+        "1/146",
+        "18/73",
+        "361/1460"
+      ]
+    },
+    {
+      "vertices": [
+        5,
+        9
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "4",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "4/5",
+        "-1/5"
+      ],
+      "left_coefficients": [
+        "241/970",
+        "24/97",
+        "1/194",
+        "122/485",
+        "24/97"
+      ],
+      "right_coefficients": [
+        "24/97",
+        "122/485",
+        "1/194",
+        "24/97",
+        "241/970"
+      ]
+    },
+    {
+      "vertices": [
+        5,
+        10
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        5,
+        11
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        5,
+        12
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        5,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        5,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        5,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        5,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "9/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "7/2",
+        "-9/10"
+      ],
+      "left_coefficients": [
+        "7/4390",
+        "144/439",
+        "297/878",
+        "9/2195",
+        "144/439"
+      ],
+      "right_coefficients": [
+        "147/439",
+        "144/439",
+        "2/439",
+        "3/878",
+        "289/878"
+      ]
+    },
+    {
+      "vertices": [
+        5,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "3/2",
+        "-1/2"
+      ],
+      "left_coefficients": [
+        "1/730",
+        "18/73",
+        "75/292",
+        "363/1460",
+        "18/73"
+      ],
+      "right_coefficients": [
+        "369/1460",
+        "18/73",
+        "1/146",
+        "18/73",
+        "361/1460"
+      ]
+    },
+    {
+      "vertices": [
+        5,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "4",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "4",
+        "-1"
+      ],
+      "left_coefficients": [
+        "1/970",
+        "24/97",
+        "49/194",
+        "122/485",
+        "24/97"
+      ],
+      "right_coefficients": [
+        "122/485",
+        "24/97",
+        "1/194",
+        "24/97",
+        "241/970"
+      ]
+    },
+    {
+      "vertices": [
+        5,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "9/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "7/2",
+        "-9/10"
+      ],
+      "left_coefficients": [
+        "7/4390",
+        "144/439",
+        "9/878",
+        "729/2195",
+        "144/439"
+      ],
+      "right_coefficients": [
+        "147/439",
+        "2/439",
+        "3/878",
+        "144/439",
+        "289/878"
+      ]
+    },
+    {
+      "vertices": [
+        5,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        6,
+        7
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "3",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "1",
+        "-2/9"
+      ],
+      "left_coefficients": [
+        "361/1460",
+        "18/73",
+        "37/146",
+        "18/73",
+        "9/1460"
+      ],
+      "right_coefficients": [
+        "18/73",
+        "363/1460",
+        "18/73",
+        "75/292",
+        "1/730"
+      ]
+    },
+    {
+      "vertices": [
+        6,
+        8
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        6,
+        9
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "3",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "9/10",
+        "-1/5"
+      ],
+      "left_coefficients": [
+        "361/1460",
+        "18/73",
+        "1/146",
+        "18/73",
+        "369/1460"
+      ],
+      "right_coefficients": [
+        "18/73",
+        "363/1460",
+        "75/292",
+        "18/73",
+        "1/730"
+      ]
+    },
+    {
+      "vertices": [
+        6,
+        10
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-7",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "1/5",
+        "0"
+      ],
+      "left_coefficients": [
+        "15/62",
+        "5/496",
+        "65/248",
+        "15/62",
+        "121/496"
+      ],
+      "right_coefficients": [
+        "121/496",
+        "5/248",
+        "15/62",
+        "125/496",
+        "15/62"
+      ]
+    },
+    {
+      "vertices": [
+        6,
+        11
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "5",
+        "-1"
+      ],
+      "left_coefficients": [
+        "45/137",
+        "3/1096",
+        "185/548",
+        "45/137",
+        "3/1096"
+      ],
+      "right_coefficients": [
+        "721/2192",
+        "15/2192",
+        "45/137",
+        "735/2192",
+        "1/2192"
+      ]
+    },
+    {
+      "vertices": [
+        6,
+        12
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        6,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "5",
+        "-1"
+      ],
+      "left_coefficients": [
+        "45/137",
+        "3/1096",
+        "5/548",
+        "45/137",
+        "363/1096"
+      ],
+      "right_coefficients": [
+        "721/2192",
+        "15/2192",
+        "735/2192",
+        "45/137",
+        "1/2192"
+      ]
+    },
+    {
+      "vertices": [
+        6,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        6,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        6,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "10",
+        "-11/5"
+      ],
+      "left_coefficients": [
+        "1/2225",
+        "144/445",
+        "152/445",
+        "144/445",
+        "24/2225"
+      ],
+      "right_coefficients": [
+        "144/445",
+        "3/445",
+        "144/445",
+        "153/445",
+        "1/445"
+      ]
+    },
+    {
+      "vertices": [
+        6,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        6,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "10",
+        "-11/5"
+      ],
+      "left_coefficients": [
+        "1/2225",
+        "144/445",
+        "8/445",
+        "144/445",
+        "744/2225"
+      ],
+      "right_coefficients": [
+        "144/445",
+        "3/445",
+        "153/445",
+        "144/445",
+        "1/445"
+      ]
+    },
+    {
+      "vertices": [
+        6,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "3",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "9",
+        "-2"
+      ],
+      "left_coefficients": [
+        "1/1460",
+        "18/73",
+        "37/146",
+        "18/73",
+        "369/1460"
+      ],
+      "right_coefficients": [
+        "363/1460",
+        "18/73",
+        "75/292",
+        "18/73",
+        "1/730"
+      ]
+    },
+    {
+      "vertices": [
+        6,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "3/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "29",
+        "-6"
+      ],
+      "left_coefficients": [
+        "1/4481",
+        "6/4481",
+        "1540/4481",
+        "1440/4481",
+        "1494/4481"
+      ],
+      "right_coefficients": [
+        "45/4481",
+        "1440/4481",
+        "1545/4481",
+        "1440/4481",
+        "11/4481"
+      ]
+    },
+    {
+      "vertices": [
+        7,
+        8
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-3",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-3/5",
+        "2/15"
+      ],
+      "left_coefficients": [
+        "18/73",
+        "363/1460",
+        "18/73",
+        "3/292",
+        "181/730"
+      ],
+      "right_coefficients": [
+        "361/1460",
+        "18/73",
+        "37/146",
+        "9/1460",
+        "18/73"
+      ]
+    },
+    {
+      "vertices": [
+        7,
+        9
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        7,
+        10
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-9/2",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-22/5",
+        "1"
+      ],
+      "left_coefficients": [
+        "144/439",
+        "3/439",
+        "146/439",
+        "291/878",
+        "1/878"
+      ],
+      "right_coefficients": [
+        "1447/4390",
+        "9/878",
+        "144/439",
+        "144/439",
+        "9/2195"
+      ]
+    },
+    {
+      "vertices": [
+        7,
+        11
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-6",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "0",
+        "1/24"
+      ],
+      "left_coefficients": [
+        "144/589",
+        "24/2945",
+        "8/31",
+        "144/589",
+        "721/2945"
+      ],
+      "right_coefficients": [
+        "145/589",
+        "9/589",
+        "144/589",
+        "147/589",
+        "144/589"
+      ]
+    },
+    {
+      "vertices": [
+        7,
+        12
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-4",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-7/5",
+        "1/3"
+      ],
+      "left_coefficients": [
+        "24/73",
+        "2/365",
+        "24/73",
+        "1/146",
+        "241/730"
+      ],
+      "right_coefficients": [
+        "241/730",
+        "1/146",
+        "24/73",
+        "2/365",
+        "24/73"
+      ]
+    },
+    {
+      "vertices": [
+        7,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-5",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "11/40"
+      ],
+      "left_coefficients": [
+        "18/55",
+        "9/1100",
+        "1/110",
+        "18/55",
+        "361/1100"
+      ],
+      "right_coefficients": [
+        "181/550",
+        "3/220",
+        "18/55",
+        "3/1100",
+        "18/55"
+      ]
+    },
+    {
+      "vertices": [
+        7,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-3",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-3",
+        "2/3"
+      ],
+      "left_coefficients": [
+        "18/73",
+        "3/1460",
+        "18/73",
+        "75/292",
+        "181/730"
+      ],
+      "right_coefficients": [
+        "361/1460",
+        "37/146",
+        "18/73",
+        "9/1460",
+        "18/73"
+      ]
+    },
+    {
+      "vertices": [
+        7,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        7,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        7,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        7,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        7,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        7,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        8,
+        9
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "3",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "9/10",
+        "-1/5"
+      ],
+      "left_coefficients": [
+        "361/1460",
+        "18/73",
+        "1/146",
+        "369/1460",
+        "18/73"
+      ],
+      "right_coefficients": [
+        "18/73",
+        "363/1460",
+        "3/292",
+        "18/73",
+        "181/730"
+      ]
+    },
+    {
+      "vertices": [
+        8,
+        10
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-6",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-14/5",
+        "1"
+      ],
+      "left_coefficients": [
+        "144/445",
+        "24/2225",
+        "152/445",
+        "144/445",
+        "1/2225"
+      ],
+      "right_coefficients": [
+        "29/89",
+        "9/445",
+        "144/445",
+        "3/445",
+        "144/445"
+      ]
+    },
+    {
+      "vertices": [
+        8,
+        11
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "1",
+        "-1/6"
+      ],
+      "left_coefficients": [
+        "45/137",
+        "3/1096",
+        "185/548",
+        "3/1096",
+        "45/137"
+      ],
+      "right_coefficients": [
+        "721/2192",
+        "15/2192",
+        "45/137",
+        "15/2192",
+        "721/2192"
+      ]
+    },
+    {
+      "vertices": [
+        8,
+        12
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-5",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-1/3",
+        "1/9"
+      ],
+      "left_coefficients": [
+        "18/73",
+        "9/1460",
+        "37/146",
+        "18/73",
+        "361/1460"
+      ],
+      "right_coefficients": [
+        "181/730",
+        "3/292",
+        "18/73",
+        "363/1460",
+        "18/73"
+      ]
+    },
+    {
+      "vertices": [
+        8,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "1/5",
+        "0"
+      ],
+      "left_coefficients": [
+        "45/137",
+        "3/1096",
+        "5/548",
+        "363/1096",
+        "45/137"
+      ],
+      "right_coefficients": [
+        "721/2192",
+        "15/2192",
+        "15/2192",
+        "45/137",
+        "721/2192"
+      ]
+    },
+    {
+      "vertices": [
+        8,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        8,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        8,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "10",
+        "-11/5"
+      ],
+      "left_coefficients": [
+        "1/2225",
+        "144/445",
+        "152/445",
+        "24/2225",
+        "144/445"
+      ],
+      "right_coefficients": [
+        "144/445",
+        "3/445",
+        "144/445",
+        "9/445",
+        "29/89"
+      ]
+    },
+    {
+      "vertices": [
+        8,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        8,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "10",
+        "-11/5"
+      ],
+      "left_coefficients": [
+        "1/2225",
+        "144/445",
+        "8/445",
+        "744/2225",
+        "144/445"
+      ],
+      "right_coefficients": [
+        "144/445",
+        "3/445",
+        "9/445",
+        "144/445",
+        "29/89"
+      ]
+    },
+    {
+      "vertices": [
+        8,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "3",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "9",
+        "-2"
+      ],
+      "left_coefficients": [
+        "1/1460",
+        "18/73",
+        "37/146",
+        "369/1460",
+        "18/73"
+      ],
+      "right_coefficients": [
+        "363/1460",
+        "18/73",
+        "3/292",
+        "18/73",
+        "181/730"
+      ]
+    },
+    {
+      "vertices": [
+        8,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "3/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "29",
+        "-6"
+      ],
+      "left_coefficients": [
+        "1/4481",
+        "6/4481",
+        "1540/4481",
+        "1494/4481",
+        "1440/4481"
+      ],
+      "right_coefficients": [
+        "45/4481",
+        "1440/4481",
+        "105/4481",
+        "1440/4481",
+        "1451/4481"
+      ]
+    },
+    {
+      "vertices": [
+        9,
+        10
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-7/2",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-22/5",
+        "1"
+      ],
+      "left_coefficients": [
+        "144/439",
+        "9/2195",
+        "297/878",
+        "144/439",
+        "7/4390"
+      ],
+      "right_coefficients": [
+        "289/878",
+        "3/878",
+        "2/439",
+        "144/439",
+        "147/439"
+      ]
+    },
+    {
+      "vertices": [
+        9,
+        11
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        9,
+        12
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-7/2",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-17/10",
+        "2/5"
+      ],
+      "left_coefficients": [
+        "144/439",
+        "9/2195",
+        "9/878",
+        "144/439",
+        "1447/4390"
+      ],
+      "right_coefficients": [
+        "289/878",
+        "3/878",
+        "2/439",
+        "147/439",
+        "144/439"
+      ]
+    },
+    {
+      "vertices": [
+        9,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-4",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "1/4"
+      ],
+      "left_coefficients": [
+        "24/97",
+        "2/485",
+        "49/194",
+        "24/97",
+        "241/970"
+      ],
+      "right_coefficients": [
+        "241/970",
+        "1/194",
+        "24/97",
+        "122/485",
+        "24/97"
+      ]
+    },
+    {
+      "vertices": [
+        9,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-3",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-3",
+        "2/3"
+      ],
+      "left_coefficients": [
+        "18/73",
+        "3/1460",
+        "75/292",
+        "18/73",
+        "181/730"
+      ],
+      "right_coefficients": [
+        "361/1460",
+        "1/146",
+        "18/73",
+        "369/1460",
+        "18/73"
+      ]
+    },
+    {
+      "vertices": [
+        9,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        9,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        9,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        9,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        9,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        9,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        10,
+        11
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "1",
+        "-5/24"
+      ],
+      "left_coefficients": [
+        "721/2945",
+        "144/589",
+        "8/31",
+        "144/589",
+        "24/2945"
+      ],
+      "right_coefficients": [
+        "144/589",
+        "147/589",
+        "144/589",
+        "153/589",
+        "1/589"
+      ]
+    },
+    {
+      "vertices": [
+        10,
+        12
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        10,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "3/5",
+        "-1/8"
+      ],
+      "left_coefficients": [
+        "721/2945",
+        "144/589",
+        "8/589",
+        "144/589",
+        "24/95"
+      ],
+      "right_coefficients": [
+        "144/589",
+        "147/589",
+        "153/589",
+        "144/589",
+        "1/589"
+      ]
+    },
+    {
+      "vertices": [
+        10,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        10,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "7",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "0"
+      ],
+      "left_coefficients": [
+        "1/496",
+        "65/248",
+        "15/62",
+        "125/496",
+        "15/62"
+      ],
+      "right_coefficients": [
+        "5/496",
+        "15/62",
+        "65/248",
+        "15/62",
+        "121/496"
+      ]
+    },
+    {
+      "vertices": [
+        10,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "4",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "19",
+        "-4"
+      ],
+      "left_coefficients": [
+        "1/730",
+        "49/146",
+        "24/73",
+        "24/73",
+        "2/365"
+      ],
+      "right_coefficients": [
+        "2/365",
+        "24/73",
+        "24/73",
+        "49/146",
+        "1/730"
+      ]
+    },
+    {
+      "vertices": [
+        10,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "6",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "14/5",
+        "-1"
+      ],
+      "left_coefficients": [
+        "1/445",
+        "153/445",
+        "144/445",
+        "3/445",
+        "144/445"
+      ],
+      "right_coefficients": [
+        "24/2225",
+        "144/445",
+        "152/445",
+        "144/445",
+        "1/2225"
+      ]
+    },
+    {
+      "vertices": [
+        10,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "3",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "19",
+        "-4"
+      ],
+      "left_coefficients": [
+        "1/1100",
+        "18/55",
+        "1/110",
+        "18/55",
+        "369/1100"
+      ],
+      "right_coefficients": [
+        "3/1100",
+        "18/55",
+        "15/44",
+        "18/55",
+        "1/550"
+      ]
+    },
+    {
+      "vertices": [
+        10,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "8",
+        "-9/5"
+      ],
+      "left_coefficients": [
+        "1/550",
+        "3/220",
+        "18/55",
+        "18/55",
+        "33/100"
+      ],
+      "right_coefficients": [
+        "9/1100",
+        "37/110",
+        "18/55",
+        "18/55",
+        "1/1100"
+      ]
+    },
+    {
+      "vertices": [
+        10,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "24",
+        "-5"
+      ],
+      "left_coefficients": [
+        "1/2945",
+        "144/589",
+        "8/31",
+        "144/589",
+        "24/95"
+      ],
+      "right_coefficients": [
+        "147/589",
+        "144/589",
+        "153/589",
+        "144/589",
+        "1/589"
+      ]
+    },
+    {
+      "vertices": [
+        11,
+        12
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-2",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-8/15",
+        "1/9"
+      ],
+      "left_coefficients": [
+        "144/589",
+        "147/589",
+        "144/589",
+        "9/589",
+        "145/589"
+      ],
+      "right_coefficients": [
+        "721/2945",
+        "144/589",
+        "8/31",
+        "24/2945",
+        "144/589"
+      ]
+    },
+    {
+      "vertices": [
+        11,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        11,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-2",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-8/5",
+        "1/3"
+      ],
+      "left_coefficients": [
+        "144/589",
+        "3/589",
+        "144/589",
+        "153/589",
+        "145/589"
+      ],
+      "right_coefficients": [
+        "721/2945",
+        "8/31",
+        "144/589",
+        "24/2945",
+        "144/589"
+      ]
+    },
+    {
+      "vertices": [
+        11,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "-6",
+        "1"
+      ],
+      "left_coefficients": [
+        "1/2192",
+        "735/2192",
+        "45/137",
+        "735/2192",
+        "1/2192"
+      ],
+      "right_coefficients": [
+        "3/1096",
+        "45/137",
+        "185/548",
+        "45/137",
+        "3/1096"
+      ]
+    },
+    {
+      "vertices": [
+        11,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "6",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "0",
+        "-1/5"
+      ],
+      "left_coefficients": [
+        "1/589",
+        "153/589",
+        "144/589",
+        "147/589",
+        "144/589"
+      ],
+      "right_coefficients": [
+        "24/2945",
+        "144/589",
+        "8/31",
+        "144/589",
+        "721/2945"
+      ]
+    },
+    {
+      "vertices": [
+        11,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "0"
+      ],
+      "left_coefficients": [
+        "1/2192",
+        "735/2192",
+        "45/137",
+        "15/2192",
+        "721/2192"
+      ],
+      "right_coefficients": [
+        "3/1096",
+        "45/137",
+        "185/548",
+        "3/1096",
+        "45/137"
+      ]
+    },
+    {
+      "vertices": [
+        11,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        11,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "0"
+      ],
+      "left_coefficients": [
+        "1/2192",
+        "15/2192",
+        "45/137",
+        "735/2192",
+        "721/2192"
+      ],
+      "right_coefficients": [
+        "3/1096",
+        "185/548",
+        "45/137",
+        "3/1096",
+        "45/137"
+      ]
+    },
+    {
+      "vertices": [
+        11,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        12,
+        13
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "3/5",
+        "-1/8"
+      ],
+      "left_coefficients": [
+        "721/2945",
+        "144/589",
+        "8/589",
+        "24/95",
+        "144/589"
+      ],
+      "right_coefficients": [
+        "144/589",
+        "147/589",
+        "9/589",
+        "144/589",
+        "145/589"
+      ]
+    },
+    {
+      "vertices": [
+        12,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        12,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        12,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "7/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "19",
+        "-4"
+      ],
+      "left_coefficients": [
+        "1/878",
+        "291/878",
+        "146/439",
+        "3/439",
+        "144/439"
+      ],
+      "right_coefficients": [
+        "9/2195",
+        "144/439",
+        "144/439",
+        "9/878",
+        "1447/4390"
+      ]
+    },
+    {
+      "vertices": [
+        12,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "3/2",
+        "-1/2"
+      ],
+      "left_coefficients": [
+        "1/730",
+        "75/292",
+        "18/73",
+        "363/1460",
+        "18/73"
+      ],
+      "right_coefficients": [
+        "9/1460",
+        "18/73",
+        "37/146",
+        "18/73",
+        "361/1460"
+      ]
+    },
+    {
+      "vertices": [
+        12,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "3",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "19",
+        "-4"
+      ],
+      "left_coefficients": [
+        "1/1100",
+        "18/55",
+        "1/110",
+        "369/1100",
+        "18/55"
+      ],
+      "right_coefficients": [
+        "3/1100",
+        "18/55",
+        "3/220",
+        "18/55",
+        "181/550"
+      ]
+    },
+    {
+      "vertices": [
+        12,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "4",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "8",
+        "-9/5"
+      ],
+      "left_coefficients": [
+        "1/730",
+        "1/146",
+        "24/73",
+        "122/365",
+        "24/73"
+      ],
+      "right_coefficients": [
+        "2/365",
+        "24/73",
+        "1/146",
+        "24/73",
+        "241/730"
+      ]
+    },
+    {
+      "vertices": [
+        12,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "24",
+        "-5"
+      ],
+      "left_coefficients": [
+        "1/2945",
+        "144/589",
+        "8/31",
+        "24/95",
+        "144/589"
+      ],
+      "right_coefficients": [
+        "147/589",
+        "144/589",
+        "9/589",
+        "144/589",
+        "145/589"
+      ]
+    },
+    {
+      "vertices": [
+        13,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-2",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-8/5",
+        "1/3"
+      ],
+      "left_coefficients": [
+        "144/589",
+        "3/589",
+        "153/589",
+        "144/589",
+        "145/589"
+      ],
+      "right_coefficients": [
+        "721/2945",
+        "8/589",
+        "144/589",
+        "24/95",
+        "144/589"
+      ]
+    },
+    {
+      "vertices": [
+        13,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "-6",
+        "1"
+      ],
+      "left_coefficients": [
+        "1/2192",
+        "735/2192",
+        "735/2192",
+        "45/137",
+        "1/2192"
+      ],
+      "right_coefficients": [
+        "3/1096",
+        "45/137",
+        "5/548",
+        "45/137",
+        "363/1096"
+      ]
+    },
+    {
+      "vertices": [
+        13,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "7/2",
+        "-9/10"
+      ],
+      "left_coefficients": [
+        "1/550",
+        "15/44",
+        "18/55",
+        "3/1100",
+        "18/55"
+      ],
+      "right_coefficients": [
+        "9/1100",
+        "18/55",
+        "1/110",
+        "18/55",
+        "361/1100"
+      ]
+    },
+    {
+      "vertices": [
+        13,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "1",
+        "-2/5"
+      ],
+      "left_coefficients": [
+        "1/2192",
+        "735/2192",
+        "15/2192",
+        "45/137",
+        "721/2192"
+      ],
+      "right_coefficients": [
+        "3/1096",
+        "45/137",
+        "5/548",
+        "363/1096",
+        "45/137"
+      ]
+    },
+    {
+      "vertices": [
+        13,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "4",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "4",
+        "-1"
+      ],
+      "left_coefficients": [
+        "1/970",
+        "49/194",
+        "24/97",
+        "122/485",
+        "24/97"
+      ],
+      "right_coefficients": [
+        "2/485",
+        "24/97",
+        "49/194",
+        "24/97",
+        "241/970"
+      ]
+    },
+    {
+      "vertices": [
+        13,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "0"
+      ],
+      "independent_kernel_parameters": [
+        "7/2",
+        "-9/10"
+      ],
+      "left_coefficients": [
+        "1/2192",
+        "15/2192",
+        "735/2192",
+        "45/137",
+        "721/2192"
+      ],
+      "right_coefficients": [
+        "3/1096",
+        "5/548",
+        "45/137",
+        "363/1096",
+        "45/137"
+      ]
+    },
+    {
+      "vertices": [
+        13,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        14,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        14,
+        16
+      ],
+      "simplex_supports": [
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "19",
+        "-4"
+      ],
+      "left_coefficients": [
+        "1/1475",
+        "20/59",
+        "96/295",
+        "14/1475",
+        "96/295"
+      ],
+      "right_coefficients": [
+        "2/1475",
+        "1/295",
+        "96/295",
+        "101/295",
+        "483/1475"
+      ]
+    },
+    {
+      "vertices": [
+        14,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        14,
+        18
+      ],
+      "simplex_supports": [
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "5/2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "19",
+        "-4"
+      ],
+      "left_coefficients": [
+        "1/1475",
+        "4/295",
+        "96/295",
+        "494/1475",
+        "96/295"
+      ],
+      "right_coefficients": [
+        "2/1475",
+        "1/295",
+        "101/295",
+        "96/295",
+        "483/1475"
+      ]
+    },
+    {
+      "vertices": [
+        14,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "3",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "9",
+        "-2"
+      ],
+      "left_coefficients": [
+        "1/1460",
+        "37/146",
+        "18/73",
+        "369/1460",
+        "18/73"
+      ],
+      "right_coefficients": [
+        "3/1460",
+        "18/73",
+        "75/292",
+        "18/73",
+        "181/730"
+      ]
+    },
+    {
+      "vertices": [
+        14,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "2",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "24",
+        "-5"
+      ],
+      "left_coefficients": [
+        "1/2945",
+        "8/31",
+        "144/589",
+        "24/95",
+        "144/589"
+      ],
+      "right_coefficients": [
+        "3/589",
+        "144/589",
+        "153/589",
+        "144/589",
+        "145/589"
+      ]
+    },
+    {
+      "vertices": [
+        15,
+        16
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "1",
+        "-1/5"
+      ],
+      "left_coefficients": [
+        "121/496",
+        "15/62",
+        "65/248",
+        "15/62",
+        "5/496"
+      ],
+      "right_coefficients": [
+        "15/62",
+        "125/496",
+        "15/62",
+        "65/248",
+        "1/496"
+      ]
+    },
+    {
+      "vertices": [
+        15,
+        17
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        15,
+        18
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "1/2",
+        "-1/10"
+      ],
+      "left_coefficients": [
+        "121/496",
+        "15/62",
+        "5/248",
+        "15/62",
+        "125/496"
+      ],
+      "right_coefficients": [
+        "15/62",
+        "125/496",
+        "65/248",
+        "15/62",
+        "1/496"
+      ]
+    },
+    {
+      "vertices": [
+        15,
+        19
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        15,
+        20
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "5",
+        "-1"
+      ],
+      "left_coefficients": [
+        "1/496",
+        "15/62",
+        "65/248",
+        "15/62",
+        "125/496"
+      ],
+      "right_coefficients": [
+        "125/496",
+        "15/62",
+        "65/248",
+        "15/62",
+        "1/496"
+      ]
+    },
+    {
+      "vertices": [
+        16,
+        17
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-1",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-1/2",
+        "1/10"
+      ],
+      "left_coefficients": [
+        "15/62",
+        "125/496",
+        "15/62",
+        "5/248",
+        "121/496"
+      ],
+      "right_coefficients": [
+        "121/496",
+        "15/62",
+        "65/248",
+        "5/496",
+        "15/62"
+      ]
+    },
+    {
+      "vertices": [
+        16,
+        18
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        16,
+        19
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-1",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "1/5"
+      ],
+      "left_coefficients": [
+        "15/62",
+        "5/496",
+        "15/62",
+        "65/248",
+        "121/496"
+      ],
+      "right_coefficients": [
+        "121/496",
+        "65/248",
+        "15/62",
+        "5/496",
+        "15/62"
+      ]
+    },
+    {
+      "vertices": [
+        16,
+        20
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        17,
+        18
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "1/2",
+        "-1/10"
+      ],
+      "left_coefficients": [
+        "121/496",
+        "15/62",
+        "5/248",
+        "125/496",
+        "15/62"
+      ],
+      "right_coefficients": [
+        "15/62",
+        "125/496",
+        "5/248",
+        "15/62",
+        "121/496"
+      ]
+    },
+    {
+      "vertices": [
+        17,
+        19
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        17,
+        20
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "5",
+        "-1"
+      ],
+      "left_coefficients": [
+        "1/496",
+        "15/62",
+        "65/248",
+        "125/496",
+        "15/62"
+      ],
+      "right_coefficients": [
+        "125/496",
+        "15/62",
+        "5/248",
+        "15/62",
+        "121/496"
+      ]
+    },
+    {
+      "vertices": [
+        18,
+        19
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "-1",
+        "1"
+      ],
+      "independent_kernel_parameters": [
+        "-1",
+        "1/5"
+      ],
+      "left_coefficients": [
+        "15/62",
+        "5/496",
+        "65/248",
+        "15/62",
+        "121/496"
+      ],
+      "right_coefficients": [
+        "121/496",
+        "5/248",
+        "15/62",
+        "125/496",
+        "15/62"
+      ]
+    },
+    {
+      "vertices": [
+        18,
+        20
+      ],
+      "simplex_supports": [
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": true,
+      "independent_exact_LP_agrees": true
+    },
+    {
+      "vertices": [
+        19,
+        20
+      ],
+      "simplex_supports": [
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "open_interiors_disjoint": false,
+      "independent_exact_LP_agrees": true,
+      "gale_affine_coefficients": [
+        "1",
+        "-1"
+      ],
+      "independent_kernel_parameters": [
+        "5",
+        "-1"
+      ],
+      "left_coefficients": [
+        "1/496",
+        "65/248",
+        "15/62",
+        "125/496",
+        "15/62"
+      ],
+      "right_coefficients": [
+        "5/496",
+        "15/62",
+        "65/248",
+        "15/62",
+        "121/496"
+      ]
+    }
+  ],
+  "maximal_clique_algorithms_agree": true,
+  "all_clique_size_histogram": {
+    "0": 1,
+    "1": 21,
+    "2": 84,
+    "3": 133,
+    "4": 105,
+    "5": 42,
+    "6": 7
+  },
+  "all_Z_complete_tiling_count": 7,
+  "complete_tilings": [
+    {
+      "id": "n7-C00",
+      "simplex_vertex_indices": [
+        0,
+        3,
+        5,
+        10,
+        12,
+        14
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "affine_cells": [
+        [
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          7
+        ],
+        [
+          3,
+          4,
+          6,
+          5,
+          7,
+          9,
+          8
+        ],
+        [
+          3,
+          4,
+          6,
+          7,
+          5,
+          8,
+          9
+        ],
+        [
+          4,
+          3,
+          5,
+          6,
+          7,
+          9,
+          8
+        ],
+        [
+          4,
+          3,
+          5,
+          7,
+          6,
+          8,
+          9
+        ],
+        [
+          4,
+          5,
+          3,
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "tile_count": 6,
+      "known_BCFW_tiling_id": "n7-T06",
+      "BCFW_dihedral_actions": [
+        {
+          "reflected": false,
+          "shift": 6,
+          "label_image": [
+            7,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "reflected": true,
+          "shift": 4,
+          "label_image": [
+            3,
+            2,
+            1,
+            7,
+            6,
+            5,
+            4
+          ]
+        }
+      ],
+      "existence_scope": "ALL_Z_SOURCE_VERIFIED_BCFW",
+      "completeness_scope": "ALL_Z_BY_PARITY_AND_EXACT_FIXED_MATRIX_EXCLUSION"
+    },
+    {
+      "id": "n7-C01",
+      "simplex_vertex_indices": [
+        0,
+        3,
+        5,
+        11,
+        13,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "affine_cells": [
+        [
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          7
+        ],
+        [
+          3,
+          4,
+          6,
+          5,
+          7,
+          9,
+          8
+        ],
+        [
+          3,
+          4,
+          6,
+          7,
+          5,
+          8,
+          9
+        ],
+        [
+          4,
+          2,
+          5,
+          6,
+          7,
+          8,
+          10
+        ],
+        [
+          4,
+          3,
+          5,
+          6,
+          8,
+          7,
+          9
+        ],
+        [
+          4,
+          3,
+          6,
+          5,
+          7,
+          8,
+          9
+        ]
+      ],
+      "tile_count": 6,
+      "known_BCFW_tiling_id": "n7-T05",
+      "BCFW_dihedral_actions": [
+        {
+          "reflected": false,
+          "shift": 1,
+          "label_image": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            1
+          ]
+        },
+        {
+          "reflected": true,
+          "shift": 6,
+          "label_image": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            7,
+            6
+          ]
+        }
+      ],
+      "existence_scope": "ALL_Z_SOURCE_VERIFIED_BCFW",
+      "completeness_scope": "ALL_Z_BY_PARITY_AND_EXACT_FIXED_MATRIX_EXCLUSION"
+    },
+    {
+      "id": "n7-C02",
+      "simplex_vertex_indices": [
+        0,
+        4,
+        9,
+        11,
+        18,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          7
+        ],
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "affine_cells": [
+        [
+          2,
+          4,
+          6,
+          5,
+          7,
+          8,
+          10
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          7
+        ],
+        [
+          3,
+          4,
+          6,
+          5,
+          8,
+          7,
+          9
+        ],
+        [
+          3,
+          5,
+          6,
+          4,
+          7,
+          8,
+          9
+        ],
+        [
+          4,
+          2,
+          5,
+          6,
+          7,
+          8,
+          10
+        ],
+        [
+          4,
+          3,
+          5,
+          6,
+          8,
+          7,
+          9
+        ]
+      ],
+      "tile_count": 6,
+      "known_BCFW_tiling_id": "n7-T04",
+      "BCFW_dihedral_actions": [
+        {
+          "reflected": false,
+          "shift": 3,
+          "label_image": [
+            4,
+            5,
+            6,
+            7,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "reflected": true,
+          "shift": 1,
+          "label_image": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ]
+        }
+      ],
+      "existence_scope": "ALL_Z_SOURCE_VERIFIED_BCFW",
+      "completeness_scope": "ALL_Z_BY_PARITY_AND_EXACT_FIXED_MATRIX_EXCLUSION"
+    },
+    {
+      "id": "n7-C03",
+      "simplex_vertex_indices": [
+        1,
+        5,
+        6,
+        12,
+        14,
+        15
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "affine_cells": [
+        [
+          1,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10
+        ],
+        [
+          3,
+          4,
+          5,
+          7,
+          6,
+          9,
+          8
+        ],
+        [
+          3,
+          4,
+          6,
+          7,
+          5,
+          8,
+          9
+        ],
+        [
+          3,
+          5,
+          4,
+          6,
+          7,
+          9,
+          8
+        ],
+        [
+          4,
+          3,
+          5,
+          7,
+          6,
+          8,
+          9
+        ],
+        [
+          4,
+          5,
+          3,
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "tile_count": 6,
+      "known_BCFW_tiling_id": "n7-T02",
+      "BCFW_dihedral_actions": [
+        {
+          "reflected": false,
+          "shift": 4,
+          "label_image": [
+            5,
+            6,
+            7,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "reflected": true,
+          "shift": 2,
+          "label_image": [
+            1,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ]
+        }
+      ],
+      "existence_scope": "ALL_Z_SOURCE_VERIFIED_BCFW",
+      "completeness_scope": "ALL_Z_BY_PARITY_AND_EXACT_FIXED_MATRIX_EXCLUSION"
+    },
+    {
+      "id": "n7-C04",
+      "simplex_vertex_indices": [
+        2,
+        6,
+        8,
+        14,
+        15,
+        17
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "affine_cells": [
+        [
+          1,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10
+        ],
+        [
+          2,
+          4,
+          5,
+          7,
+          6,
+          8,
+          10
+        ],
+        [
+          3,
+          4,
+          5,
+          7,
+          8,
+          6,
+          9
+        ],
+        [
+          3,
+          5,
+          4,
+          6,
+          7,
+          9,
+          8
+        ],
+        [
+          3,
+          5,
+          4,
+          7,
+          6,
+          8,
+          9
+        ],
+        [
+          4,
+          5,
+          3,
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "tile_count": 6,
+      "known_BCFW_tiling_id": "n7-T01",
+      "BCFW_dihedral_actions": [
+        {
+          "reflected": false,
+          "shift": 2,
+          "label_image": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            1,
+            2
+          ]
+        },
+        {
+          "reflected": true,
+          "shift": 0,
+          "label_image": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            7
+          ]
+        }
+      ],
+      "existence_scope": "ALL_Z_SOURCE_VERIFIED_BCFW",
+      "completeness_scope": "ALL_Z_BY_PARITY_AND_EXACT_FIXED_MATRIX_EXCLUSION"
+    },
+    {
+      "id": "n7-C05",
+      "simplex_vertex_indices": [
+        2,
+        7,
+        9,
+        15,
+        17,
+        19
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "affine_cells": [
+        [
+          1,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10
+        ],
+        [
+          2,
+          4,
+          5,
+          7,
+          6,
+          8,
+          10
+        ],
+        [
+          2,
+          5,
+          4,
+          6,
+          7,
+          8,
+          10
+        ],
+        [
+          3,
+          4,
+          5,
+          7,
+          8,
+          6,
+          9
+        ],
+        [
+          3,
+          5,
+          4,
+          6,
+          8,
+          7,
+          9
+        ],
+        [
+          3,
+          5,
+          6,
+          4,
+          7,
+          8,
+          9
+        ]
+      ],
+      "tile_count": 6,
+      "known_BCFW_tiling_id": "n7-T00",
+      "BCFW_dihedral_actions": [
+        {
+          "reflected": false,
+          "shift": 0,
+          "label_image": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "reflected": true,
+          "shift": 5,
+          "label_image": [
+            4,
+            3,
+            2,
+            1,
+            7,
+            6,
+            5
+          ]
+        }
+      ],
+      "existence_scope": "ALL_Z_SOURCE_VERIFIED_BCFW",
+      "completeness_scope": "ALL_Z_BY_PARITY_AND_EXACT_FIXED_MATRIX_EXCLUSION"
+    },
+    {
+      "id": "n7-C06",
+      "simplex_vertex_indices": [
+        2,
+        7,
+        9,
+        16,
+        18,
+        20
+      ],
+      "simplex_supports": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "affine_cells": [
+        [
+          2,
+          4,
+          5,
+          6,
+          8,
+          7,
+          10
+        ],
+        [
+          2,
+          4,
+          6,
+          5,
+          7,
+          8,
+          10
+        ],
+        [
+          3,
+          4,
+          5,
+          7,
+          8,
+          6,
+          9
+        ],
+        [
+          3,
+          5,
+          4,
+          6,
+          8,
+          7,
+          9
+        ],
+        [
+          3,
+          5,
+          6,
+          4,
+          7,
+          8,
+          9
+        ],
+        [
+          4,
+          2,
+          5,
+          6,
+          7,
+          8,
+          10
+        ]
+      ],
+      "tile_count": 6,
+      "known_BCFW_tiling_id": "n7-T03",
+      "BCFW_dihedral_actions": [
+        {
+          "reflected": false,
+          "shift": 5,
+          "label_image": [
+            6,
+            7,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "reflected": true,
+          "shift": 3,
+          "label_image": [
+            2,
+            1,
+            7,
+            6,
+            5,
+            4,
+            3
+          ]
+        }
+      ],
+      "existence_scope": "ALL_Z_SOURCE_VERIFIED_BCFW",
+      "completeness_scope": "ALL_Z_BY_PARITY_AND_EXACT_FIXED_MATRIX_EXCLUSION"
+    }
+  ],
+  "genuine_local_flip_graph": {
+    "vertices": [
+      "n7-C00",
+      "n7-C01",
+      "n7-C02",
+      "n7-C03",
+      "n7-C04",
+      "n7-C05",
+      "n7-C06"
+    ],
+    "edges": [
+      {
+        "tilings": [
+          "n7-C00",
+          "n7-C01"
+        ],
+        "local_relation_ids": [
+          "n7-P000"
+        ],
+        "replacement_size": [
+          3,
+          3
+        ],
+        "geometric_certification": "RUN4_ALL_Z_MULTIPLICITY_ONE_PARENT_FLIP"
+      },
+      {
+        "tilings": [
+          "n7-C00",
+          "n7-C03"
+        ],
+        "local_relation_ids": [
+          "n7-P006"
+        ],
+        "replacement_size": [
+          3,
+          3
+        ],
+        "geometric_certification": "RUN4_ALL_Z_MULTIPLICITY_ONE_PARENT_FLIP"
+      },
+      {
+        "tilings": [
+          "n7-C01",
+          "n7-C02"
+        ],
+        "local_relation_ids": [
+          "n7-P002"
+        ],
+        "replacement_size": [
+          3,
+          3
+        ],
+        "geometric_certification": "RUN4_ALL_Z_MULTIPLICITY_ONE_PARENT_FLIP"
+      },
+      {
+        "tilings": [
+          "n7-C02",
+          "n7-C06"
+        ],
+        "local_relation_ids": [
+          "n7-P004"
+        ],
+        "replacement_size": [
+          3,
+          3
+        ],
+        "geometric_certification": "RUN4_ALL_Z_MULTIPLICITY_ONE_PARENT_FLIP"
+      },
+      {
+        "tilings": [
+          "n7-C03",
+          "n7-C04"
+        ],
+        "local_relation_ids": [
+          "n7-P003"
+        ],
+        "replacement_size": [
+          3,
+          3
+        ],
+        "geometric_certification": "RUN4_ALL_Z_MULTIPLICITY_ONE_PARENT_FLIP"
+      },
+      {
+        "tilings": [
+          "n7-C04",
+          "n7-C05"
+        ],
+        "local_relation_ids": [
+          "n7-P001"
+        ],
+        "replacement_size": [
+          3,
+          3
+        ],
+        "geometric_certification": "RUN4_ALL_Z_MULTIPLICITY_ONE_PARENT_FLIP"
+      },
+      {
+        "tilings": [
+          "n7-C05",
+          "n7-C06"
+        ],
+        "local_relation_ids": [
+          "n7-P005"
+        ],
+        "replacement_size": [
+          3,
+          3
+        ],
+        "geometric_certification": "RUN4_ALL_Z_MULTIPLICITY_ONE_PARENT_FLIP"
+      }
+    ],
+    "degree_by_vertex": {
+      "n7-C00": 2,
+      "n7-C01": 2,
+      "n7-C02": 2,
+      "n7-C03": 2,
+      "n7-C04": 2,
+      "n7-C05": 2,
+      "n7-C06": 2
+    },
+    "connected": true,
+    "graph_type": "C7"
+  },
+  "linear_algebra": {
+    "column_affine_permutations": [
+      [
+        1,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      [
+        2,
+        4,
+        5,
+        6,
+        8,
+        7,
+        10
+      ],
+      [
+        2,
+        4,
+        5,
+        7,
+        6,
+        8,
+        10
+      ],
+      [
+        2,
+        4,
+        6,
+        5,
+        7,
+        8,
+        10
+      ],
+      [
+        2,
+        5,
+        4,
+        6,
+        7,
+        8,
+        10
+      ],
+      [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        7
+      ],
+      [
+        3,
+        4,
+        5,
+        7,
+        6,
+        9,
+        8
+      ],
+      [
+        3,
+        4,
+        5,
+        7,
+        8,
+        6,
+        9
+      ],
+      [
+        3,
+        4,
+        6,
+        5,
+        7,
+        9,
+        8
+      ],
+      [
+        3,
+        4,
+        6,
+        5,
+        8,
+        7,
+        9
+      ],
+      [
+        3,
+        4,
+        6,
+        7,
+        5,
+        8,
+        9
+      ],
+      [
+        3,
+        5,
+        4,
+        6,
+        7,
+        9,
+        8
+      ],
+      [
+        3,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9
+      ],
+      [
+        3,
+        5,
+        4,
+        7,
+        6,
+        8,
+        9
+      ],
+      [
+        3,
+        5,
+        6,
+        4,
+        7,
+        8,
+        9
+      ],
+      [
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      [
+        4,
+        3,
+        5,
+        6,
+        7,
+        9,
+        8
+      ],
+      [
+        4,
+        3,
+        5,
+        6,
+        8,
+        7,
+        9
+      ],
+      [
+        4,
+        3,
+        5,
+        7,
+        6,
+        8,
+        9
+      ],
+      [
+        4,
+        3,
+        6,
+        5,
+        7,
+        8,
+        9
+      ],
+      [
+        4,
+        5,
+        3,
+        6,
+        7,
+        8,
+        9
+      ]
+    ],
+    "all_pair_tiling_differences": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        1
+      ],
+      [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        -1,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        -1,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      [
+        -1,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        -1
+      ],
+      [
+        -1,
+        0,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        -1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        -1
+      ],
+      [
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        -1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        -1
+      ],
+      [
+        -1,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1,
+        0,
+        -1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        -1,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "D7_rank_over_Q": 6,
+    "L7_rank_over_Q": 6,
+    "stacked_rank_over_Q": 6,
+    "D7_equals_L7": true,
+    "free_tile_space_mod_local_relations_dimension": 15,
+    "local_matrix_reference": "results/run5/local_relation_matrix_n7.json",
+    "scope": "D7 is the complete all-Z tiling-difference space; L7 is the full Run4 single-parent span. No assertion about every abstract indicator relation."
+  }
+}

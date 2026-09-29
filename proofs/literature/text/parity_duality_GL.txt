@@ -1,0 +1,2455 @@
+===== PDF PAGE 1 =====
+                     PARITY  DUALITY  FOR  THE  AMPLITUHEDRON
+
+
+                                         PAVEL GALASHIN AND THOMAS LAM
+
+
+          Abstract.  The (tree) amplituhedronAn,k,m(Z) is a certain subset of the Grassmannian
+          introduced  by  Arkani-Hamed  and  Trnka  in  2013  in  order  to  study  scattering  amplitudes
+          in N  = 4 supersymmetric Yang-Mills theory.  Conﬁrming a conjecture of the ﬁrst author,
+          we show that when m is even, a collection of aﬃne permutations yields a triangulation of
+          An,k,m(Z) for any Z∈ Gr>0(k + m, n) if and only if the collection of their inverses yields
+          a triangulation ofAn,n−m−k,m(Z) for any Z∈ Gr>0(n− k, n).  We prove this duality using
+          the  twist  map  of  Marsh  and  Scott.   We  also  show  that  this  map  preserves  the  canonical
+          diﬀerential  forms  associated  with  the  corresponding  positroid  cells,  and  hence  obtain  a
+          parity duality for amplituhedron diﬀerential forms.
+
+
+
+                                                            Contents
+   1.    Introduction                                                                                                                1
+   2.    The totally nonnegative Grassmannian                                                                       3
+   3.    Triangulations of amplituhedra                                                                                   4
+   4.    The stacked twist map                                                                                                7
+   5.    The canonical form                                                                                                    10
+   6.    Examples                                                                                                                   13
+   7.    Subdivisions and the universal amplituhedron                                                          18
+   8.    The amplituhedron form                                                                                           21
+   9.    The interior of the amplituhedron                                                                             28
+   10.    The stacked twist map:  proofs                                                                                29
+   11.    The canonical form:  proofs                                                                                      34
+   12.    The amplituhedron form:  proofs                                                                             42
+   13.    Open questions and future directions                                                                      45
+   References                                                                                                                        50
+
+
+
+                                                      1.  Introduction
+1.1.  The  amplituhedron  and  its  triangulations.  The  amplituhedronAn,k,m(Z)  is  a
+remarkable compact subspace of the real Grassmannian Gr(k,k +m) that was introduced
+by  Arkani-Hamed  and  Trnka  [AHT14]  in  order  to  give  a  geometric  basis  for  computing
+scattering  amplitudes  in N  =  4  super  Yang-Mills  theory.   It  is  deﬁned  to  be  the  image
+of Postnikov’s totally nonnegative Grassmannian Gr≥0(k,n) under the (rational) map Z  :
+
+   Date: May 1, 2018.
+   2010 Mathematics Subject Classiﬁcation.  Primary:  14M15.  Secondary:  13F60, 52B99.
+   Key words and phrases.  Amplituhedron, twist map, total positivity, Grassmannian, positroid cells, scat-
+tering amplitudes, cyclic polytopes.
+    T.L. acknowledges support from the NSF under agreement No. DMS-1464693.
+                                                                    1
+
+===== PDF PAGE 2 =====
+2                                                 PAVEL GALASHIN AND THOMAS LAM
+Gr(k,n)99K Gr(k,k +m) induced by a (k +m)×n matrixZ with positive maximal minors.
+Triangulations of the amplituhedron play a key role in the connection between the geometry
+of the amplituhedron and the physics of scattering amplitudes.
+  The totally nonnegative Grassmannian Gr(k,n)≥0 has a stratiﬁcation by positroid cells de-
+noted Π>0k+f, wheref is an aﬃne permutation.  We say that a collection of aﬃne permutations
+f1,f2,...,fN  forms aZ-triangulation if the imagesZ(Π>0k+fi) all have the same dimension as
+An,k,m(Z) and are mutually non-overlapping, the union of the images is dense inAn,k,m(Z),
+and the maps Z  : Π>0k+fi→ Z(Π>0k+fi) are injective.  We say that these aﬃne permutations
+form an (n,k,m)-triangulation if they form a Z-triangulation for all Z∈ Gr>0(k +m,n).
+  The amplituhedron depends on nonnegative integer parameters k,m,n wherek +m≤n.
+Setting 𝓁  := n−k−m,  we  have k +𝓁 +m  = n.   Throughout  the  paper,  we  only  deal
+with the case where m is even.  Our ﬁrst main result states that (n,k,m)-triangulations of
+the amplituhedron are in bijection with (n,𝓁,m)-triangulations of the amplituhedron.  This
+bijection is obtained by taking an aﬃne permutation to its inverse.  One of the enumerative
+motivations  of  our  work  is  a  conjectural  formula  of  Karp,  Williams,  and  Zhang  [KWZ17]
+for the number of cells in a particular triangulation of the amplituhedron.  This formula is
+invariant  under  the  operation  of  swapping  the  parameters k  and 𝓁,  which  is  called  parity
+duality in physics.
+
+1.2.  The stacked twist map.  The twist map is a rational mapτ : Mat(r,n)99K Mat(r,n)
+on matrices ﬁrst deﬁned by Marsh and Scott [MaSc16].  It was motivated by the twist map
+on a unipotent group, due to Berenstein, Fomin, and Zelevinsky [BFZ96, BZ97].  Marsh and
+Scott’s work has subsequently been extended by Muller and Speyer [MuSp17].  The main
+interest of Marsh and Scott, and Muller and Speyer, is the induced twist map Gr(r,n)99K
+Gr(r,n) on the Grassmannian.  Taking r :=k +𝓁, we study instead the stacked twist map
+                           θ : Gr(k,n)× Gr(𝓁,n)99K Gr(𝓁,n)× Gr(k,n).
+At the heart of our approach is the result that the (rational) stacked twist map restricts to
+a diﬀeomorphism
+                      θ : Π>0k+f× Gr⊥>0(k +m,n)→ Gr⊥>0(𝓁 +m,n)× Π>0𝓁+f−1
+on  positroid  cells  indexed  by  aﬃne  permutations  related  by  inversion.   (See  (4.5)  for  a
+deﬁnition of Gr⊥>0(k +m,n).)  This allows us not only to relate triangulations under parity
+duality, but to study other geometric questions such as subdivisions and whether images of
+positroid cells overlap.
+
+1.3.  The amplituhedron form.  The physical motivation for the study of the amplituhe-
+dron is an important (but conjectural) top-degree rational diﬀerential form ωAn,k,m(Z) on the
+Grassmannian  Gr(k,k +m)  called  the  amplituhedron  form.   The  case  of  main  interest  in
+physics is the case m = 4.  Roughly speaking, scattering amplitudes in N  = 4 super Yang-
+Mills theory can be computed by formally integratingωAn,k,m(Z) to obtain a rational function
+depending on a 4×n matrix, thought of as the momentum four-vectors of n particles.  The
+integral removes the dependence of the form on the Grassmannian Gr(k,k + 4), leaving only
+the  dependence  on  the  (k + 4)×n  matrix Z;  furthermore, k  of  the k + 4  rows  of Z  are
+taken to be Grassmann or fermionic parameters to account for the supersymmetry of the
+theory [AHT14].
+
+===== PDF PAGE 3 =====
+                              PARITY DUALITY FOR THE AMPLITUHEDRON                                         3
+  The  amplituhedron  form ωAn,k,m(Z)  can  be  obtained  from  a  triangulation  of  the  ampli-
+tuhedron as follows.  Each positroid cell Π>0k+f  has a  canonical  form ωk+f  of top degree in
+Π>0k+f.  Conjecturally, ωAn,k,m(Z) is obtained by summing the pushforwards Z∗ωk+f  over any
+triangulation of the amplituhedron.
+  The  form ωAn,k,m(Z)  has  degree km  while  the  form ωAn,𝓁,m(Z′)  has  degree 𝓁m.   To  relate
+them, we consider the universal amplituhedronAn,k,m, a compact subset of the two-step ﬂag
+variety  Fl(𝓁,k +𝓁;n).  The  ﬁber  ofAn,k,m  over a  point Z⊥∈  Gr(𝓁,n)  can be canonically
+identiﬁed with the amplituhedronAn,k,m(Z), hence the terminology “universal”.  A related
+construction in the complex algebraic setting was studied in [Lam16b].  The dimension of
+An,k,m is equal to k𝓁 +km +𝓁m.
+  We show that the stacked twist map descends to a homeomorphism ˜θ :An,k,≥m→An,𝓁,≥m
+between subsetsAn,k,≥m⊂An,k,m andAn,𝓁,≥m⊂An,𝓁,m that contain the respective interiors.
+In particular, triangulations ofAn,k,m  are taken to triangulations ofAn,𝓁,m  via the stacked
+twist map.  We introduce the universal amplituhedron form, a top-degree rational diﬀerential
+form ωAn,k,≥m  deﬁned by summing pushforward canonical forms over a triangulation of the
+universal amplituhedron.  Our main result concerning universal amplituhedron forms is that
+they are related by pullback under the stacked twist map:  ˜θ∗ωAn,𝓁,≥m =ωAn,k,≥m.
+
+Outline.  We recall some preliminaries on the positroid stratiﬁcation of Gr≥0(k,n) in Sec-
+tion 2.  Next, we deﬁne triangulations of the amplituhedron in Section 3 and state a duality
+result for them (Theorem 3.5).  We then explain the construction and some properties of
+the stacked twist map θ  and use them to give a short proof to Theorem 3.5 in Section 4.
+After  that,  we  discuss  canonical  forms  of  positroid  cells  in  Section  5  and  state  that  they
+are preserved by θ in Theorems 5.9 and 5.13.  In Section 6, we give several examples that
+illustrate our main results.  In Section 7, we deﬁne subdivisions of the amplituhedron, and
+give an analog of Theorem 3.5 for them (Theorem 7.2).  In the same section, we deﬁne the
+universal amplituhedron and its subdivisions.  We explain the relationship of our results with
+physics in Section 8, where we deﬁne the universal amplituhedron form and show that it is
+preserved by the stacked twist map (Theorem 8.16).  We then proceed to proving the numer-
+ous properties of the stacked twist map that we have mentioned in the previous sections.  We
+discuss the topology of the amplituhedron in Section 9.  In Section 10, we prove that θ takes
+triangulations to triangulations.  In Section 11, we prove thatθ preserves the canonical form,
+and in Section 12, we show that θ preserves the universal amplituhedron form.  Finally, we
+discuss some open problems in Section 13.
+Acknowledgments.  We are grateful to Steven Karp for numerous conversations on topics
+related  to  this  work,  and  for  helpful  comments  and  suggestions  at  various  stages  of  this
+project. We also thank Nima Arkani-Hamed, Jake Bourjaily, and Alex Postnikov for inspiring
+conversations.
+
+
+                         2.  The totally nonnegative Grassmannian
+  Let n≥  2  be  a  positive  integer,  and  denote  [n]  :={1, 2,...,n}.   Let   ˜Sn  be  the  aﬃne
+Coxeter group of type A:  the elements of  ˜Sn are all bijections f : Z→ Z satisfying
+    (1) f(i +n) =f(i) +n for all i∈ Z;
+    (2) ∑ni=1 (f(i)−i) = 0.
+
+===== PDF PAGE 4 =====
+4                                                 PAVEL GALASHIN AND THOMAS LAM
+Given any bijection f : Z→ Z satisfying (1), its number of inversions inv(f) is the number
+of pairs (i,j) such that i∈ [n], j∈ Z, i < j, and f(i) > f(j).  We will work with certain
+ﬁnite subsets of  ˜Sn.  Namely, for integers a,b≥ 0, deﬁne
+                      ˜Sn(−a,b) :={f∈  ˜Sn|i−a≤f(i)≤i +b for all i∈ Z}.
+  A (k,n)-bounded aﬃne permutation is a bijection f : Z→ Z satisfying
+      • f(i +n) =f(i) +n for all i∈ Z;
+      • ∑ni=1 (f(i)−i) =kn;
+      • i≤f(i)≤i +n for all i∈ Z.
+We letB(k,n) denote the set of (k,n)-bounded aﬃne permutations.  There is a distinguished
+element idk∈B(k,n) deﬁned by idk(i) := i +k  for all i∈ Z, and it is clear that we have
+k+f∈B(k,n) if and only iff∈  ˜Sn(−k,n−k).  Herek+f is deﬁned by (k+f)(i) :=f(i)+k
+for alli∈ Z.  Throughout the text, we will work with  ˜Sn(−k,n−k) rather than withB(k,n).) be the
+  Let k≤ n and Gr(k,n) denote the Grassmannian of k-planes in Rn.  We let([n])  and X ∈  Gr(k,n),  we  denote  byk
+collection  of  all k-element  subsets  of  [n].   For I ∈ ([n]k
+∆I(X) the Pl¨ucker  coordinate  of X, i.e., the maximal minor of X  with column set I.  The
+totally  nonnegative  Grassmannian  Gr≥0(k,n)⊂ Gr(k,n) consists of all X∈ Gr(k,n) such).  Similarly, the totally positive Grassmannian  Gr>0(k,n)⊂
+that ∆I(X)≥ 0 for all I∈([n]k
+Gr≥0(k,n) is the set of X∈ Gr(k,n) with all Pl¨ucker coordinates strictly positive.
+  The  totally  nonnegative  Grassmannian  has  a  stratiﬁcation  by  positroid  cells  that  are
+indexed  by  bounded  aﬃne  permutations,  or  equivalently  by   ˜Sn(−k,n− k).   As  we  will
+explain in Deﬁnition 11.1, each f∈  ˜Sn(−k,n−k) gives rise to a certain collectionMk+f
+of k-element subsets of [n] called a  positroid, and then we associate an open  positroid  cell
+Π>0k+f⊂ Gr≥0(k,n) to f  by
+   Π>0k+f :={X∈ Gr≥0(k,n)| ∆J(X)> 0 for J∈Mk+f  and ∆J(X) = 0 for J /∈Mk+f}.
+We similarly deﬁne a closed positroid cell  Π≥0k+f  by requiring ∆J(X)≥ 0 for J∈Mk+f  and
+∆J(X) = 0 forJ /∈Mk+f. The positroid cell has dimension dim(f) :=k(n−k)−inv(f), so we
+say that it has codimension inv(f).  The unique cell Π>0idk of codimension zero coincides with
+Gr>0(k,n).  Each element X∈ Gr≥0(k,n) belongs to Π>0k+f  for a unique f∈  ˜Sn(−k,n−k),
+and thus the totally nonnegative Grassmannian decomposes as a union of positroid cells:
+(2.1)                                         Gr≥0(k,n) =   ⨆        Π>0k+f.
+
+                                                      f∈ ˜Sn(−k,n−k)
+See Lemma 10.3 for an alternative deﬁnition of Π>0k+f.
+
+                              3.  Triangulations of amplituhedra
+  Fix  four  nonnegative  integers k,𝓁,m,n  such  that m  is  even  and k +𝓁 +m  = n.   Let
+Z∈ Gr>0(k +m,n) be a matrix with all maximal minors positive.1  We treat Z  as a map
+from Gr≥0(k,n) to Gr(k,k +m) sending (the row span of) a k×n matrix V  to (the row
+span of) V·Zt, where t  denotes matrix transpose.  The  (tree)  amplituhedronAn,k,m(Z) is
+
+  1Abusing  notation,  we  treat  elements  of  Gr(r, n)  as  full  rank  r× n  matrices.   For  example,  choosing
+diﬀerent representatives of Z∈ Gr>0(k + m, n) yields diﬀerent subsets of Gr(k, k + m), but does not aﬀect
+the notion of a triangulation of the amplituhedron.
+
+===== PDF PAGE 5 =====
+                              PARITY DUALITY FOR THE AMPLITUHEDRON                                         5
+deﬁned to be the image of Gr≥0(k,n) under Z.  We note thatAn,k,m(Z)⊂ Gr(k,k +m) is a
+km-dimensional compact subset of Gr(k,k +m).
+Deﬁnition  3.1.  Let f ∈   ˜Sn(−k,n−k)  be  an  aﬃne  permutation.   We  say  that f  is Z-
+admissible if the restriction of the mapZ to the positroid cell Π>0k+f  is injective.  We say that
+f  is (n,k,m)-admissible if it is Z-admissible for any Z∈ Gr>0(k +m,n).
+  Clearly, in order for an aﬃne permutation f  to be Z-admissible, the dimension of Π>0k+f
+must be at most km.  Thus the codimension of Π>0k+f  in Gr(k,n) must be at least k𝓁, equiv-
+alently, we must have inv(f)≥ k𝓁.  If f  is Z-admissible, then in order for Z(Π>0k+f) to be a
+full-dimensional subset ofAn,k,m(Z) it is necessary to have inv(f) =k𝓁.  However, it is not
+suﬃcient:
+Lemma  3.2.  Let f ∈   ˜Sn(−k,n−k)  be  an  aﬃne  permutation  with  inv(f)  = k𝓁  and  let
+Z∈ Gr>0(k +m,n).  If f /∈  ˜Sn(−k,𝓁) then f  is not Z-admissible, the dimension of Z(Π>0k+f)
+is less than km, and Z(Π>0k+f) is a subset of the boundary ofAn,k,m(Z).
+Deﬁnition 3.3.  Let f,g∈  ˜Sn(−k,n−k) be two aﬃne permutations.  We say that f  and g
+areZ-compatible if the imagesZ(Π>0k+f) andZ(Π>0k+g) do not intersect.  We say that f  andg
+are (n,k,m)-compatible if they are Z-compatible for any Z∈ Gr>0(k +m,n).
+Deﬁnition 3.4. Letf1,...,fN∈  ˜Sn(−k,n−k) be a collection ofZ-admissible and pairwise
+Z-compatible aﬃne permutations,  and assume that inv(fs) = k𝓁 for 1≤ s≤ N.  We say
+that f1,...,fN  form  a Z-triangulation  if the images Z(Π>0k+f1),...,Z(Π>0k+fN ) form a dense
+subset ofAn,k,m(Z).  We say that f1,...,fN  form  an (n,k,m)-triangulation  if they form a
+Z-triangulation for any Z∈ Gr>0(k +m,n).
+  Thus by Lemma 3.2, iff1,...,fN∈  ˜Sn(−k,n−k) form aZ-triangulation for someZ then
+they all must belong to  ˜Sn(−k,𝓁).  We are now ready to state our ﬁrst main result.
+Theorem 3.5.
+    (1)Let   f ∈   ˜Sn(−k,𝓁)  be  an  aﬃne  permutation.   Then f  is  (n,k,m)-admissible  if  and
+         only if f−1∈  ˜Sn(−𝓁,k) is (n,𝓁,m)-admissible.
+    (2)Let  f,g∈  ˜Sn(−k,𝓁) be two aﬃne permutations.  Thenf andg are (n,k,m)-compatible
+         if and only if f−1,g−1∈  ˜Sn(−𝓁,k) are (n,𝓁,m)-compatible.
+    (3)Let   f1,...,fN∈  ˜Sn(−k,𝓁) be a collection of aﬃne permutations.  Then they form an
+         (n,k,m)-triangulation  of  the  amplituhedron  if  and  only  if f−11 ,...,f−1N ∈  ˜Sn(−𝓁,k)
+         form an (n,𝓁,m)-triangulation of the amplituhedron.
+  Using the properties of the stacked twist map, we give a simple proof of this theorem in
+Section 4.  In Section 7, we deﬁne a more general notion ofZ-subdivisions and give an analog
+of Theorem 3.5.
+3.1.  Motivation and further remarks.  We discuss the relationship of Theorem 3.5 with
+some results present in the literature on amplituhedra.
+Remark  3.6.  For k  =  1,  the  amplituhedronAn,k,m(Z)⊂  Gr(1,m + 1)  is  just  the  cyclic
+polytope in the m-dimensional projective space.  The combinatorics of its triangulations2 is
+
+  2The notion of a triangulation of a polytope imposes an additional restriction that the intersection of any
+two simplices is their common face.  However, this extra condition is not necessary for cyclic polytopes, see
+e.g. [OT12, Theorem 2.4].  We thank Alex Postnikov for bringing this subtle point to our attention.
+
+===== PDF PAGE 6 =====
+6                                                 PAVEL GALASHIN AND THOMAS LAM
+well-understood, see e.g. [Ram97, ERR00, Tho02, OT12].  Therefore in this case Theorem 3.5
+describes explicitly the triangulations of the 𝓁 = 1 amplituhedron, which has not yet been
+studied in the literature.  We refer the reader to Section 6 for an illustration.
+Remark 3.7.  From the point of view of physics, the most interesting case is m = 4, which
+corresponds to computing tree level scattering amplitudes in the planar N  = 4 supersym-
+metric  Yang-Mills  theory.   In  particular,  the  terms  in  the  BCFW  recurrence  introduced
+in [BCF05, BCFW05] for computing these amplitudes correspond to a collection of aﬃne
+permutations called the  BCFW  triangulation.  (It is a conjecture that these aﬃne permu-
+tations indeed form an (n,k,m)-triangulation of the amplituhedron.)  We note that in this
+special m = 4 case, the map f↦→ f−1  sends a BCFW triangulation for (k,𝓁) to a BCFW
+triangulation for (𝓁,k).  It amounts to switching the colors of the vertices in the correspond-
+ing plabic graphs in Gr(k + 2,n) and Gr(𝓁 + 2,n) (the indices are shifted by 2 because of
+a  transition  from  the  momentum  space  to  the  momentum-twistor  space).   See  [AHTT18,
+Section 11], [KWZ17, Proposition 8.4], or Section 13.5 for further discussion.
+  The following conjecture states that the notions of Z-admissibility, Z-compatibility, and
+Z-triangulation do not depend on the choice of Z∈ Gr>0(k +m,n).  It is widely believed to
+be true in the physics literature.
+Conjecture 3.8.  Fix some Z∈ Gr>0(k +m,n).
+(1)Let  f∈  ˜Sn(−k,n−k) be an aﬃne permutation.  Thenf  isZ-admissible if and only iff
+    is (n,k,m)-admissible.
+(2)Let  f,g∈  ˜Sn(−k,n−k) be two aﬃne permutations.  Then f  and g are Z-compatible if
+    and only if they are (n,k,m)-compatible.
+(3)Let  f1,...,fN∈  ˜Sn(−k,n−k) be a collection of aﬃne permutations.  Then they form a
+    Z-triangulation if and only if they form an (n,k,m)-triangulation.
+  Therefore, assuming Conjecture 3.8, the notion of, say, Z-compatibility does not depend
+on Z, and thus gives rise to an interesting binary relation on the set  ˜Sn(−k,n−k).
+  Let  us  now  explain  some  motivation  that  led  to  Theorem  3.5.   For  integers a,b,c≥  1,
+deﬁne
+                                                   a∏  b∏  c∏ p +q +r− 1
+                                 M(a,b,c) :=                  p +q +r− 2
+                                                  p=1 q=1 r=1
+to be the number of plane partitions that ﬁt into an a×b×c box [Mac04].  This expression
+is  symmetric  in a,b,c.   In  [KWZ17,  Conjecture  8.1],  the  authors  noted  that  in  all  cases
+where a (conjectural) triangulation ofAn,k,m(Z) is known, it has preciselyM(k,𝓁,m/2) cells,
+and they conjectured that for all n,k,m, there exists  a triangulation of the amplituhedron
+with M(k,𝓁,m/2)  cells.   For  example,  for m  =  4,  the  number  of  terms  in  the  BCFW
+recurrence, which correspond to the cells in the conjectural BCFW triangulation ofAn,k,m(Z),(n−3)(n−3) (a  Narayana  number), see [AHBC+16, Eq. (17.7)].  We
+equals M(k,𝓁, 2) =     1n−3   k+1     k
+generalize [KWZ17, Conjecture 8.1] as follows.
+Conjecture 3.9. For every triangulationf1,...,fN∈  ˜Sn(−k,n−k) ofAn,k,m(Z) (wherem
+is even), the number N  of cells equals M(k,𝓁,m/2).
+  This conjecture holds for k = 1 (see e.g. [Ram97]), and therefore by Theorem 3.5 it holds
+for𝓁 = 1 as well.  Additionally, we have experimentally veriﬁed it in the casek =𝓁 =m = 2,
+
+===== PDF PAGE 7 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                         7
+n = 6, where there are 120 triangulations of the amplituhedron, and each of them has size
+M(2, 2, 1) = 6.  We discuss this example in more detail in Section 13.4.  See also [KWZ17,
+Section 8] for a list of other cases where Conjecture 3.9 holds in a weaker form.
+Remark 3.10.  In [KWZ17, Remark 8.2], a similar conjecture is given for odd values of m.
+One could generalize this conjecture as follows:  for oddm, the maximal number of cells in a
+triangulation of the amplituhedron is equal to M(k,𝓁, m+12   ).  This conjecture remains open,
+but we note that the result of Theorem 3.5 does not hold for oddm, as one can easily observe
+already in the case k = 1, 𝓁 = 2, m = 1, n = 4.  In this case, the maximal number of cells in
+a triangulation is indeed M(1, 2, 1) = 3 and is invariant under switching k and 𝓁, however,
+replacing each aﬃne permutation with its inverse does not take (n,k,m)-triangulations to
+(n,𝓁,m)-triangulations.
+Remark 3.11. Theorem 3.5 provides partial progress to answering [KWZ17, Question 8.5]:
+assuming that for each n, k, and even m there exists an (n,k,m)-triangulation of the am-
+plituhedron, [KWZ17, Question 8.5] has positive answer.
+Remark 3.12. Form = 4, it was already observed in [GGS+14, AHTT18] that the twist map
+of Gr(4,n) is related to the parity duality of scattering amplitudes.  However, without the
+stacked twist map, the remarkable combinatorics and geometry of triangulations is hidden.
+
+                                     4.  The stacked twist map
+  In this section, we explain a construction that lies at the core of the proof of Theorem 3.5.
+It  is  based  on  the  twist  map  of  Marsh  and  Scott  [MaSc16].   For  our  purposes,  it  is  more
+convenient to use the version of the twist map from [MuSp17], which diﬀers from the one
+in [MaSc16] by a column rescaling.  See [MuSp17, Remark 6.3] for details.
+  Let k,𝓁,m,n be as in the previous section, that is, they are all nonnegative integers such
+that m is even and n = k +𝓁 +m.  Let V  be a k×n matrix and W  be an 𝓁×n matrix.
+For j = 1, 2,...,n, deﬁne V (j)∈ Rk (resp., W (j)∈ R𝓁) to be the j-th column of V  (resp.,
+W ).   We  extend  this  to  any j ∈ Z  by  the  condition  that V (j +n)  =  (−1)k−1V (j)  and
+W (j +n) = (−1)k−1W (j).  Deﬁne                                 (V   )
+
+                                       U = stack(V,W ) :=         W
+
+to be a (k+𝓁)×n block matrix obtained by stackingV  on top ofW .  That is, thej-th column
+U(j) of U  equals (V (j),W (j))∈ Rk+𝓁, and thus we also have U(j +n) = (−1)k−1U(j) for
+all j∈ Z.
+Deﬁnition 4.1.  Given a (k +𝓁)×n matrix U, we writeU∈ Mat◦(k +𝓁,n) if for all j∈ Z,
+the vectors U(j−𝓁),U(j−𝓁 + 1),...,U(j +k− 1) form a basis of Rk+𝓁.
+  We now deﬁne a mapτ : Mat◦(k +𝓁,n)→ Mat◦(k +𝓁,n) sending a matrixU  to a matrix
+˜U  with columns  ˜U(j),j∈ Z.  Up to sign changes and a cyclic shift, this map coincides with
+the right twist  of [MuSp17], see (10.1).  For each j∈ Z, deﬁne a vector  ˜U(j)∈ Rk+𝓁 by the
+following conditions:
+(4.1) ⟨ ˜U(j),U(j−𝓁)⟩ = (−1)j, ⟨ ˜U(j),U(j−𝓁 + 1)⟩ =··· =⟨ ˜U(j),U(j +k− 1)⟩ = 0,
+where⟨·,·⟩ denotes the standard inner product on Rk+𝓁.  Since the vectorsU(j−𝓁),U(j−𝓁+
+1),...,U(j +k−1) form a basis, the above conditions determine  ˜U(j) uniquely.  It is also not
+
+===== PDF PAGE 8 =====
+                                                8                                                 PAVEL GALASHIN AND THOMAS LAM
+
+                                                hard to see directly that  ˜U∈ Mat◦(k +𝓁,n) (alternatively, see (10.3)).  Moreover, we have
+                                                ˜U(j +n) = (−1)n+k−1 ˜U(j) = (−1)𝓁−1 ˜U(j), because m is assumed to be even.  This deﬁnes
+                                                ˜U  =τ(U)∈ Mat◦(k +𝓁,n).  Muller and Speyer also deﬁne a left twist ←τ : Mat◦(k +𝓁,n)→
+                                                Mat◦(k +𝓁,n).  They show:
+                                                Theorem  4.2  ([MuSp17,  Theorem  6.7]).  The  left  and  right  twists  are  inverse  diﬀeomor-
+                                                phisms of Mat◦(k +𝓁,n).
+                                                   Finally,  let   ˜W  (resp.,  ˜V ) be the k×n matrix (resp.,  the 𝓁×n matrix) such that  ˜U  =
+                                                stack( ˜W, ˜V ).  In other words, we let the j-th column  ˜W (j) of  ˜W  and  ˜V (j) of  ˜V  be deﬁned
+                                                so that  ˜U(j) = ( ˜W (j), ˜V (j)).
+                                                Deﬁnition 4.3.  Given a k×n matrix V  and an 𝓁×n matrix W  such that stack(V,W )∈
+                                                Mat◦(k +𝓁,n), we denote θ(V,W ) := ( ˜W, ˜V ), where  ˜W  and  ˜V  are deﬁned above.  The map
+                                                θ is called the stacked twist map.
+                                                   The relationship between the mapsτ, stack, andθ is shown in (4.2).  Dashed (resp., solid)
+                                                arrows denote rational (resp., regular) maps.
+
+
+                                                (4.2)
+
+
+                                                   Our ﬁrst goal is to view θ as a map on pairs of subspaces rather than pairs of matrices.
+                                                Thus we would like to treatV  andW  not as matrices but as their row spans.  The following
+                                                result will be deduced as a simple consequence of Lemma 10.1.
+                                                Lemma 4.4.  The map θ  descends to a rational map
+                                                                           θ : Gr(k,n)× Gr(𝓁,n)99K Gr(k,n)× Gr(𝓁,n).
+                                                   It turns out that θ has remarkable properties when restricted to the totally nonnegative
+                                                Grassmannian.  For each 0≤m≤n−k, deﬁne a subset Gr≥m(k,n)⊂ Gr≥0(k,n) by
+                                                (4.3)                                      Gr≥m(k,n) :=   ⨆           Π>0k+f.
+
+                                                                                                    f∈ ˜Sn(−k,n−k−m)
+                                                Comparing  this  to  (2.1),  we  see  that  setting m  =  0  indeed  recovers  Gr≥0(k,n).   More
+                                                generally, we have
+                                                                   Gr≥0(k,n)⊃ Gr≥1(k,n)⊃···⊃ Gr≥n−k(k,n) = Gr>0(k,n).
+                                                As we will see in Lemma 10.3, the set Gr≥m(k,n) can be alternatively described as follows.
+                                                Proposition 4.5.  For 0≤m≤n−k  and 𝓁 =n−k−m, we have
+                                                Gr≥m(k,n) ={V∈ Gr≥0(k,n) : rk([V (j−𝓁)|V (j−𝓁+1)|...|V (j+k−1)]) =k  for all j∈ Z}.
+                                                   Here [V (j−𝓁)|V (j−𝓁 + 1)|...|V (j +k− 1)] denotes thek× (k +𝓁) matrix with columns
+                                                V (j−𝓁),...,V (j +k− 1), and rk denotes its rank.  We set
+                                                (4.4)        An,k,≥m(Z) :=Z(Gr≥m(k,n))⊂An,k,m(Z).
+                                                   Let us also deﬁne
+                                                (4.5)                    Gr⊥>0(k +m,n) :={Z⊥|Z∈ Gr>0(k +m,n)}⊂ Gr(𝓁,n).
+
+
+
+Mat(k,n)× Mat(𝓁,n)(V,W )      θθ   ( ˜W, ˜V )Mat(k,n)× Mat(𝓁,n)
+
+
+             stack    stack             stack    stack
+
+                              τ
+    Mat◦(k +𝓁,n)U             τ        ˜UMat◦(k +𝓁,n)
+
+===== PDF PAGE 9 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                         9
+Here for Z∈ Gr>0(k +m,n) we denote by W  :=Z⊥∈ Gr(𝓁,n) the subspace orthogonal to
+Z.
+Remark 4.6.  The sets Gr⊥>0(k +m,n) and Gr>0(𝓁,n) are related as follows.  Deﬁne a map
+alt  :  Gr(𝓁,n)→  Gr(𝓁,n)  sending  a  matrix W ∈  Gr(𝓁,n)  with  columns W (j), 1≤ j≤ n
+to  a  matrix W′  :=  alt(W )  with  columns W′(j)  =  (−1)j−1W (j).   It  turns  out  alt  is  a
+diﬀeomorphism between Gr>0(𝓁,n) and Gr⊥>0(k +m,n).  In fact, for any set I⊂ [n] of size
+𝓁, we have
+(4.6)                                             ∆I(alt(W )) = ∆[n]\I(Z),
+where Z :=W⊥.  See [KW17, Lemma 3.3] and references therein.
+  The following result is the main ingredient of the proof of Theorem 3.5.
+Theorem 4.7.  Let V∈ Gr≥m(k,n) and W∈ Gr⊥>0(k +m,n).
+  (i)  We have stack(V,W )∈ Mat◦(k +𝓁,n), thus θ(V,W ) = ( ˜W, ˜V ) is well deﬁned.
+ (ii)  We have  ˜W∈ Gr⊥>0(𝓁 +m,n) and  ˜V∈ Gr≥m(𝓁,n).
+(iii)  Let f ∈   ˜Sn(−k,𝓁)  be  the  unique  aﬃne  permutation  such  that V ∈  Π>0k+f.    Then
+      ˜V ∈  Π>0𝓁+f−1.
+
+  By Theorem 4.2, we conclude that θ restricts to a homeomorphism
+                θ : Gr≥m(k,n)× Gr⊥>0(k +m,n)→ Gr⊥>0(𝓁 +m,n)× Gr≥m(𝓁,n),
+and for each f∈  ˜Sn(−k,𝓁), θ restricts to a diﬀeomorphism
+(4.7)         θ : Π>0k+f× Gr⊥>0(k +m,n)→ Gr⊥>0(𝓁 +m,n)× Π>0𝓁+f−1.
+  Finally, we note that θ “preserves the ﬁbers” of the map Z  : Gr≥m(k,n)→An,k,≥m(Z).
+More precisely, given V∈ Gr≥m(k,n), let us deﬁne a ﬁber  F(V,Z) of Z by
+(4.8)                            F(V,Z) :={V′∈ Gr≥0(k,n)|V·Zt =V′·Zt}.
+As we will see later in Proposition 9.2, for V∈ Gr≥m(k,n) we have F(V,Z)⊂ Gr≥m(k,n).
+Proposition 4.8.  Let V ∈ Gr≥m(k,n), Z∈ Gr>0(k +m,n), W  := Z⊥∈ Gr⊥>0(k +m,n),
+θ(V,W ) = ( ˜W, ˜V ),  and  ˜Z  :=  ˜W⊥∈ Gr>0(𝓁 +m,n).  Then  for  any V′∈ F(V,Z),  we  have
+θ(V′,W ) = ( ˜W, ˜V′) for some  ˜V′∈ F( ˜V, ˜Z).  The mapV′↦→  ˜V′ is a homeomorphism between
+F(V,Z)⊂ Gr≥m(k,n) and F( ˜V, ˜Z)⊂ Gr≥m(𝓁,n).
+  We postpone the proof of Theorem 4.7 and Proposition 4.8 until Section 10.  Let us now
+give a simple proof of Theorem 3.5 using these results.
+Proof of Theorem 3.5.  Let f ∈   ˜Sn(−k,𝓁)  be  an  aﬃne  permutation.   Then f  is  (n,k,m)-
+admissible if and only if Π>0k+f∩ F(V,Z) contains at most one point for eachV∈ Gr≥m(k,n)
+and Z ∈  Gr>0(k + m,n).   By  Proposition  4.8,  this  ﬁber  F(V,Z)  maps  bijectively  to  a
+ﬁber F( ˜V, ˜Z) for some  ˜Z∈ Gr>0(𝓁 +m,n) and  ˜V ∈ Gr≥m(𝓁,n).  Moreover,  the points of
+Π>0k+f∩ F(V,Z) map bijectively to the points of Π>0𝓁+f−1∩ F( ˜V, ˜Z) by Theorem 4.7, part (iii).
+This proves Theorem 3.5, part (1).
+  Similarly, iff,g∈  ˜Sn(−k,𝓁) are two aﬃne permutations then they are (n,k,m)-compatible
+if and only if either one of Π>0k+f∩F(V,Z) or Π>0k+g∩F(V,Z) is empty for eachV∈ Gr≥m(k,n)
+and Z ∈  Gr>0(k +m,n).   Again  by  Proposition  4.8  and  Theorem  4.7,  part  (iii),  this  is
+
+===== PDF PAGE 10 =====
+10                                                PAVEL GALASHIN AND THOMAS LAM
+
+equivalent  to  saying  that  either  one  of  Π>0𝓁+f−1∩ F( ˜V, ˜Z)  or  Π>0𝓁+g−1∩ F( ˜V, ˜Z)  is  empty,
+showing Theorem 3.5, part (2).
+  Finally,  let f1,...,fN ∈   ˜Sn(−k,𝓁)  be  a  collection  of  (n,k,m)-admissible  and  pairwise
+(n,k,m)-compatible aﬃne permutations. By the previous two parts, we see thatf−11 ,...,f−1N ∈
+˜Sn(−𝓁,k)  are  (n,𝓁,m)-admissible  and  pairwise  (n,𝓁,m)-compatible.    Suppose  now  that
+f1,...,fN form an (n,k,m)-triangulation. This means that the union of the imagesZ(Π≥0k+f1),
+... , Z(Π≥0k+fN ) equals toAn,k,m(Z) for each Z∈ Gr>0(k +m,n).  In particular, this implies
+that for all V ∈ Gr≥m(k,n) and Z∈ Gr>0(k +m,n), F(V,Z) contains a point V′ of Π≥0k+fs
+for some 1≤ s≤ N.  Since V  belongs to Gr≥m(k,n), there is a unique aﬃne permutation
+f ∈   ˜Sn(−k,𝓁)  such  that V′∈  Π>0k+f ⊂  Π≥0k+fs.   Applying  Theorem  4.7,  part  (iii)  together
+with Proposition 4.8, we get that for all  ˜V ∈ Gr≥m(𝓁,n) and  ˜Z∈ Gr>0(𝓁 +m,n), F( ˜V, ˜Z)
+contains a point  ˜V′∈ Π>0𝓁+f−1⊂ Π≥0𝓁+f−1s    for some 1≤s≤N.  Thus the union of the images
+˜Z(Π≥0
+     𝓁+f−11  ),..., ˜Z(Π≥0𝓁+f−1N  ) containsAn,𝓁,≥m( ˜Z).  Since this union is closed, it must contain the
+closure ofAn,𝓁,≥m( ˜Z) which is clearly equal toAn,𝓁,m(Z) (see also Proposition 9.1), ﬁnishing
+the proof of Theorem 3.5, part (3).                       □
+
+                                       5.  The canonical form
+  In this section, we give an accessible introduction to the canonical form on the Grassman-
+nian and explain its relationship with the stacked twist map.
+
+5.1.  The  canonical  form  for  the  top  cell.  The  Grassmannian  Gr(k,n)  is  a k(n−k)-
+dimensional manifold.  It can be covered by various coordinate charts.  For example, one can
+represent any generic elementX∈ Gr(k,n) as the row span of ak×n block matrix [Idk|A]
+for a uniquek× (n−k) matrixA.  Here Idk denotes thek×k identity matrix.  Alternatively,
+any  generic X  is  determined  by  its  Pl¨ucker  coordinates  lying  in  a  cluster {∆J | J ∈C}
+(see [FZ02, Sco06] and Deﬁnition 11.3), whereC is a collection ofk(n−k) + 1 subsets of [n],
+each of sizek, satisfying certain properties.  Here we view{∆J|J∈C} as an element of the
+k(n−k)-dimensional projective space.  There is a (rational) diﬀerentialk(n−k)-formωk,n on
+Gr(k,n) with remarkable properties called the canonical form.  Before we give its deﬁnition,
+we note that ωk,n is a rational top form (i.e., an r-form on an r-dimensional manifold), and
+on the chart [Idk| A] it can therefore be written as f(A)dk×(n−k)(A), where f(A) is some
+rational function of the entries of A, and
+                              dk×(n−k)(A) :=da1,1∧da1,2∧···∧dak,n−k.
+Thus deﬁning ωk,n amounts to giving a formula for f(A).  For X∈ Gr(k,n), deﬁne
+                                                   n∏
+                                   ∆circk   (X) :=    ∆{i,i+1,...,i+k−1}(X)
+                                                  i=1
+to be the product of all circular k×k minors of X (the indices are taken modulo n).
+Deﬁnition 5.1.  The canonical form ωk,n on Gr(k,n) is deﬁned as follows:  if X∈ Gr(k,n)
+is the row span of [Idk|A] for a k× (n−k) matrix A then
+
+                                        ωk,n(X) :=±dk×(n−k)(A)∆circk   (X) .
+
+===== PDF PAGE 11 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                        11
+Until Section 8, we view ωk,n as only being deﬁned up to a sign.
+Example 5.2.  Consider an element X∈ Gr(2, 4) given by the row span of(1   0 p q)
+
+(5.1)                                           0   1 r s      .
+
+Then we have
+
+(5.2)                 ωk,n(X) =±dp∧dq∧dr∧dsp(ps−rq)s  .
+
+  What makes ωk,n special is that it can be alternatively computed using other coordinate
+charts  on  Gr(k,n)  in  a  simple  way.   For  the  proof  of  the  following  result,  see  [Lam16b,
+Proposition 13.3].
+Proposition  5.3.  Suppose  that  the  Pl¨ucker  coordinates{∆J | J ∈C}  form  a  cluster  for
+someC  ={J0,J1,...,Jk(n−k)}  (see  Deﬁnition  11.3),  and  suppose  that  they  are  normalized
+so that ∆J0(X′) = 1 for all X′  in the neighborhood of X∈ Gr(k,n).  Then
+
+(5.3)       ωk,n(X) =±d(∆J1(X))∧d(∆J2(X))∧···∧d(∆Jk(n−k)(X))∆J1(X)· ∆J2(X)··· ∆Jk(n−k)(X)     .
+
+  The normalization ∆J0(X′) = 1 means that the homogeneous coordinates ∆Ji(X) become
+rational functions on Gr(k,n).  Instead of normalization, one could also replace ∆Ji(X) by
+the rational function ∆Ji(X)/∆J0(X) in (5.3).
+  The  form ωk,n(X)  depends  neither  on  the  choice  of  the  clusterC  nor  on  the  choice  of
+J0∈C.  This result will serve as a deﬁnition of the canonical form for any positroid cell in
+the next section.
+Example 5.4.  There are two clusters in Gr(2, 4):C :={{1, 2},{2, 3},{3, 4},{1, 4},{1, 3}}
+andC′ :={{1, 2},{2, 3},{3, 4},{1, 4},{2, 4}}.  ForX being the row span of the matrix given
+in (5.1), we have
+               ∆12(X) = 1,    ∆23(X) =−p,    ∆34(X) =ps−rq,    ∆14(X) =s,
+
+                                     ∆13(X) =r,    ∆24(X) =−q.
+Letting J0  be{1, 2}  and  applying  Proposition  5.3  toC  andC′  yields  the  following  two
+expressions for ωk,n(X):
+
+             ωk,n(X) =±dp∧d(ps−rq)∧ds∧drp(ps−rq)sr           =±dp∧d(ps−rq)∧ds∧dqp(ps−rq)sq    .
+
+One easily checks that each of these expressions is indeed equal up to a sign to the one given
+in (5.2):  we haved(ps−rq) =pds +sdp−rdq−qdr, but only one of these four terms stays
+nonzero after taking the wedge with dp∧ds∧dr or dp∧ds∧dq.
+Remark  5.5.  Yet  another  simple  alternative  way  to  compute ωk,n  is  to  use  Postnikov’s
+parametrization [Pos07] in terms of edge weights of a plabic graph.  See [Lam16b, Section 13]
+for the proof that all three ways of computing ωk,n produce the same answer.
+Remark 5.6.  The deﬁnition of the canonical form given in Proposition 5.3 generalizes to
+all cluster algebras, see [AHBL17, Section 5.7].
+
+===== PDF PAGE 12 =====
+12                                                PAVEL GALASHIN AND THOMAS LAM
+  Before we state the main result of this section,  let us give a warm-up result on the re-
+lationship  between  the  twist  map  of  [MaSc16]  and  the  canonical  form.   Recall  that τ  :
+Mat◦(k +𝓁,n) →  Mat◦(k +𝓁,n)  sends  a  matrix U ∈  Mat◦(k +𝓁,n)  to  another  matrix
+˜U∈ Mat◦(k +𝓁,n) deﬁned in (4.1).  Similarly to Lemma 4.4, one can prove that τ  descends
+to a rational map Gr(k +𝓁,n)99K Gr(k +𝓁,n).  Let ωk+𝓁,n  denote the canonical form on
+Gr(k +𝓁,n).
+Proposition 5.7.  The  twist  map τ  : Gr(k +𝓁,n)99K Gr(k +𝓁,n) preserves  the  canonical
+form ωk+𝓁,n  up to a sign.  That is, ωk+𝓁,n  equals to the pullback±τ∗ωk+𝓁,n  of ωk+𝓁,n  via τ.
+Example 5.8.  Let k +𝓁 = 2, n = 4, and suppose that U  is the row span of  (5.1).  After
+possibly switching the signs of some columns,  ˜U :=τ(U) is the row span of( 0    1  r   s)(1)(1   0 s   qs)
+               −1   0 −p −q          · diag                        ≃k+𝓁     0   1  r   ps−rqs   .
+                                              s, 1, 1p,      1ps−rq                 p  ps−rq
+Here diag denotes a diagonal matrix, and the matrix on the right hand side is obtained from
+the matrix on the left hand side by multiplying the bottom row by−s and switching the
+two rows (these operations preserve its row span).  Thus a cluster of Pl¨ucker coordinates of
+˜U  is given by
+
+             ∆12 =±1,    ∆23 =±s,    ∆34 =±sp,    ∆14 =±  sps−rq,    ∆13 =±rp.
+
+Applying Proposition 5.3, we see that the pullback of ωk+𝓁,n under τ  is equal to()()()
+                     ds∧d      s  ∧d     r  ∧d       s
+                               p         p        ps−rq                p2 ∧ drp∧  srdq(ps−rq)2
+(5.4)    ±                     s· s                        =±ds∧ sdps· s                    .
+                                   p· rp·  sps−rq                        p· rp·  sps−rq
+                                                 (          )
+Here e.g. d(∆23) =±ds and d(∆34) =±                ds         , but because we are already taking the
+                                                   p− sdpp2
+wedge withds, only the sdpp2  term appears in the numerator of (5.4).  We see that after some
+cancellations, (5.4) indeed yields the same result as (5.2), in agreement with Proposition 5.7.
+  Consider the manifold Gr(k,n)× Gr(𝓁,n) for some k +𝓁 +m =n as above with m even.
+One can consider a top form ωk,n∧ω𝓁,n  on this manifold.  We are now ready to state the
+main result of this section.
+Theorem 5.9. The stacked twist mapθ : Gr(k,n)×Gr(𝓁,n)99K Gr(k,n)×Gr(𝓁,n) preserves
+the form ωk,n∧ω𝓁,n  up to a sign.
+  Proposition 5.7 has a short proof using the results of [MaSc16] and [MuSp17],  see Sec-
+tion 11.4.  On the other hand,  the proof of Theorem 5.9 is quite involved and is given in
+Section 11.5.  See Section 6.3 for an example.
+5.2.  The canonical form for lower positroid cells.  Given an aﬃne permutation f ∈˜Sn(−k,n−k), one can consider certain collectionsC⊂([n]) ofk-element subsets of [n] called
+
+                                                                   k
+clusters, see Deﬁnition 11.1.  All clusters have the same size, and give a parametrization of
+Π>0k+f:
+Proposition 5.10 ([OPS15]).  LetC  be a cluster for f∈  ˜Sn(−k,n−k).  Then it has size
+(5.5)            |C| =k(n−k) + 1− inv(f).
+The map Π>0k+f→ RPC>0  given by X↦→{∆J(X)|J∈C} is a diﬀeomorphism.
+
+===== PDF PAGE 13 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                        13
+
+  Here RPC>0 denotes the subset of the (|C|− 1)-dimensional real projective space where all
+coordinates are positive.
+  Thus  we  have  various  coordinate  charts  on  Π>0k+f,  which  now  allows  us  to  use  Proposi-
+tion 5.3 to deﬁne a canonical form on this manifold.
+Deﬁnition 5.11.  LetC ={J0,J1,...,JN} be a cluster for f∈  ˜Sn(−k,n−k), where N  =
+k(n−k)− inv(f).  Suppose that the values of the Pl¨ucker coordinates are rescaled so that
+∆J0(X′) = 1 for X′  in the neighborhood of X∈ Π>0k+f.  Then the  canonical  form ωk+f  on
+Π>0k+f  is deﬁned by
+
+                    ωk+f(X) :=±d(∆J1(X))∧d(∆J2(X))∧···∧d(∆JN (X))∆J1(X)· ∆J2(X)··· ∆JN (X)     .
+
+Proposition 5.12.  The form ωk+f  depends neither on the choice ofC  nor on the choice of
+J0∈C.
+  See [Lam16b, Theorem 13.2] for a proof.  In fact, we will see later that the form ωk+f  can
+be obtained from the form ωk,n = ωk+id0  by subsequently taking residues  (see Section 12.1
+for a deﬁnition).  This implies Proposition 5.12, as well as a generalization of Theorem 5.9
+to lower cells which we now explain.
+  By (4.6), the set Gr⊥>0(k +m,n) can be identiﬁed with Gr>0(𝓁,n) by changing the sign of
+every second column, and since the form ω𝓁,n is only deﬁned up to a sign, we can view ω𝓁,n
+as a top rational form on Gr⊥>0(k +m,n) instead.  The following is our main result regarding
+canonical forms.
+Theorem 5.13.  For f∈  ˜Sn(−k,𝓁), under the stacked twist map diﬀeomorphism
+                       θ : Π>0k+f× Gr⊥>0(k +m,n)→ Gr⊥>0(𝓁 +m,n)× Π>0𝓁+f−1
+(see  (4.7)) we have
+(5.6)                θ∗(ωk,n∧ω𝓁+f−1) =±ωk+f∧ω𝓁,n.
+  We discuss the application of Theorem 5.13 to the amplituhedron form in Section 8.
+
+                                               6.  Examples
+  In this section, we illustrate each of our main results by an example.
+6.1.  Triangulations  of  a  pentagon.  As  a  warm-up,  we  let k  =  1, 𝓁  =  2, m  =  2,
+n  =  5.   In  this  case,  the  amplituhedronAn,k,m(Z)  is  a  pentagon  in RP2  whose  vertices
+are  the  ﬁve  columns  of Z ∈  Gr>0(3, 5).   We  write f ∈   ˜Sn  in  window  notation,  i.e., f  =
+[f(1),f(2),...,f(n)].  Let Pn,k,m⊂  ˜Sn(−k,n−k) be the set of aﬃne permutations f  with
+inv(f)  = k𝓁  =  2.   We  say  that f,g∈   ˜Sn  are  the  same  up  to  rotation  if  for  some s∈ Z
+we have f(i +s) = g(i) +s for all i∈ Z.  There are ten aﬃne permutations in P5,1,2, and
+up to rotation, they form two classes of ﬁve aﬃne permutations in each, shown in Figure 1
+(bottom).  All of these ten aﬃne permutations are (n,k,m)-admissible, and the images of) = 10 triangles in a pentagon.  The aﬃne per-
+the corresponding positroid cells are the(53
+mutation [2, 1, 3, 5, 4] in Figure 1 (bottom left) corresponds to the convex hull of the triangle
+with vertex set{1, 3, 4} inside a pentagon, while the aﬃne permutation [3, 1, 2, 4, 5] in Fig-
+ure 1 (bottom right) corresponds to the convex hull of a triangle with vertex set{1, 4, 5}.
+These two permutations are therefore (5, 1, 2)-compatible and together with the permutation
+
+===== PDF PAGE 14 =====
+                                 14                                                PAVEL GALASHIN AND THOMAS LAM
+                                             f = [2, 1, 3, 5, 4]         g = [2, 3, 1, 4, 5]         h = [1, 4, 2, 3, 5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            f−1 = [2, 1, 3, 5, 4]       g−1 = [3, 1, 2, 4, 5]
+
+                                          Figure 1.   Up to rotation, there are three aﬃne permutations in  ˜Sn(−k,n−k)
+                                          for k  =  2,n  =  5  with  two  inversions  (top).   There  are  only  two  such  aﬃne
+                                          permutations in  ˜Sn(−k,n−k) for k = 1,n = 5 (bottom).
+
+                                                              j           -1     0      1      2      3      4      5      6      7
+                                                                         2    1       1     0     0 −2 −1 −1   0
+                                                            U(j)  −2   0       0     1     1     2     0      0 −1
+                                                                         2 −1    1 −1    3 −2    1 −1   1
+
+                                                              j           -1     0      1      2      3      4      5      6      7
+                                                                         2    0  −1    4 −8    2     0 −1   4
+                                                        ( ˜U·D)(j)   4  −2    1     0 −6    4 −2    1    0
+                                                                         2    0       1     0     2     2     0      1    0
+
+                                         Figure 2.  The columns of U  (top) and of  ˜U·D (bottom) for j =−1, 0,..., 7.
+
+                                 [1, 2, 5, 3, 4] (corresponding to a triangle with vertex set{1, 2, 3}) they form a triangulation
+                                 ofAn,k,m(Z).
+                                 6.2.  Triangulations of the 𝓁 = 1 amplituhedron.  We now study the “dual” case k = 2,
+                                 𝓁 = 1, m = 2, n = 5 in detail.  There are ﬁfteen aﬃne permutations in P5,2,2, and they form
+                                 three classes (up to rotation) of ﬁve permutations in each, shown in Figure 1 (top).
+                                    The  permutations f  =  [2, 1, 3, 5, 4]  and g  =  [2, 3, 1, 4, 5]  belong  to   ˜Sn(−k,𝓁)  while h  =
+                                 [1, 4, 2, 3, 5] does not belong to  ˜Sn(−k,𝓁) because h(2) = 4> 2 +𝓁.  Thus by Lemma 3.2, h
+                                 is not (n,k,m)-admissible (and it is indeed easy to check directly thath is notZ-admissible
+                                 for all Z∈  Gr>0(k +m,n)).  Note that h−1  does not correspond to any triangle inside a
+                                 pentagon.
+                                    Let us now ﬁx f = [2, 1, 3, 5, 4] and consider V∈ Π>0k+f  and W∈ Gr⊥>0(k +m,n) given by
+                                                               (1   0   0 −2 −1)
+                                 (6.1)         V  =              0   1   1    2      0    ;  W  =(1 −1   3 −2   1).
+
+
+
+
+−4−4−4−4−4−3−3−3−3−3−2−2−2−2−2−1−1−1−1−100000111112222233333444445555566666777778888899999
+
+
+
+−4−4−4−4−4−3−3−3−3−3−2−2−2−2−2−1−1−1−1−100000111112222233333444445555566666777778888899999
+
+===== PDF PAGE 15 =====
+                                                                           PARITY DUALITY FOR THE AMPLITUHEDRON                                        15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                      Figure 3.   Each of the ten lines represents the set of pairs (a,b) for which
+                                                      one of the minors ofV′ is zero.  We haveV′∈ Gr≥0(k,n) precisely when (a,b)
+                                                      belongs to the shaded region.
+
+
+                                                The  fact  that V ∈  Π>0k+f  can  be  easily  checked  using  (10.4)  while  the  fact  that W ∈
+                                             Gr⊥>0(k +m,n) follows since alt(W ) is totally positive, see (4.6).  We would like to compute
+                                             ( ˜W, ˜V ) = θ(V,W ).  To do so, we ﬁrst need to ﬁnd the matrix  ˜U  = τ(U).  Let us introduce
+                                             a  diagonal n×n  matrix D  =  diag(|∆J1(U)|,...,|∆Jn(U)|),  where Jj  = {j−𝓁,j−𝓁 +
+                                             1,...,j +k− 1}.  We will consider the matrix  ˜U·D rather than  ˜U itself in order to clear the
+                                             denominators (cf. (10.1)).  The matrix U  is given in Figure 2 (top), so
+                                             (6.2)        D = diag(|− 2|,|4|,|− 8|,|10|,|− 4|) = diag(2, 4, 8, 10, 4).
+
+                                             Thus  the  column  ˜U(j)  gets  rescaled  by  the  absolute  value  of  ∆Jj(U).   The  matrix  ˜U·D
+                                             is given in Figure 2 (bottom):  we encourage the reader to check that the column  ˜U(j) is
+                                             orthogonal to the columns U(j) and U(j + 1), and that⟨ ˜U(j),U(j− 1)⟩ = (−1)j.  (Recall
+                                             also that U(j +n) = (−1)k−1U(j) and  ˜U(j +n) = (−1)𝓁−1 ˜U(j),  which is consistent with
+                                             Figure 2.)  Thus the output of the stacked twist map in this case is given by
+                                                                            (−1   4 −8   2    0       )
+                                             (6.3)                  ˜W·D =     1    0 −6   4 −2         ;     ˜V·D =(1   0   2   2   0).
+
+                                                We observe that alt( ˜W ) is a totally positive 2× 5 matrix, and thus  ˜W∈ Gr⊥>0(𝓁 +m,n).
+                  ∆23(V′) =−4a               Similarly,  ˜V  is a totally nonnegative 1× 5 matrix.  Moreover, we have  ˜V ∈ Π>0𝓁+f′  for f′ =
+                                             [2, 1, 3, 5, 4] =f−1, as predicted by Theorem 4.7, part (iii).
+                                                We  now  consider  the  ﬁbers  of Z.   Let V,W  be  given  by  (6.1),  and  consider  a  4× 5
+                                  ∆12(V′) =a−b + 1matrixZ :=W⊥.  Suppose thatV′·Zt =V·Zt for someV′∈ Gr≥0(k,n), then we must have(a)
+
+(−1,1)                       (0,1)           V′ =V +A·W for some 2×1 matrixA =                     b   witha,b∈ R.  The matrixU′ := stack(V′,W )
+
+
+
+                   V′≥ 0         ∆45(V′) =−2a− 4b + 2
+
+
+(−1,0)                       (0,0)            (1,0)   ∆15(V′) = 2b
+
+
+                    (0,−13)
+
+                               ∆34(V′) = 8a + 6b + 2
+
+===== PDF PAGE 16 =====
+16                                                PAVEL GALASHIN AND THOMAS LAM
+is therefore given by                                                              
+
+                          U′ =   a + 1  −a         3a  −2a− 2 a− 1b  −b + 1   3b + 1 −2b + 2   b.
+                                      1   −1          3   −2          1
+
+We then ﬁnd the matrix  ˜U′ :=τ(U′):
+                                                                                           
+                  ˜U′·D =     −1          4   −8                   2              01            0   −6                   4   −2.
+                                a−b + 1 −4a   8a + 6b + 2 −2a− 4b + 2    2b
+Here D  = diag(2, 4, 8, 10, 4) is unchanged since U′  is obtained from U  by row operations.
+Setting ( ˜W′, ˜V′) :=θ(V′,W), we get
+          (−1   4 −8   2    0       )
+˜W′·D =       1    0 −6   4 −2         ;     ˜V′·D =(a−b + 1 −4a   8a + 6b + 2 −2a− 4b + 2   2b).
+
+(Note  that  by  Proposition  4.8,   ˜W′  =   ˜W .   As  we  will  later  see  in  Lemma  10.6,  we  have
+˜V′  =  ˜V−At·  ˜W .)  We can now write down the ﬁber F(V,Z) as the set of pairs (a,b) for) = 10 minors of V′, and each
+which V′ = V  +A·W  is totally nonnegative.  There are(52
+of them turns out to be a linear polynomial in the variables a,b.  For example, ∆13(V′) =
+(a + 1)(3b + 1)− 3ab =a + 3b + 1.
+  The ten lines ∆I(V′) = 0 in the (a,b)-plane are shown in Figure 3.  For example, the line
+∆13(V′) = 0 is the black line passing through the points (−1, 0) and (0,− 13).  The region
+whereV′ is totally nonnegative is the pentagon shaded in blue.  The vertices of this pentagon
+correspond to V′  being in Π>0k+f′  for f′  equal to f  up to rotation (in particular, the vertex
+(0, 0) corresponds to f  itself).  Thus F(V,Z) intersects Π>0k+f′  for all such f′, and hence f  is
+not (n,k,m)-compatible with any of its four rotations.  Observe that the inverses of these ﬁve
+permutations correspond to the triangles in a pentagon with vertex sets{1, 3, 4},{2, 4, 5},
+{1, 3, 5},{1, 2, 4},  and{2, 3, 5}.   No  two  of  these  ﬁve  triangles  can  appear  together  in  a
+triangulation of the pentagon, in agreement with part (2) of Theorem 3.5.
+  On the other hand,  ˜V′ is a 1×5 matrix and thus has only ﬁve minors.  However, the (a,b)-
+region where all of them are nonnegative turns out to be exactly the same as the shaded
+pentagon in Figure 3.  More precisely, for each j∈ Z, we have ∆{j}( ˜V′·D) = ∆{j,j+1}(V′)
+(see Lemma 11.5 for a general statement).  For example,
+                                   ∆1( ˜V′·D) = ∆12(V′) =a−b + 1.
+Since  the  boundary  of  the  shaded  region  in  Figure  3  only  involves  circular  minors  of V′
+being  zero,  we  see  that  the  ﬁbers  F(V,Z)  and  F( ˜V, ˜Z)  are  equal  as  regions  in  the  (a,b)-
+plane.  However, the ﬁve vertices of the pentagon F( ˜V, ˜Z) correspond to the ﬁve rotations
+of f−1.  The main idea of our proof in Section 10 is based on the observations made in this
+example.
+
+6.3.  Canonical forms for lower cells.  Let k = 2, 𝓁 = 1, m = 2, n = 5, f  = [2, 3, 1, 5, 4].
+Consider parametrizations of Π>0k+f  and Gr⊥>0(k +m,n) by
+               (1   0   0 −a −c)
+        V  :=     0   1   0  b      0     ,  W  :=(p −q   1 −r s),  a,b,c,p,q,r,s> 0.
+
+===== PDF PAGE 17 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                        17
+We can takeC :={{1, 2},{2, 4},{4, 5},{2, 5}} to be a cluster for V :
+                    ∆12(V ) = 1,    ∆24(V ) =a,    ∆45(V ) =bc,    ∆25(V ) =c,
+and thus
+                             ωk+f =±da∧d(bc)∧dcabc2          =±da∧db∧dcabc   .
+Since ω𝓁,n =±dp∧dq∧dr∧dspqrs      , the form ωk+f∧ω𝓁,n is given by
+
+(6.4)           ωk+f∧ω𝓁,n =±da∧db∧dc∧dp∧dq∧dr∧dsabcpqrs        .
+
+Let  us  now  see  what  happens  to  this  form  when  we  apply  the  stacked  twist  map.   Let
+( ˜W, ˜V ) :=θ(V,W ).  We ﬁnd(− p                        )
+                                                s
+                 ˜W  :=     cp+s   1 −bq a      c        0  ,     ˜V  :=(    1cp+s   0   0   1   0).
+                           cp+s     0 −1  cr+asbc  − 1b
+Note that f−1  = [3, 1, 2, 5, 4], and indeed  ˜V ∈ Π>0𝓁+f−1, while  ˜W ∈ Gr⊥>0(𝓁 +m,n) because
+alt( ˜W )∈ Gr>0(k,n), see (4.6).  Choosing a clusterC′ :={{4},{1}} for Π>0𝓁+f−1, we get that
+the pullback of ω𝓁+f−1  to Π>0k+f× Gr⊥>0(k +m,n) under θ is
+                                              (      )
+                                            d     1
+                                                cp+s
+(6.5)            θ∗ω𝓁+f−1 =±                     1     =± (pdc +cdp +ds)cp +s     .
+                                               cp+s
+Let us now compute the pullback of ωk,n to Π>0k+f× Gr⊥>0(k +m,n) under θ.  Applying row
+operations to  ˜W , we transform it into(                                 )
+                                          − ap+bq                        1
+                                  ˜W′ =      (cp+s)a   1   0  −ra        a   .
+                                            −  q                         1
+                                              cp+s     0   1 −cr+asbc    b
+The  submatrix  of   ˜W′  with  column  set{2, 3}  is  an  identity  matrix,  and  thus  we  can  use
+Deﬁnition 5.1 (together with the fact that ωk,n is cyclically invariant) to calculate()
+                                                    − ap+bq                1
+                                            d2×3       (cp+s)a  −ra        a
+                                                      −  q                 1
+                                                        cp+s −cr+asbc      b
+(6.6)              θ∗ωk,n =±                            ∆circk   ( ˜W′)       .
+
+Computing the circular minors of  ˜W′, we get
+
+∆12( ˜W′) =  qcp +s,    ∆23( ˜W′) = 1,    ∆34( ˜W′) = ra,    ∆45( ˜W′) = sbc,    ∆15( ˜W′) =  −pb(cp +s).
+
+The denominator in the right hand side of (6.6) is therefore
+
+                                       ∆circk   ( ˜W′) =  −pqrs(cp +s)2ab2c.
+
+A longer computation is needed to ﬁnd the numerator in the right hand side of (6.6), which
+in the end produces the following answer (the symbol∧ is omitted):
+(6.7)         (dadbdcdpdrds                                                                                )
+θ∗ωk,n =±             abcprs  − dadbdcdqdrdsabcqrs        + sdadbdcdpdqdr(cp +s)abcpqr   + dadbdpdqdrds(cp +s)abpqr.
+
+===== PDF PAGE 18 =====
+18                                                PAVEL GALASHIN AND THOMAS LAM
+The reader is invited to check that the form θ∗(ωk,n∧ω𝓁+f−1) =θ∗ωk,n∧θ∗ω𝓁+f−1, obtained
+by taking the wedge of the right hand sides of (6.5) and (6.7), equals to±ωk+f∧ω𝓁,n, which
+is given on the right hand side of (6.4).
+
+
+                    7.  Subdivisions and the universal amplituhedron
+  In this section, we introduce a more general set up.  First, similarly to triangulations of
+An,k,m(Z) deﬁned in Section 3 we deﬁne its subdivisions.  Second, we describe the universal
+amplituhedron (originally studied in the complex algebraic setting in [Lam16b, Section 18.1]),
+and  deﬁne  its  subdivisions  as  well.   The  universal  amplituhedron  provides  a  convenient
+framework  to  formulate  the  results  of  Section  4,  as  well  as  some  other  results  regarding
+canonical forms as we do in Section 8.
+
+7.1.  Subdivisions.  Let Z ∈  Gr>0(k +m,n).   We  denote  by≤  the  Bruhat  order  on   ˜Sn,
+deﬁned as follows.  We say that t∈  ˜Sn is a transposition if we havet(i)⁄=i for precisely two
+indices i∈ [n], and then we deﬁne the covering relation ⋖ of the Bruhat order by
+
+(7.1) f⋖g    if and only if  f =g◦t for some transposition t∈  ˜Sn and  inv(g) = inv(f)+1.
+Here◦ denotes the composition of bijections Z→ Z.  Given two aﬃne permutations f,g∈˜Sn(−k,n−k), we have f≤g if and only if Π≥0
+
+                                                        k+f⊆ Π≥0k+g, see e.g. [Lam16b, Theorem 8.1].
+Deﬁnition 7.1.  Let f1,...,fN ∈   ˜Sn(−k,n−k) be a collection of pairwise Z-compatible
+aﬃne permutations.  We say that f1,...,fN  form  a Z-subdivision  of the amplituhedron if
+the union of the images Z(Π>0k+f1),...,Z(Π>0k+fN ) forms a dense subset ofAn,k,m(Z), and we
+have dim(Z(Π>0k+fs)) =km for each 1≤s≤N.
+  More generally, suppose thatg∈  ˜Sn(−k,n−k) andf1,...,fN∈  ˜Sn(−k,n−k) is a collec-
+tion of pairwiseZ-compatible aﬃne permutations satisfyingfs≤g for all 1≤s≤N. We say
+thatf1,...,fN  form a Z-subdivision ofZ(Π≥0k+g) if the imagesZ(Π>0k+f1),...,Z(Π>0k+fN ) form
+a dense subset ofZ(Π≥0k+g), and we have dim(Z(Π>0k+fs)) = dim(Z(Π>0k+g)) for each 1≤s≤N.
+  We say that f1,...,fN  form an (n,k,m)-subdivision of the amplituhedron (resp., of g) if
+they form a Z-subdivision of the amplituhedron (resp., of Z(Π≥0k+g)) for any Z∈ Gr>0(k +
+m,n).
+
+  It  thus  follows  that  a  (Z-  or  (n,k,m)-)  triangulation  of  the  amplituhedron  is  a  (Z-  or
+(n,k,m)-) subdivision f1,...,fN∈  ˜Sn(−k,n−k) ofAn,k,m(Z) such that the permutations
+f1,...,fN  are (Z- or (n,k,m)-)admissible.
+  The following result gives an analog to part (3) of Theorem 3.5, with the same proof which
+we omit.
+
+Theorem  7.2.  Let f1,...,fN ∈   ˜Sn(−k,𝓁)  be  a  collection  of  aﬃne  permutations.   Then
+they  form  an  (n,k,m)-subdivision  of  the  amplituhedron  (resp.,  of g ∈   ˜Sn(−k,𝓁))  if  and
+only iff−11 ,...,f−1N ∈  ˜Sn(−𝓁,k) form an (n,𝓁,m)-subdivision of the amplituhedron (resp., of
+g−1∈  ˜Sn(−𝓁,k)).
+
+7.2.  The universal amplituhedron.  Let Fl(𝓁,k+𝓁;n) be the 2-step ﬂag variety consisting
+of pairs of subspaces W⊂U⊂ Rn such that dim(W ) =𝓁 and dim(U) =k +𝓁.  Deﬁne the
+
+===== PDF PAGE 19 =====
+                                                                                    PARITY DUALITY FOR THE AMPLITUHEDRON                                        19
+                                                       universal amplituhedronAn,k,m⊂ Fl(𝓁,k +𝓁;n) to be the closure (in the analytic topology3)
+
+                                                         An,k,m :=   {(W,U)|W∈ Gr⊥>0(k +m,n) and span(V,W ) =U  for some V∈ Gr≥0(k,n)}.
+                                                          Let
+                                                                                             π : Fl(𝓁,k +𝓁;n)→ Gr(𝓁,n)
+                                                       be the projection (W,U)↦→W .  Let us ﬁx Z∈ Gr>0(k +m,n) and let W  :=Z⊥.  The ﬁber
+                                                       π−1(W )∩An,k,m can be identiﬁed with theZ-amplituhedronAn,k,m(Z) via the map sending
+                                                       U to the row span of the (k +m)× (k +m) matrixU·Zt (which has rankk).  Thus we have
+                                                                           dim(An,k,m) = (k +m)(n−k−m) +km =km +k𝓁 +𝓁m.
+                                                          We have a map
+                                                                                     Z : Gr≥0(k,n)× Gr⊥>0(k +m,n)→An,k,m
+                                                       given by (V,W )↦→ (W, span(V,W )).  Since the matrix U·Zt has rank k, and the subspace
+                                                       U contains the kernelW  ofZ, it follows that the subspace span(V,W ) always has dimension
+                                                       k +𝓁.  For f∈  ˜Sn(−k,n−k), deﬁne
+                                                                                   A>0k+f :=Z(Π>0k+f× Gr⊥>0(k +m,n))⊂An,k,m,
+                                                                                   A≥0k+f := A>0k+f⊂An,k,m.
+                                                          DeﬁneAn,k,≥m⊂An,k,m by
+                                                        An,k,≥m :={(W,U)|W∈ Gr⊥>0(k +m,n) and span(V,W ) =U  for some V∈ Gr≥m(k,n)}.
+                                                          The  map Z  restricts  to  a  map Z   :  Gr≥m(k,n)× Gr⊥>0(k + m,n) → An,k,≥m.    Let
+                                                       Zop  :  Gr⊥>0(𝓁 +m,n)× Gr≥m(k,n)→An,𝓁,≥m  denote  the  similar  map  sending  ( ˜W, ˜V )  to
+                                                       ( ˜W, span( ˜W, ˜V )).
+                                                       Theorem 7.3.  The stacked twist map
+                                                                        θ : Gr≥m(k,n)× Gr⊥>0(k +m,n)→ Gr⊥>0(𝓁 +m,n)× Gr≥m(𝓁,n)
+                                                       descends to a homeomorphism  ˜θ :An,k,≥m→An,𝓁,≥m, forming a commutative diagram
+
+
+                                                       (7.2)
+
+
+
+                                                          The map  ˜θ  restricts to homeomorphisms  ˜θ :A>0k+f→A>0𝓁+f−1  for each f∈  ˜Sn(−k,𝓁).
+
+                                                       Proof.  Suppose (W,U)∈An,k,≥m.  Let V ∈ Gr≥m(k,n) be chosen so that U  = span(V,W ).
+                                                       Then  ˜θ(W,U) := ( ˜W, ˜U), where θ(V,W ) = ( ˜W, ˜V ) and  ˜U  = span( ˜W, ˜V ).  It follows from
+                                                       Proposition 4.8 that ( ˜W, ˜U) does not depend on the choice of V .  Thus  ˜θ  is well-deﬁned.
+                                                       (Alternatively, the rational map  ˜θ : Fl(𝓁,k +𝓁;n)99K Fl(k,k +𝓁;n) can be deﬁned directly
+                                                       from Lemma 10.1.)  The last statement is immediate from Theorem 4.7.        □
+
+                                                          3We refer to the standard topology on the real manifolds Gr(k, n) and Fl(𝓁, k+𝓁; n) as the analytic topology
+                                                       in order to distinguish it from Zariski topology  which we will later use on their complex algebraic versions.
+
+
+
+Gr≥m(k,n)× Gr⊥>0(k +m,n)              θ    Gr⊥>0(𝓁 +m,n)× Gr≥m(𝓁,n)
+
+
+                 Z                                           Zop
+                                      ˜θ
+            An,k,≥m                                     An,𝓁,≥m
+
+===== PDF PAGE 20 =====
+20                                                PAVEL GALASHIN AND THOMAS LAM
+7.3.  Subdivisions of the universal amplituhedron.  We recast the notions of (n,k,m)-
+triangulations/subdivisions in the language of the universal amplituhedron.
+Lemma 7.4.
+    (1)Let   f ∈   ˜Sn(−k,n−k)  be  an  aﬃne  permutation.   Then f  is  (n,k,m)-admissible  if
+        and only if π−1(W )∩A>0k+f  contains at most 1 point for all W∈ Gr⊥>0(k +m,n).
+    (2)Let   f,g∈   ˜Sn(−k,n−k)  be  two  aﬃne  permutations.   Then f  and g  are  (n,k,m)-
+        compatible if and only ifA>0k+f  andA>0k+g  do not intersect.
+Proof.  See the proof of Theorem 3.5 (parts (1) and (2)) at the end of Section 4.    □
+  The following is an analog of Deﬁnition 7.1.
+Deﬁnition 7.5. Letf1,...,fN∈  ˜Sn(−k,n−k) be a collection of pairwise (n,k,m)-compatible
+aﬃne permutations.  We say that f1,...,fN  form a subdivision  of the universal amplituhe-
+dron if the union ofA>0k+f1,...,A>0k+fN  is a dense subset ofAn,k,m, and we have dim(A>0k+fs) =
+dim(An,k,m) for each 1≤s≤N.
+  More  generally,  suppose  that g ∈   ˜Sn(−k,n−k)  and f1,...,fN ∈   ˜Sn(−k,n−k)  is  a
+collection of pairwise (n,k,m)-compatible aﬃne permutations satisfying fs≤ g for all 1≤
+s≤N.  We say that f1,...,fN  form a subdivision ofA≥0k+g if the union ofA>0k+f1,...,A>0k+fN
+is a dense subset ofA≥0k+g, and we have dim(A>0k+fs) = dim(A>0k+g) for each 1≤s≤N.
+Lemma 7.6.
+      •  Letf1,...,fN∈  ˜Sn(−k,n−k) be a collection of aﬃne permutations.  Thenf1,...,fN
+        form an (n,k,m)-subdivision of the amplituhedron if and only if they form a subdivi-
+        sion of the universal amplituhedron.
+      •  Suppose  that g∈   ˜Sn(−k,n−k)  and f1,...,fN ∈   ˜Sn(−k,n−k)  is  a  collection  of
+        aﬃne  permutations.  Then f1,...,fN  form  an (n,k,m)-subdivision  of g  if  and  only
+        if they form a subdivision ofA≥0k+g.
+Proof.  Let
+  A′n,k,m :={(W,U)|W∈ Gr⊥>0(k +m,n) and span(V,W ) =U  for some V∈ Gr≥0(k,n)}
+so that by deﬁnitionAn,k,m is the closure ofA′n,k,m. Suppose thatf1,...,fN form an (n,k,m)-
+subdivision of the amplituhedron.  Thus the images Z(Π>0k+f1),...,Z(Π>0k+fN ) form a dense
+subset ofAn,k,m(Z) for any Z∈ Gr>0(k +m,n).  We claim thatA>0k+f1,...,A>0k+fN  form a
+dense subset ofA′n,k,m,  from which it follows that their union is dense inAn,k,m.  Indeed,
+take a pair (W,U)∈A′n,k,m  and let Z  := W⊥∈ Gr>0(k +m,n).  There exists 1≤ s≤ N
+such that U·Zt belongs Z(Π≥0k+fs), and thus (W,U) belongs to the closure ofA>0k+fs.
+  Conversely,  suppose  that A>0k+f1,...,A>0k+fN  form  a  dense  subset  of An,k,m.    Fix Z ∈
+Gr>0(k +m,n),  let W  := Z⊥, V ∈  Gr≥0(k,n), U  :=  span(V,W ),  and consider the point
+Y  :=V·Zt of the amplituhedronAn,k,m(Z).  We want to show thatY  belongs to the closure
+of Z(Π>0k+fs) for some 1≤s≤N.  We know that (W,U) belongs to the closure ofA>0k+fs  for
+some 1≤s≤N.  By assumption, there exists a sequence (W1,U1), (W2,U2),...  converging
+to (W,U) in Fl(𝓁,k+𝓁;n) such that (Wi,Ui)∈A>0k+fs for alli≥ 1.  By the deﬁnition ofA>0k+fs,
+for each i≥ 1 there exists Vi∈ Π>0k+fs  such that Ui = span(Vi,Wi).  Let us now consider the
+sequence (W, span(Vi,W ))∈A>0k+fs  for i≥ 1.  We claim that a subsequence of the points
+
+===== PDF PAGE 21 =====
+                            PARITY DUALITY FOR THE AMPLITUHEDRON                                        21
+span(Vi,W) converges toU in Gr(k +𝓁,n), and thus (W,U) belongs to the closure ofA>0k+fs.
+The points Vi  all belong to the compact set Π≥0k+fs  and therefore a subsequence Vi1,Vi2,...
+converges to V′∈ Π≥0k+fs.  Any subspace V′′∈ Gr(k,n) in the neighborhood of V′  satisﬁes
+V′′∩W  ={0},  and  thus  the  map V′′↦→  span(V′′,W )  is  continuous  at V′.   We  get  that
+span(Vi1,W) =Ui1, span(Vi2,W) =Ui2,... converges to span(W,V′) in Gr(k +𝓁,n), and we
+must also have span(W,V′) =U.
+  We have shown the ﬁrst part of the lemma, and the proof of the second part is completely
+analogous.                                  □
+Deﬁnition 7.7.  A triangulation of the universal amplituhedron (resp., ofA≥0k+g) is a subdi-
+vision f1,...,fN∈  ˜Sn(−k,n−k) of the universal amplituhedron that consists of (n,k,m)-
+admissible aﬃne permutations.
+  The following result follows from Lemmas 7.4 and 7.6 together with Theorem 3.5.
+Corollary 7.8.  Let f1,...,fN∈  ˜Sn(−k,n−k) be a collection of aﬃne permutations.  The
+following are equivalent:
+      • f1,...,fN  form an (n,k,m)-triangulation of the amplituhedron;
+      • f1,...,fN  form a triangulation of the universal amplituhedronAn,k,m;
+      • f−11 ,...,f−1N   form a triangulation of the universal amplituhedronAn,𝓁,m;
+  A similar result applies to triangulations of g∈  ˜Sn(−k,n−k).
+                                   8.  The amplituhedron form
+  We review the deﬁnition of the amplituhedron  form, which is a rational diﬀerential form
+on the Grassmannian.  In Section 8.5, the constructions are illustrated by computations for
+k =𝓁 = 1, m = 2, and n = 4.
+  It is natural to work over the complex numbers, and we denote by GrC(k,n) and FlC(a,b;n)
+the complex Grassmannian and the complex 2-step ﬂag variety,  respectively.  The map Z
+induces  a  rational  map Z  :  GrC(k,n)99K  GrC(k,k +m),  the  image  of  which  is  equal  to
+GrC(k,k +m).  Given an aﬃne permutationf∈  ˜Sn(−k,n−k), denote by ΠCk+f⊆ GrC(k,n)
+the Zariski closure of Π>0k+f  in GrC(k,n), called the positroid variety.  See Deﬁnition 11.1 for
+an alternative description.
+8.1.  Degree 1 cells.
+Deﬁnition 8.1. LetZ∈ GrC(k+m,n). We say that an aﬃne permutationf∈  ˜Sn(−k,n−k)
+has Z-degree  1  if  dim ΠCk+f  =  dimZ(ΠCk+f)  = km  and  the  rational  map Z  :  ΠCk+f 99K
+GrC(k,k+,m)  is  birational,  that  is,  it  restricts  to  an  isomorphism  between  Zariski  open
+subsets A⊂ ΠCk+f  and B⊂ GrC(k,k +m).
+  We say that an aﬃne permutation f∈  ˜Sn(−k,n−k) has degree 1 if it hasZ-degree 1 for
+Z belonging to a nonempty Zariski open subset of GrC(k +m,n).
+  Thus in order for f  to have Z-degree 1,  we must have inv(f) = k𝓁.  We note that if f
+satisﬁes dim ΠCk+f  = dimZ(ΠCk+f) = km for a generic Z∈ GrC(k,k +m) then f  is said to
+have kinematical support, see [AHBC+16, Section 10].
+Remark 8.2. Suppose thatf has degree 1.  Since Gr>0(k+m,n) is Zariski dense in GrC(k+
+m,n), f  has Z-degree 1 for Z  belonging to an open dense subset of Gr>0(k +m,n) in the
+analytic topology.
+
+===== PDF PAGE 22 =====
+22                                                PAVEL GALASHIN AND THOMAS LAM
+Remark  8.3.  Suppose  that f  has Z-degree  1.   Since  Π>0k+f  is  Zariski  dense  in  ΠCk+f,  it
+follows thatZ restricts to a diﬀeomorphism on an open dense subset of Π>0k+f  in the analytic
+topology.
+   Thus if f  has Z-degree 1 then Z is injective on an open dense subset of the positroid cell
+Π>0k+f, but not necessarily on the whole positroid cell.
+
+Conjecture 8.4.  Let f∈  ˜Sn(−k,n−k) be an aﬃne permutation with inv(f) =k𝓁.  Then
+the following are equivalent:
+(a) f  is (n,k,m)-admissible,
+(b) f  has degree 1,
+(c) f  has Z-degree 1 for all Z∈ Gr>0(k +m,n).
+In each case, Z is a diﬀeomorphism Π>0k+f→Z(Π>0k+f).
+   It is clear that (c) implies (b).  In what follows,  we restrict ourselves to only (n,k,m)-
+admissible aﬃne permutations that have degree 1.  It is not diﬃcult to see that Conjecture
+8.4  holds  for k  =  1,  since  in  this  case  every  aﬃne  permutation f ∈   ˜Sn(−k,n−k)  with
+inv(f) =k𝓁 satisﬁes (a), (b), and (c).  Let us now explain why Conjecture 8.4 also holds for
+𝓁 = 1.  Let𝓁 = 1, and consider an aﬃne permutationf∈  ˜Sn(−k,𝓁) with inv(f) =k𝓁.  Thenf
+satisﬁes (a) by Theorem 3.5, part (1).  Next,f satisﬁes (b) by Proposition 8.5 below.  Finally,
+we have already noted above that f−1 satisﬁes (c), i.e., that f−1∈  ˜Sn(−𝓁,k) has  ˜Z-degree
+1 for all  ˜Z∈ Gr>0(𝓁 +m,n).  In particular, it is easy to see that for any  ˜V ∈ Gr>0(𝓁,n),
+there exists a unique  ˜V′∈ ΠC𝓁+f−1  such that  ˜V·  ˜Zt  =  ˜V′·  ˜Zt.  By Lemma 10.6,  it follows
+that  for  any Z ∈  Gr>0(k +m,n)  and V ∈  Gr>0(k,n),  there  exists  a  unique V′ ∈  ΠCk+f
+such  that V ·Zt  = V′·Zt.   Since  this  holds  for  all V ∈  Gr>0(k,n),  it  must  hold  for V
+belonging to a Zariski dense subset of GrC(k,n), and thus f  indeed has Z-degree 1 for any
+Z∈ Gr>0(k +m,n).  This shows that Conjecture 8.4 holds for 𝓁 = 1.
+   We  will  see  in  Lemma  9.3  that  if f ∈   ˜Sn(−k,n−k)  has  degree  1  then  we  must  have
+f ∈   ˜Sn(−k,𝓁).  By a result of [Lam16a], f  has degree 1 if and only if the coeﬃcient of a
+certain rectangular Schur function in the corresponding aﬃne Stanley symmetric function is
+equal to 1. An important corollary of this is the following result that we prove in Section 12.3.
+Proposition 8.5.  An  aﬃne  permutation f∈  ˜Sn(−k,𝓁)  has  degree 1  if  and  only  if f−1∈
+ ˜Sn(−𝓁,k) has degree 1.
+
+Deﬁnition 8.6.  Given Z∈ Gr>0(k +m,n), we say that f1,...,fN∈  ˜Sn(−k,n−k) form
+a Z-triangulation  of  degree  1  if  they  form  an Z-triangulation  and fs  has Z-degree  1  for
+1≤s≤N.
+   We say thatf1,...,fN∈  ˜Sn(−k,n−k) form an (n,k,m)-triangulation of degree 1 if they
+form an (n,k,m)-triangulation of the amplituhedron and fs has degree 1 for 1≤s≤N.
+   Note that (without knowing Conjecture 8.4) it may not be true that an (n,k,m)-triangulation
+of degree 1 is a Z-triangulation of degree 1 for all Z∈ Gr>0(k +m,n), but only for all Z
+belonging to an open dense subset of Gr>0(k +m,n).
+Corollary 8.7.  LetT  ={f1,...,fN}⊂  ˜Sn(−k,𝓁) be an (n,k,m)-triangulation of degree 1.
+DeﬁneT′ :={f−11 ,...,f−1N}⊂  ˜Sn(−𝓁,k).  ThenT′  is an (n,𝓁,m)-triangulation of degree 1.
+Proof.  Follows directly from Proposition 8.5 combined with the proof of Theorem 3.5.  □
+
+===== PDF PAGE 23 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                        23
+8.2.  The amplituhedron form.  For us, the crucial property of a degree 1 map is that it
+allows one to deﬁne the pushforward form ωZ(ΠCk+f ) on GrC(k,k +m) via a pullback.  Suppose
+thatf∈  ˜Sn(−k,n−k) hasZ-degree 1 and inv(f) =k𝓁.  ThusZ restricts to an isomorphism
+between Zariski open subsets A⊂ ΠCk+f  andB⊂ GrC(k,k +m).  We deﬁne the rational top
+form ωZ(ΠCk+f ) on B, and by extension on GrC(k,k +m), as the pullback
+(8.1)                ωZ(ΠCk+f ) =Z∗ωk+f := (Z−1)∗ωk+f,
+where Z−1 :B→A denotes the inverse of the isomorphism Z :A→B.
+  Recall from Section 5.2 that for f∈  ˜Sn(−k,n−k), the canonical form ωk+f  on Π>0k+f  is
+deﬁned up to a sign.  For the purposes of the amplituhedron form, we need to add up the
+forms ωZ(ΠCk+f )  for  various f.   Thus  it  is  necessary  pick  a  particular  sign  of ωk+f  for  each
+f∈  ˜Sn(−k,n−k).
+Proposition 8.8.  Letf∈  ˜Sn(−k,n−k) be an aﬃne permutation ofZ-degree 1.  Recall that
+by Remark 8.3, there exists an open dense subset A⊂ Π>0k+f  such that the restriction of Z  to
+A is a diﬀeomorphism.  If f  is Z-admissible then the Jacobian of Z  on A has constant sign.
+  Thus for an (n,k,m)-admissible aﬃne permutation of degree 1, we can distinguish between
+Z being orientation reversing or orientation preserving on the real manifold Π>0k+f.
+  Let  us  choose  some  rational  top  form ωrefk,k+m  on  Gr(k,k +m)  that  is  non-vanishing  on
+An,k,m(Z). This is always possible sinceAn,k,m(Z) lies completely within some open Schubert
+cell (diﬀeomorphic to the orientable manifold Rkm) of Gr(k,k+m), see [Lam16b, Proposition
+15.2 and Lemma 15.6].  We call ωrefk,k+m the reference form.
+
+Deﬁnition 8.9.  Suppose that f ∈   ˜Sn(−k,n−k) has Z-degree 1.  We say that the form
+ωk+f  is positive  with  respect  to ωrefk,k+m if the forms ωZ(ΠCk+f ) and ωrefk,k+m have the same sign
+when restricted to Z(Π>0k+f) (whenever both are nonzero).
+  We note that ωk+f  is nonvanishing on Π>0k+f.  By Proposition 8.8, we may and will pick
+a sign for ωk+f  so that the pushforward form ωZ(ΠCk+f )  is positive with respect to the ﬁxed
+reference form ωrefk,k+m on Gr(k,k +m).
+Deﬁnition 8.10. ForZ∈ Gr>0(k +m,n) and aZ-triangulationT  ={f1,...,fN} of degree
+1, deﬁne the amplituhedron form ω(T )An,k,m(Z) on GrC(k,k +m) by
+
+                                                         N∑
+(8.2)                   ω(T )An,k,m(Z) :=                    ωZ(ΠCk+fs).
+                                                        s=1
+  We emphasize again that the sign of every summand in the right hand side of the above
+equation is chosen so that the signs of ωZ(ΠCk+fs)  and ωrefk,k+m  coincide on Z(Π>0k+fs) for each
+1≤s≤N.  The following has been numerically veriﬁed in the physics literature in a number
+of cases when m = 4.
+Conjecture 8.11.  The formω(T )An,k,m(Z) does not depend on the choice of a triangulationT .
+  When Conjecture 8.11 holds, we denote by ωAn,k,m(Z) the triangulation independent am-
+plituhedron form.  This conjectural amplituhedron form is the one presented in the original
+deﬁnition  of  the  amplituhedron  [AHT14].   A  diﬀerent  conjectural  characterization  of  the
+
+===== PDF PAGE 24 =====
+24                                                PAVEL GALASHIN AND THOMAS LAM
+amplituhedron form via “positive geometries” is given in [AHBL17].  It is an important open
+problem  to  give  a  formula  for ωAn,k,m(Z)  without  referring  to  triangulations.   See  Conjec-
+ture 13.5 for related discussion.
+8.3.  The universal amplituhedron form.  The formω(T )An,k,m(Z) is a top form on GrC(k,k+
+m) that depends onZ.  We now letZ vary over Gr>0(k +m,n), and deﬁne a closely related
+top form ω(T )An,k,≥m  on FlC(𝓁,k +𝓁;n).
+  As in the construction ofωrefk,k+m, eachZ-amplituhedronAn,k,m(Z) is contained in an open
+Schubert  cell C(Z)  of  Gr(k,k +m).   Thus  the  interior  of  the  universal  amplituhedron  is
+contained in the orientable submanifold of Fl(𝓁,k +𝓁;n) which maps to Gr>0(k +m,n) with
+ﬁberC(Z) over each Z∈ Gr>0(k +m,n).  (Note that Gr>0(k +m,n) is diﬀeomorphic to an
+open ball and is in particular orientable and contractible.)  We may thus choose a reference
+top form ωrefFl(𝓁,k+𝓁;n) on Fl(𝓁,k +𝓁;n) so that it is non-vanishing on the interior ofAn,k,m.
+Proposition 8.12.  Suppose that f∈  ˜Sn(−k,n−k) has degree 1.  Then the rational map
+                                Z : ΠCk+f× GrC(𝓁,n)99K FlC(𝓁,k +𝓁;n)
+sending (V,W ) to (W, span(V,W )) is a birational map.
+Proposition 8.13.  Let f∈  ˜Sn(−k,n−k) be an (n,k,m)-admissible aﬃne permutation of
+degree 1.  Then there exists an open dense subset A⊂ Π>0k+f× Gr⊥>0(k +m,n) such that the
+restriction ofZ  to A is a diﬀeomorphism, and the Jacobian ofZ  on A has constant sign.
+  By  Proposition  8.12,  if f  has  degree  1  then  the  pushforward  formZ∗(ωk+f∧ω𝓁,n)  on
+FlC(𝓁,k +𝓁;n) can be deﬁned as the pullback via the inverse ofZ  (see (8.1)).  By Proposi-
+tion 8.13, if f  is furthermore (n,k,m)-admissible we may choose a sign for ωk+f  such that
+the formZ∗(ωk+f∧ω𝓁,n) has the same sign as ωrefFl(𝓁,k+𝓁;n) when restricted toA>0k+f.
+Deﬁnition 8.14.  Given an (n,k,m)-triangulationT  ={f1,...,fN}⊂  ˜Sn(−k,𝓁) of degree
+1, the universal amplituhedron form ω(T )An,k,≥m  on FlC(𝓁,k +𝓁;n) is deﬁned by
+
+                                                    N∑
+(8.3)                 ω(T )An,k,≥m =                    Z∗(ωk+fs∧ω𝓁,n).
+                                                   s=1
+  Here the signs of the terms in the right hand side are chosen in the same fashion as in (8.2).
+Conjecture 8.15.  The form ω(T )An,k,≥m  does not depend on the choice of a triangulationT .
+  It follows from Proposition 8.19 below that Conjecture 8.15 is equivalent to Conjecture 8.11
+for all Z  such that the triangulations in question have Z-degree 1.  Also, Conjectures 8.11
+and  8.15  are  known  for k  =  1:  a  triangulation  independent  construction  of  the  polytope
+form is given in [AHBL17].  It follows from Theorem 8.16 that the two conjectures also hold
+for 𝓁 = 1.
+  We state our main result on the amplituhedron form.
+Theorem 8.16.  Suppose  that  we  are  given  an (n,k,m)-triangulationT  ={f1,...,fN}⊂
+˜Sn(−k,𝓁)  of  degree  1,  and  let T′  := {f−11 ,...,f−1N} ⊂   ˜Sn(−𝓁,k)  be  the  corresponding
+(n,𝓁,m)-triangulation of degree 1 (cf.  Corollary 8.7).  Then the stacked twist map preserves
+the universal amplituhedron form:
+(8.4)                                               ˜θ∗ω(T′)An,𝓁,≥m =±ω(T )An,k,≥m.
+
+===== PDF PAGE 25 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                        25
+
+  In (8.4), the map ˜θ can be considered either as a diﬀeomorphism between the interiors of
+An,k,≥m andAn,𝓁,≥m, or as a rational map  ˜θ : FlC(𝓁,k +𝓁,n)99K FlC(k,k +𝓁;n).
+
+Remark  8.17.  Deﬁnition  8.14  can  be  extended  to  forms ω(T )A≥0
+                                                                            k+g  for  a  triangulationT   of
+A≥0k+g.  It is straightforward to generalize Theorem 8.16 to ω(T )A≥0
+                                                                         k+g.  We still expect the analog
+of Conjecture 8.11 to hold in this case.  Furthermore, assuming that Conjecture 8.11 holds for
+allA≥0k+g, the forms are expected to be compatible with subdivisions.  Namely, iff1,f2,...,fN
+form an (n,k,m)-subdivision of g, then we should have ωA≥0                       i=1ωA≥0
+                                                                       k+g =∑N          k+fi.
+Remark 8.18.  We expect thatAn,k,m is a positive geometry in the sense of [AHBL17], and
+that the conjectural universal amplituhedron form ωAn,k,≥m  we have deﬁned is its canonical
+form.
+8.4.  From the universal amplituhedron form back to the amplituhedron form.  In
+this  section  we  explain  how  the  amplituhedron  form  can  be  recovered  from  the  universal
+amplituhedron form.
+  First suppose that f∈  ˜Sn(−k,𝓁) is (n,k,m)-admissible and has degree 1.  Then we have
+Z∗(ωk+f∧ω𝓁,n) = (Z−1)∗(ωk+f∧ω𝓁,n) = (Z−1)∗(ωk+f)∧ (Z−1)∗(ω𝓁,n) =Z∗(ωk+f)∧π∗(ω𝓁,n)
+where we assume thatZ  andZ−1 have been restricted to the locus where they are isomor-
+phisms.
+  Suppose that Z∈ Gr>0(k +m,n) and f  has Z-degree 1.  Let
+                                    jZ :π−1(Z⊥)↪→ FlC(𝓁,k +𝓁;n)
+be the inclusion of a ﬁber ofπ : FlC(𝓁,k+𝓁;n)→ GrC(𝓁,n) overZ⊥. We have an isomorphism
+π−1(Z⊥)∼= GrC(k,k+m) andZ restricts to a mapZ : ΠCk+f→π−1(Z⊥) that can be identiﬁed
+with Z : ΠCk+f→ GrC(k,k +m).  It follows that
+                                         j∗Z(Z∗(ωk+f)) =Z∗ωk+f
+as forms on π−1(Z⊥)∼= GrC(k,k +m).
+  Now suppose that we are given an (n,k,m)-triangulationT  ={f1,...,fN}⊂  ˜Sn(−k,𝓁)
+of degree 1.  Then                                         ( N∑              )
+
+                                N∑
+(8.5)       ω(T )An,k,≥m =          Z∗(ωk+fs∧ω𝓁,n) =             Z∗(ωk+fs)      ∧π∗(ω𝓁,n)
+                               s=1                           s=1
+and thus when Z  belongs to some Zariski open subset of Gr>0(k +m,n), f1,f2,...,fN  all
+have Z-degree 1, and we obtain         ( N∑              )
+
+                                   j∗Z       Z∗(ωk+fs)      =ω(T )An,k,m(Z)
+                                         s=1
+under the isomorphism π−1(Z⊥)∼= GrC(k,k +m).
+  Finally, suppose we have the equalityω(T )An,k,≥m =η∧ω𝓁,n =η′∧ω𝓁,n for two rational forms
+η,η′ of degree km on FlC(𝓁,k +𝓁;n).  Then (η−η′)∧ω𝓁,n = 0.  The form ω𝓁,n contracts to 0
+with any vertical  tangent vector (i.e., a tangent vector of a ﬁber π−1(Z⊥)).  It follows that
+the top form j∗Z(η−η′) on π−1(Z⊥) is equal to 0.  We have thus shown the following.
+
+===== PDF PAGE 26 =====
+26                                                PAVEL GALASHIN AND THOMAS LAM
+Proposition 8.19. LetZ∈ Gr>0(k+m,n).  Suppose that we have an (n,k,m)-triangulation
+T  ={f1,...,fN}⊂  ˜Sn(−k,𝓁) of degree 1 such that f1,f2,...,fN  all have Z-degree 1.  Then
+there  exists  a  rational  form η  of  degree km  such  that ω(T )An,k,≥m  = η∧ω𝓁,n.   Any  such  form
+satisﬁes
+
+(8.6)                     ω(T )An,k,m(Z) =j∗Z(η).
+
+  Thus in order to reconstruct the amplituhedron form ω(T )An,k,m(Z) from the universal ampli-
+tuhedron form ω(T )An,k,≥m, one needs to represent ω(T )An,k,≥m  as a wedge of η  and ω𝓁,n  for some
+form η, and then use (8.6).  Conversely, if ω(T )An,k,m(Z) exists for generic Z∈ Gr>0(k +m,n),
+it will depend continuously on Z, and one can ﬁnd a form η  satisfying (8.6) and use it to
+ﬁnd ω(T )An,k,≥m  = η∧ω𝓁,n.   As  Proposition  8.19  and  the  example  in  the  next  section  show,
+with the right choice of coordinates (explained in Section 11.3 in full generality), the univer-
+sal amplituhedron formω(T )An,k,≥m carries essentially the same information and computational
+complexity as the amplituhedron form ω(T )An,k,m(Z).
+
+8.5.  Example.  In this section, we compute the amplituhedron form ω(T )An,k,m(Z) and the uni-
+versal amplituhedron form ω(T )An,k,≥m, and explain how the former can be recovered from the
+latter, in the case k =𝓁 = 1, m = 2, n = 4.  In this case, the amplituhedronAn,k,m(Z) is a
+quadrilateral in RP2 with vertices being given by the four columns of a totally positive 3× 4
+matrix Z which we may assume to be given by
+                                              
+                       Z =   1  s     0   00  p    1   0 ;  W  :=Z⊥ =(−s   1 −p q)
+                                0 −q   0   1
+for some s,p,q> 0.
+  There are precisely two (n,k,m)-triangulations of the amplituhedron, each of them con-
+tains M(1, 1, 1) = 2 cells and has degree 1.  We choose the triangulationT  ={f,g} with
+f = [2, 1, 3, 4] and g = [1, 2, 4, 3] in window notation.  The cells Π>0k+f  and Π>0k+g are parame-
+terized as follows.  Each V ∈ Π>0k+f  can be represented by a matrix(1   0 b c) while each
+V∈ Π>0k+g can be represented by a matrix(1 a b   0) for some a,b,c> 0.
+  We  would  like  to  ﬁnd ω(T )An,k,m(Z)  using  (8.2),  so  let  us  compute ωZ(Π>0
+                                                                                           k+f )  and ωZ(Π>0k+g)
+separately and then add them up.  Each generic point in Gr(k,k +m) is the row span of a
+matrix(1 x y), so we ﬁx a reference form ωrefk,k+m :=dx∧dy on Gr(k,k +m).
+  The restriction ofZ to Π>0k+f maps(1   0 b c) to the row span of(1 b c) in Gr(k,k+m),
+and thus we have x = b and y = c on Z(Π>0k+f).  Therefore the map Z−1 is given by b = x
+and c =y, and since ωk+f = db∧dcb·c  , the pullback (Z−1)∗ωk+f  equals
+
+                                           Z∗ωk+f =±dx∧dyx·y .
+
+Furthermore, since the functions x =b andy =c are positive on Z(Π>0k+f), the form Z∗ωk+f
+is positive with respect to ωrefk,k+m if the sign above is chosen to be +.
+
+===== PDF PAGE 27 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                        27
+
+  The computation ofωZ(Π>0
+                                k+g) is more involved. The restriction ofZ to Π>0k+g maps(1 a b   0)) in Gr(k,k +m).  Thus we have
+to the row span of(1 +sa pa +b −qa)≃(1  pa+b                       −qa
+                                                           1+sa   1+sa
+x = pa+b1+sa  andy = −qa1+sa  onZ(Π>0k+g).  The fact that g has degree 1 means that Z is birational
+when  restricted  to  Π>0k+g,  equivalently,  that  we  can  solve  the  above  equations  for a  and b
+and write them as rational functions of x and y.  Indeed,  this can be done,  and the map
+Z−1 :Z(Π>0k+g)99K Π>0k+g is given by
+
+                                       a = −ysy +q,  b = qx +pysy +q .
+
+We can now ﬁnd the pullback of the form ωk+g = da∧dba·b   under Z−1:
+                                     (     )      (       )
+                                   d    −y    ∧d    qx+py
+                                       sy+q          sy+q
+(8.7)        Z∗ωk+g =±                    −y                 =±   q2·dx∧dy(qx +py)(sy +q)y.
+                                         sy+q· qx+pysy+q
+Here  in  fact  we  must  choose  the−  sign,  because  the  functions qx +py  and sy +q  are
+positive on Z(Π>0k+g) while the function y = −qa1+sa  is negative.  We are ﬁnally able to ﬁnd the
+amplituhedron form:
+(8.8)
+ω(T )An,k,m(Z) =Z∗ωk+f +Z∗ωk+g = dx∧dyx·y −   q2·dx∧dy(qx +py)(sy +q)y  = (qsx +psy +pq)·dx∧dy(qx +py)(sy +q)x   .
+
+We encourage the reader to check that choosingT  to be the other triangulation ofAn,k,m(Z)
+(consisting of aﬃne permutations f′ = [1, 3, 2, 4] andg′ = [0, 2, 3, 5]) yields the same expres-
+sion for ω(T )An,k,m(Z).  Agreeing with general expectations (see [AHBL17]), the form ω(T )An,k,m(Z)
+has four poles (along the hypersurfacesqx +py,sy +q,x, and at inﬁnity) which corresponds
+to the four facets of the quadrilateralAn,k,m(Z).
+  We now compute the universal amplituhedron formω(T )An,k,≥m on Fl(𝓁,k +𝓁;n).  In order for
+it to be compatible with our previous calculations, we introduce the following coordinates
+on Fl(𝓁,k +𝓁;n).  For each generic pair (W,U)∈ Fl(𝓁,k +𝓁;n), there are unique numbers
+s,p,q,x,y such that W  is the row span of(−s   1 −p q) while U  is the row span of
+                                            (−s   1 −p q)
+(8.9)                                          1    0  x  y      .
+
+Our goal is to ﬁndω(T )An,k,≥m from (8.5).  We ﬁrst computeπ∗(ω𝓁,n), which is a (k𝓁 +𝓁m)-form
+on Fl(𝓁,k +𝓁;n).  In our coordinates, the mapπ : Fl(𝓁,k +𝓁;n)→ Gr(𝓁,n) simply sends the
+row span of U  given by (8.9) to the row span of(−s   1 −p q), and thus we have
+
+                                       π∗(ω𝓁,n) =±ds∧dp∧dqspq   .
+
+We now computeZ∗(ωk+f).  The mapZ  sends a pair (V,W ) to (W, span(V,W )), and as-
+sumingV  is the row span of(1   0 b c) for someb,c> 0, we get that our coordinates (8.9)
+for the pair (W, span(V,W )) are given by s  = s, p  = p, q  = q, x  = b,  and y  = c.  Thus
+Z∗(ωk+f) = dx∧dyx·y    as a km-form on Fl(𝓁,k +𝓁;n).
+  Similarly, we ﬁndZ∗(ωk+g).  AssumingV  is the row span of(1 a b   0) for somea,b> 0,
+we get that our coordinates (8.9) for the pair (W,U′ := span(V,W )) are given bys =s,p =p,
+
+===== PDF PAGE 28 =====
+28                                                PAVEL GALASHIN AND THOMAS LAM
+                                                                                          (−s   1 −p q)
+q =q, but in order to ﬁndx andy, we need to transform the matrixU′ :=                        1  a  b     0
+into the form (8.9) by row operations, which yields(−s   1 −p   q )
+
+                                             1    0  b+pa    −qa    .
+                                                     1+sa    1+sa
+Thus we havex = b+pa1+sa andy = −qa1+sa, and as we have already computed earlier, solving fora
+and b yields a = −ysy+q, b = qx+pysy+q .  The formZ∗(ωk+g) now however is given by an expression
+that is slightly diﬀerent from (8.7):
+
+                                Z∗(ωk+g) =±   q2·dx∧dy(qx +py)(sy +q)y +α,
+
+whereα denotes a sum of terms containing either one ofds,dp, ordq.  All those terms vanish
+after we take the wedge with π∗(ω𝓁,n), so we use (8.5) to ﬁnd the universal amplituhedron
+form:
+(8.10)
+ ω(T )An,k,≥m = (Z∗(ωk+f) +Z∗(ωk+g))∧π∗(ω𝓁,n) = (qsx +psy +pq)·dx∧dy∧ds∧dp∧dq(qx +py)(sy +q)xspq      .
+
+This is a top form on Fl(𝓁,k +𝓁;n), and we can choose the form η from Proposition 8.19 to
+be
+(8.11)                                       (qsx +psy +pq)·dx∧dy(qx +py)(sy +q)x       +β,
+
+where β  is  an  arbitrary  sum  of  terms  containing  either  one  of ds, dp,  or dq.   Comparing
+Equations (8.8),  (8.10),  and (8.11),  the similarities between the forms in Proposition 8.19
+become apparent.  We are done with the computation, and will continue the discussion of
+this example in Section 13.2.
+
+                            9.  The interior of the amplituhedron
+  In this section, we discuss some topological properties ofAn,k,m(Z).  In particular, we ex-
+plain why it is suﬃcient for our purposes to concentrate on Gr≥m(k,n) rather than Gr≥0(k,n).
+  Recall thatAn,k,≥m(Z) was deﬁned in (4.4) to be the image of Gr≥m(k,n) under Z.  Let
+us also denote byA◦n,k,m(Z) the interior of the amplituhedron.  The following result implies
+Lemma 3.2.
+Proposition 9.1.  We have inclusions
+(9.1)         Z(Gr>0(k,n))⊂A◦n,k,m(Z)⊂An,k,≥m(Z)⊂An,k,m(Z).
+  Note  that  this  proposition  implies  in  particular  that  the  amplituhedron  is  equal  to  the
+closure of its interior (see Lemma 9.4 below), becauseAn,k,m(Z) is equal to the closure of
+Z(Gr>0(k,n)).
+  Suppose  that V ∈  Gr≥0(k,n), Z ∈  Gr>0(k + m,n),  and  let W   := Z⊥.    Then  by
+Lemma 10.5, having V∈ Gr≥m(k,n) is equivalent to saying that the circular (k +𝓁)-minors
+of U  :=  stack(V,W )  are  all  nonzero.   For V′ ∈  F(V,Z),  it  follows  from  (10.7)  that  the
+matrix stack(V′,W) has the same maximal minors.  Therefore for all V′∈ F(V,Z) we have
+V′∈ Gr≥m(k,n).  We have shown the following result.
+Proposition 9.2.  For each point Y∈An,k,m(Z), exactly one of the following holds:
+
+===== PDF PAGE 29 =====
+                            PARITY DUALITY FOR THE AMPLITUHEDRON                                        29
+      •  for all V∈ Gr≥0(k,n) such that V·Zt =Y , we have V∈ Gr≥m(k,n), or
+      •  for all V∈ Gr≥0(k,n) such that V·Zt =Y , we have V /∈ Gr≥m(k,n).
+  Note also that the ﬁrst condition holds if and only if Y ∈An,k,≥m(Z).  The next lemma
+characterizesAn,k,≥m(Z) as a subset ofAn,k,m(Z) satisfying certain boundary inequalities
+and implies Lemma 3.2.  Recall that the columns of Z satisfy Z(j +n) = (−1)k−1Z(j).
+Lemma  9.3.  Let Y ∈An,k,m(Z)  be  represented  by  a k× (k +m)  matrix,  and  denote  by
+y1,...,yk∈ Rk+m  the row vectors of Y .  Then for each j∈ Z, the function
+                α(Y,Z,j) := det([y1|y2|...|yk|Z(j)|Z(j + 1)|...|Z(j +m− 1)])
+takes a ﬁxed sign onAn,k,m(Z) and we have Y∈An,k,≥m(Z) if and only if α(Y,Z,j)⁄= 0 for
+all j∈ Z.
+Proof.  By [Lam16b, Proposition 20.3],α(Y,Z,j) takes a ﬁxed sign onAn,k,m(Z).  It remains
+to show thatY∈An,k,≥m(Z) if and only ifα(Y,Z,j)⁄= 0.  LetW  :=Z⊥ andV∈ Gr≥0(k,n)
+be such thatV·Zt =Y .  DeﬁneX := (span(V,W ))⊥.  ThusX is anm-dimensional subspace
+inside the row span ofZ. By [KW17, Lemma 3.10], we have ∆{j,j+1,...,j+m−1}(X) =α(Y,Z,j).
+Let J⊂ [n] denote the complement of the set{j,j + 1,...,j +m− 1} (viewed modulo n)
+inside  [n].   By  (4.6),  ∆J(stack(V,W ))  =  ∆{j,j+1,...,j+m−1}(X),  and  thus α(Y,Z,j)⁄=  0  for
+all j∈ Z if and only if all circular minors of U  := stack(V,W ) are nonzero.  This happens
+precisely when U∈ Mat◦(k +𝓁,n), and the result now follows from Proposition 9.2.  □
+Proof of Proposition 9.1.  Lemma  9.3  proves  the  second  inclusionA◦n,k,m(Z)⊂An,k,≥m(Z)
+in (9.1).  The third inclusionAn,k,≥m(Z)⊂An,k,m(Z) is obvious, and the ﬁrst inclusion is
+the content of Lemma 9.4 below.                        □
+Lemma 9.4.  The closure of the interior ofAn,k,m(Z) equalsAn,k,m(Z), and we have
+                                     Z(Gr>0(k,n))⊂A◦n,k,m(Z).
+Proof.  Let V ∈ Gr>0(k,n) and Y  := V·Zt.  We would like to show that Y  belongs to the
+interior ofAn,k,m(Z).  Note that GLk+m(R) acts transitively on Gr(k,k +m), so let A(E) =
+Idk+m +E∈ GLk+m(R) belong to the neighborhood of the identity for each suﬃciently small
+(k+m)×(k+m) matrixE.  We need to show thatY·A(E) belongs to the image of Gr>0(k,n),
+equivalently,  that there exists V′(E)∈ Gr>0(k,n) such that V′(E)·Zt  = Y·A(E),  for all
+smallE.   Let  us  construct  this V′(E)  explicitly.   Assume  without  loss  of  generality  that
+Z = [Idk+m|St] for an 𝓁× (k +m) matrix S.  Then set(Idk+m +E     0   )
+
+                                   V′(E) :=V·           SE        Id𝓁   .
+
+Clearly for smallE  this matrix is close to V  and thus totally positive.  Let us calculate the
+image of V′(E) under Z:                (Idk+m +E)
+
+                    V′(E)·Zt =V·          SE +S        =V·Zt·A(E) =Y·A(E).       □
+
+                             10.  The stacked twist map:  proofs
+  In this section, we examine the stacked twist map from Section 4. We adopt the setting and
+all notation from that section. Our ultimate goal is to prove Theorem 4.7 and Proposition 4.8.
+
+===== PDF PAGE 30 =====
+30                                                PAVEL GALASHIN AND THOMAS LAM
+  We ﬁrst discuss the relationship between the stacked twist map and the twist map of [MaSc16].
+We remark that in [MuSp17], the twist map of [MaSc16] was extended toU’s not necessarily
+belonging to Mat◦(k +𝓁,n).  However, we only focus on U∈ Mat◦(k +𝓁,n), and mostly use
+the results of [MaSc16].
+  For  two  integers a < b,  we  denote  [a,b)  := {a,a + 1,...,b− 1} ⊂ Z.   Let j ∈ Z,
+J := [j−𝓁,j +k),U∈ Mat◦(k +𝓁,n), and let  ˜U :=τ(U) be deﬁned by (4.1).  Denote by  ˜U′
+the result of applying the twist map of [MaSc16] to U, and let  ˜U′′ be the result of applying
+the right twist map of [MuSp17].  Then we have4
+
+(10.1)                                 ˜U(j) = ±1∆J(U) ˜U′(j +k) =± ˜U′′(j−𝓁).
+
+Here ∆J(U) := det(U(J)), whereU(J) denotes the submatrix [ ˜U(j−𝓁)|...| ˜U(j +k− 1)] of
+U  with column set J.  Thus for example the deﬁnition of τ  given in (4.1) can be restated as
+follows:
+(10.2)           for each j∈ Z, (−1)j ˜U(j) is the ﬁrst row of the matrix (U(J))−1.
+  We now use (10.1) to apply some results of [MaSc16] to our setting.
+Lemma 10.1.  Letg∈ GLk+𝓁(R) be an invertible (k +𝓁)× (k +𝓁) matrix andU∈ Mat◦(k +
+𝓁,n).  Then
+                                          τ(g·U) =(g−1)tτ(U).
+Proof.  This follows from (10.1) combined with the proof of [MaSc16, Lemma 2.3].   □(g1    0         )
+
+Proof of Lemma 4.4.  For g1∈  GLk(R),g2∈  GL𝓁(R),  we  can  take g  :=                        0  g2      to  be  a
+block matrix, and thus for θ(V,W ) = ( ˜W, ˜V ) we have(                         )
+                              θ (g1·V,g2·W ) =         (g−11  )t·  ˜W, (g−12  )t· ˜V.          □
+
+Lemma  10.2.  Let j ∈ Z, J  :=  [j−𝓁,j +k),  and K  :=  [j,j +k +𝓁).   Then  for  every
+U∈ Mat◦(k +𝓁,n) and  ˜U :=τ(U), we have
+
+(10.3)                                    ∆K( ˜U) = (−1)j+(j+1)+···+(j+k+𝓁−1)∆J(U)      .
+
+Proof.  This follows from [MaSc16, Remark 3.7], but we deduce this as a simple consequence
+of Lemma 10.1. Namely, if the submatrixU(J) ofU is the identity matrix then the submatrix˜U(K) is upper triangular with diagonal entries (−1)j,..., (−1)j+k+𝓁−1, so in this case (10.3)
+
+is obvious.  We can write any matrix U  as U(J)·U′ where U′(J) is the identity matrix, and
+thus by Lemma 10.1,  ˜U = (U(J)−1)t·τ(U′(J)), which proves (10.3) in general.     □
+  For a subspace V∈ Gr(k,n) and integers a<b∈ Z, deﬁne
+                                 rk(V ;a,b) := rk([V (a)|...|V (b− 1)]).
+The  positroid  cell  Π>0k+f  is  deﬁned  in  Deﬁnition  11.1,  however,  we  will  work  with  a  more
+convenient alternative characterization.
+
+  4The columns in [MaSc16, MuSp17] satisfy U(j +n) = U(j) while we impose U(j +n) = (−1)k−1U(j).  In
+addition, we have the sign (−1)j in (4.1) which is not present in [MaSc16, MuSp17].  Thus for k < j≤ n− 𝓁,
+the± sign in (10.1) is just (−1)j.
+
+===== PDF PAGE 31 =====
+                           PARITY DUALITY FOR THE AMPLITUHEDRON                                        31
+
+Lemma 10.3.  Let V ∈ Gr≥0(k,n).  Then the unique aﬃne permutation f∈  ˜Sn(−k,n−k)
+such that V∈ Π>0k+f  is characterized by the property that for each a<b∈ Z,
+
+(10.4)                              rk(V ;a,b) = #{i<a|a≤f(i) +k<b}.
+Proof.  This is well-known, see e.g. [KLS13,§5.2].                 □
+
+  Thus Proposition 4.5 follows from Lemma 10.3 as a simple corollary.  We can now describe
+the relationship between Π>0k+f  and Π>0𝓁+f−1  for f∈  ˜Sn(−k,𝓁).  Note that by Proposition 4.5,
+we have rk(V ;a,b) =k for V∈ Gr≥m(k,n) when b−a≥k +𝓁.
+
+Lemma 10.4.  Let f ∈   ˜Sn(−k,𝓁),g∈   ˜Sn(−𝓁,k),  and  consider  subspaces V ∈  Π>0k+f,  ˜V ∈
+Π>0𝓁+g.  Then we have g =f−1  if and only if for every a<b∈ Z satisfying b−a<k +𝓁,
+
+(10.5)                             rk( ˜V ;b−k,a +𝓁) +b−a =𝓁 + rk(V ;a,b).
+Proof.  By Lemma 10.3,
+                         rk(V ;a,b) = #{i<a|a≤f(i) +k<b},
+                 rk( ˜V ;b−k,a +𝓁) = #{j <b−k|b−k≤g(j) +𝓁<a +𝓁}.
+Since #{i < a| a≤ f(i) +k} = k, we get that #{i < a| b≤ f(i) +k} = k− rk(V ;a,b).
+Now, using the fact that i−k≤f(i)≤i +𝓁, we ﬁnd that
+(10.6)   {i<a|b≤f(i) +k} ={b−k−𝓁≤i<a|b≤f(i) +k<a +𝓁 +k}.
+On the other hand, since #{j∈ Z|b−k≤g(j) +𝓁<a +𝓁} =𝓁 +k +a−b, we get that
+#{b−k≤j|b−k≤g(j) +𝓁<a +𝓁} =𝓁 +k +a−b− rk( ˜V ;b−k,a +𝓁).  Using the fact
+that j−𝓁≤g(j)≤j +k, we ﬁnd
+  {b−k≤j|b−k≤g(j) +𝓁<a +𝓁} ={b−k≤j <a +𝓁|b−k≤g(j) +𝓁<a +𝓁}.
+We arrive at
+   #{b−k≤j <a +𝓁|b−k≤g(j) +𝓁<a +𝓁} =𝓁 +k +a−b− rk( ˜V ;b−k,a +𝓁).
+Rearranging the terms in the right hand side of (10.6), we get
+              #{b−k≤i +𝓁<a +𝓁|b−k≤f(i)<a +𝓁} =k− rk(V ;a,b).
+Thus if f  = g−1  then i = g(j)↦→ j  = f(i) is a bijection between the sets in the left hand
+sides of the two equations above, so we get𝓁 +k +a−b− rk( ˜V ;b−k,a +𝓁) =k− rk(V ;a,b)
+which is equivalent to (10.5).  This proves one direction of the lemma.
+  Conversely, if   (10.5) holds, then f  and g−1 must deﬁne two positroid cells such that the
+ranks of columnsa,a + 1,...,b− 1 are the same for alla<b.  By Lemma 10.3, the two cells
+must therefore be the same and we conclude that f =g−1.             □
+
+  The next lemma proves part (i) of Theorem 4.7.
+Lemma 10.5.  Let V ∈ Gr≥0(k,n), Z∈ Gr>0(k +m,n), W  :=Z⊥, and U := stack(V,W ).
+Let f ∈   ˜Sn(−k,n−k)  be  such  that V ∈  Π>0k+f.   Then f ∈   ˜Sn(−k,𝓁)  if  and  only  if U ∈
+Mat◦(k +𝓁,n).
+
+===== PDF PAGE 32 =====
+32                                                PAVEL GALASHIN AND THOMAS LAM
+Proof.  This is essentially [Lam16b, Proposition 20.3], but we include the proof for complete-
+ness.  Let J := [j−𝓁,j +k).  The minor ∆J(U) can be written as a sum
+                             ∆J(U) = ∑        (−1)inv(I,J\I)∆I(V )∆J\I(W ),
+
+                                         I∈(Jk)
+where inv(I,J\I)  =  #{i∈ I,i′∈ J\I  : i′ < i}.  Moreover,  ∆I(V ) is  nonnegative and
+the sign of ∆J\I(W ) depends only on the parity of∑i′∈J\Ii′, because alt(W )∈ Gr>0(𝓁,n)
+by  (4.6).  It follows that all the terms in the above sum have the same sign,  because the
+terms corresponding to I  and I\{i}∪{i + 1} have the same sign for each i∈I  such that
+i + 1∈J\I.  Moreover, ∆J\I(W ) is always nonzero, and thus ∆J(U) is nonzero if and only
+if ∆I(V ) is nonzero for some I⊂ J.  This is exactly equivalent to saying that the rank of
+[V (j−𝓁)|V (j−𝓁+1)|...|V (j+k−1)] equals tok, so the result follows by Proposition 4.5. □
+  Let Mat◦C(k +𝓁,n) denote the set of complex (k +𝓁)×n matrices with nonzero circular
+minors.  We give a simple result relating the ﬁbers F(V,Z) with their images under θ.
+Lemma 10.6.  LetV∈ GrC(k,n),W∈ GrC(𝓁,n) be such that stack(V,W )∈ Mat◦C(k+𝓁,n).
+DenoteZ :=W⊥, and letV′∈ GrC(k,n) be such thatV′·Zt =V·Zt.  Let ( ˜W, ˜V ) :=θ(V,W )
+and ( ˜W′, ˜V′) := θ(V′,W ).  Then  we  have  ˜W′ =  ˜W  and  there  exists  a k×𝓁  matrix A  such
+that:
+      • V′ =V  +A·W , and
+      •  ˜V′ =  ˜V−At·  ˜W .
+Proof.  It is clear that V·Zt =V′·Zt is equivalent to saying that V′ =V  +A·W  for some
+k×𝓁 matrix A.  But then U′ := stack(V′,W) is obtained from U := stack(V,W ) by(Idk  A)
+
+(10.7)                    U′ =                      0     Id𝓁  ·U.
+
+Here Idk denotes the k×k identity matrix.  By Lemma 10.1, the matrix  ˜U′ = stack( ˜W, ˜V′)
+is obtained from  ˜U  by                        ( Idk      0 )
+                                          ˜U′ =   −At   Id𝓁    · ˜U,
+
+which ﬁnishes the proof.                            □
+Lemma 10.7.  LetV∈ Gr≥m(k,n),Z∈ Gr>0(k +m,n),W  :=Z⊥, and ( ˜W, ˜V ) :=θ(V,W ).
+Then for every a<b∈ Z, we have the following:
+(a)  if b−a =k  then the vectors  ˜W (a),...,  ˜W (b− 1) form a basis of Rk;
+(b)  if b−a≥k +𝓁 then rk(V ;a,b) =k  and rk( ˜V ;a,b) =𝓁;
+(c)  if b−a<k +𝓁 then rk( ˜V ;b−k,a +𝓁) +b−a =𝓁 + rk(V ;a,b).
+Proof.  Part (b) follows from Lemmas 10.2 and 10.5.  We now prove part (a), so letb :=a+k.
+Denote r := rk( ˜W ;a,b), and consider the (k−r)-dimensional space
+                Q :={q = (qa,...,qb−1)∈ Rk|qa ˜W (a) +...qb−1 ˜W (b− 1) = 0}.
+Recall  that  the  matrix  ˜U  has  columns  ˜U(j)  =  ( ˜W (j), ˜V (j)),  and  by  (10.3),  the  column
+vectors  ˜U(a),..., ˜U(b−1) are linearly independent.  Therefore we get an injective linear map
+λ :Q→ R𝓁 deﬁned byλ(q) =qa ˜V (a)+···+qb−1 ˜V (b−1), so thatqa ˜U(a)+···+qb−1 ˜U(b−1) =
+(0k,λ(q))∈ Rk+𝓁.  Here 0k∈ Rk denotes the zero vector.
+
+===== PDF PAGE 33 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                        33
+
+  Recall  that  we  have a +k  = b.   By  (4.1),  each  of  the  columns  ˜U(a),..., ˜U(b− 1)  =
+˜U(a +k− 1) is orthogonal to each of the columnsU(b−𝓁) =U(a +k−𝓁),...,U(a +k− 1),
+where U(j) = (V (j),W(j)).  Thus λ(q) is orthogonal to W (a +k−𝓁),...,W (a +k− 1).
+Since these vectors are the columns of W , they must form a basis of R𝓁, which implies that
+Q must be a zero-dimensional space, and thus k−r = 0.  This ﬁnishes the proof of (a).
+  The  proof  of  (c)  will  be  completely  similar.   Denote r  :=  rk(V ;a,b),  and  consider  the
+(b−a−r)-dimensional space
+                Q :={q = (qa,...,qb−1)∈ Rb−a|qaV (a) +...qb−1V (b− 1) = 0}.
+By Lemma 10.5,  we get an injective map λ : Q→ R𝓁  deﬁned by λ(q) = qaW (a) +··· +
+qb−1W (b− 1),  so  that qaU(a) +··· + qb−1U(b− 1)  =  (0k,λ(q)).   By  (4.1),  each  of  the
+vectors U(a),...,U(b− 1) is orthogonal to each of the vectors  ˜U(b−k),..., ˜U(a +𝓁− 1),
+so λ(q) is orthogonal to  ˜V (b−k),..., ˜V (a +𝓁− 1).  This implies that rk( ˜V ;b−k,a +𝓁)≤
+𝓁−dim(Q) =𝓁−b+a+rk(V ;a,b).  This inequality is in fact an equality, since for any vector
+h∈ R𝓁  that  is  orthogonal  to  ˜V (b−k),..., ˜V (a +𝓁− 1),  the  vector  (0k,h)  is  orthogonal
+to  ˜U(b−k),..., ˜U(a +𝓁− 1),  The  latter  vectors  are  linearly  independent  and  span  the
+orthogonal complement of the span ofU(a),...,U(b−1) in Rk+𝓁.  Thus there are coeﬃcients
+(qa,...,qb−1)∈ Rb−a such that (0k,h) =qaU(a)+···+qb−1U(b−1).  It follows thath belongs
+to the image of λ, which ﬁnishes the proof of (c).                 □
+  An important special case of part (c) of Lemma 10.7 isb =a+k, where we get rk( ˜V ;a,a+
+𝓁)+k =𝓁+rk(V ;a,a+k).  Thus we have rk(V ;a,a+k) =k if and only if rk( ˜V ;a,a+𝓁) =𝓁.
+Proof of Theorem 4.7.  The  only  ingredient  missing  to  show  Theorem  4.7  is  to  prove  that˜V ∈ Gr≥0(𝓁,n) and  ˜W ∈ Gr⊥
+
+                                   >0(𝓁 +m,n).  This would imply part (ii) of the theorem, and
+then  part  (iii)  will  follow  from  Lemma  10.7  combined  with  (10.5).   Note  that  as  long  as
+V∈ Gr>0(k,n), Lemma 10.7 implies that rk( ˜V ;a,a +𝓁) =𝓁 for all a∈ Z.  It suﬃces to ﬁnd
+one pair (V0,W0)∈ Gr>0(k,n)× Gr⊥>0(k +m,n) for which the image θ(V0,W0) = ( ˜W0, ˜V0)
+belongs to Gr⊥>0(𝓁+m,n)×Gr>0(𝓁,n). Indeed, then for any other pair (V,W )∈ Gr≥m(k,n)×
+Gr⊥>0(k +m,n), one can construct a path (Vt,Wt), 0≤t≤ 1 such that (V0,W0) is as above,
+(V1,W1) = (V,W ), and for 0≤t< 1, (Vt,Wt) belongs to Gr>0(k,n)×Gr⊥>0(k+m,n).  In this
+case, the image ( ˜Wt, ˜Vt) = θ(Vt,Wt) will belong to Gr⊥>0(𝓁 +m,n)× Gr>0(𝓁,n), because in
+order to exit this space, one of the circular minors of either ˜Vt or  ˜Wt must vanish. It follows by
+continuity that ( ˜W, ˜V )∈ Gr≥0(𝓁 +m,n)× Gr≥0(𝓁,n), and by Lemma 10.7, ( ˜W, ˜V ) actually
+must belong to Gr>0(𝓁 +m,n)× Gr≥m(𝓁,n).
+  In order to construct this pair (V0,W0), we make use of the cyclically symmetric amplituhe-
+dron introduced in [GKL17, Section 5].  In fact, the computation we need is almost literally
+the same as the one outlined in [Sco79], see [Kar] or [GKL17, Lemma 3.1] for details.
+  Consider the set of n-th roots of (−1)k−1, and let z1,...,zk  be those k of them with the
+largest real part and let zk+1,...,zk+𝓁  be those 𝓁 of them with the smallest real part.  Let
+V0 be (the real k-dimensional subspace of) the linear C-span of the vectors (1,zi,...,zn−1i    ),
+for  1≤ i≤ k,  and  let W0  be  (the  real k-dimensional  subspace  of)  the  linear C-span  of
+the  vectors  (1,zi,...,zn−1i    ),  for k + 1≤ i≤ k +𝓁.   Then  we  have V0 ∈  Gr>0(k,n)  and
+W0∈ Gr⊥>0(k +m,n), see [GKL17, Lemma 3.1].
+Proposition 10.8.  Let θ(V0,W0) = ( ˜W0, ˜V0).   Then  ˜V0∈ Gr>0(𝓁,n)  and   ˜W0∈ Gr⊥>0(𝓁 +
+m,n).  Moreover, we have  ˜V0 = alt(W0) and  ˜W0 = alt(V0).
+
+===== PDF PAGE 34 =====
+34                                                PAVEL GALASHIN AND THOMAS LAM
+Proof.  Recall  from  Section  4  that  the  columns  of U  :=  stack(V0,W0)  satisfy U(j +n)  =
+(−1)k−1U(j)  for  all j ∈ Z.   We  see  that U  is  just  the  Vandermonde  matrix  with  entries
+(zj−1i    )1≤i≤k+𝓁,1≤j≤n.   Thus  by  (10.2),  the  vector  ˜U(j)  has  coordinates  given  by  ratios  of
+Vandermonde determinants.  More precisely, its i-th coordinate equals
+                           (−1)i+j−1det(zs−1p    )1≤p≤k+𝓁:p⁄=i;
+                    ˜Uij =                         j−𝓁<s<j+k     = (−1)jz−(j−𝓁−1)
+                                  det(zs−1p    )  1≤p≤k+𝓁;                  i   ·h(i),
+                                             j−𝓁≤s<j+k
+where
+                                            (z1···zk+𝓁)j−𝓁−1  ∏             (zt−zs)
+                                                                 1≤s<t≤k+𝓁:
+                         h(i) := (−1)i−1                            s,t⁄=i
+                                             (z1···zk+𝓁)j−𝓁  ∏             (zt−zs) .
+                                                               1≤s<t≤k+𝓁
+After dividing row i of  ˜U  by h(i) for each i (which does not aﬀect total positivity of either
+˜V0  or  ˜W0), the (i,j)-th entry of  ˜U  becomes (−1)jz−(j−𝓁−1)i           .  We can now divide row i of  ˜U
+by z𝓁+1i    , and after that the i-th entry becomes just (−1)jz−ji   .  This matrix is obtained from
+alt(U) by switching the rows that correspond to pairs of inverse zi’s.  It is clear that each of
+the sets{z1,...,zk} and{zk+1,...,zk+𝓁} is closed under taking the inverse, thus these row
+operations belong to GLk(C)× GL𝓁(C)⊂ GLk+𝓁(C).  Therefore we indeed get that the span
+˜V0 of the last 𝓁 rows of  ˜U  is totally positive and equal to alt(W0), while the span  ˜W0 of the
+ﬁrst k  rows of  ˜U  is equal to alt(V0) and thus belongs to Gr⊥>0(𝓁 +m,n) by (4.6).  We are
+done with the proof.                              □
+  As we have explained earlier, Proposition 10.8 ﬁnishes the proof of Theorem 4.7.   □
+  It remains to note that Proposition 4.8 now follows from Lemma 10.6.
+
+                                 11.  The canonical form:  proofs
+  In this section, we prove Theorem 5.9, and then deduce its generalization, Theorem 5.13,
+as a corollary.  We start by recalling some notions related to the combinatorics of clusters of
+Pl¨ucker coordinates.
+11.1.  Clusters.  Let f∈  ˜Sn(−k,n−k) be an aﬃne permutation.  The Grassmann necklace
+associated with f  is a sequenceIk+f = (I1,I2,...,In) of k-element subsets of [n] deﬁned by
+                                Ii ={f(j) +k|j <i and f(j) +k≥i}
+for i∈ [n] with the indices taken modulo n.
+  For each i∈ [n], deﬁne a total order≼i on [n] by
+                                      i≺i i + 1≺i···≺i i +n− 1,                         ),  we  write S≼i T
+where  the  indices  again  are  taken  modulo n.   For  two  sets S,T ∈ ([n]k
+if S  ={s1≺i···≺i sk}, T  ={t1≺i···≺i tk} with sj≼i tj  for j∈  [k].  The  positroid) of f  is a collection of subsets of [n] given by
+Mk+f⊂([n]k                             {       ([n])                              }
+
+                           Mk+f :=       J∈       k    |J≼i Ii for all i∈ [n]        ,
+
+whereIk+f = (I1,...,In) is the Grassmann necklace associated with f.
+
+===== PDF PAGE 35 =====
+                            PARITY DUALITY FOR THE AMPLITUHEDRON                                        35
+
+Deﬁnition 11.1.  The sets Π>0k+f⊂ Π≥0k+f⊂ Gr(k,n) and ΠCk+f⊂ GrC(k,n), are deﬁned by
+
+   Π>0k+f :={X∈ Gr≥0(k,n)| ∆J(X)> 0 for J∈Mk+f  and ∆J(X) = 0 for J /∈Mk+f}.
+   Π≥0k+f :={X∈ Gr≥0(k,n)| ∆J(X)≥ 0 for J∈Mk+f  and ∆J(X) = 0 for J /∈Mk+f}.
+   ΠCk+f :={X∈ GrC(k,n)| ∆J(X) = 0 for J /∈Mk+f}.
+
+  The  variety  ΠCk+f  can  alternatively  be  deﬁned  either  as  the  Zariski  closure  of  Π>0k+f  in
+GrC(k,n) or as the set of all V∈ GrC(k,n) satisfying
+                              rk(V ;a,b)≤ #{i<a|a≤f(i) +k<b}
+for all integers a<b.  See [KLS13].
+  For instance, whenf = id0 : Z→ Z is the identity map, we haveIi ={i,i+1,...,i+k−1}),  Π>0k+f  =  Gr>0(k,n),  Π≥0
+(modulo n)  for  all i ∈  [n],Mk+f  = ([n]k                                      k+f  =  Gr≥0(k,n),  and
+ΠCk+f = GrC(k,n).
+  By Deﬁnition 11.1, an element X∈ Π>0k+f  can be described by a collection{∆J(X)|J∈
+Mk+f}∈ RPMk+f>0      of positive real numbers, however, this data is highly redundant.
+Deﬁnition 11.2 ([LZ98]). We say that two setsS,T∈([n]) are weakly separated if there do
+                                                                    k
+not exist 1≤a<b<c<d≤n such that a,c∈S\T  and b,d∈T\S, or vice versa.
+  We say that a collectionC⊂([n]) is weakly separated if any two of its elements are weakly
+                                       k
+separated.  For example, it is not hard to check thatIk+f  is a weakly separated collection
+for any f∈  ˜Sn(−k,n−k), see [OPS15, Lemma 4.5].
+
+Deﬁnition 11.3.  Given an aﬃne permutation f∈  ˜Sn(−k,n−k), a weakly separated col-
+lectionC⊂Mk+f is called a cluster if it containsIk+f and is not contained inside any other
+weakly separated collectionC′⊂Mk+f.
+  Recall from Proposition 5.10 that ifC is a cluster forf then the size ofC is given by (5.5),
+and the map X↦→{∆J(X)| J∈C}, is a diﬀeomorphism between Π>0k+f  and the positive
+part RPC>0 of the (k(n−k)− inv(f))-dimensional projective space.
+
+11.2.  Circular minors.  We state an identity from [MaSc16] relating certain minors of  ˜U
+to those of U.
+Lemma 11.4.  Fix k,𝓁,m,n,  and  let U∈ Mat◦(k +𝓁,n)  and  ˜U  := τ(U).  Let p,q≥ 0  be
+integers  such  that p +q = k +𝓁,  and  choose  some a,b∈ [n]  so  that  the  following  two  sets
+(viewed modulo n) have size k +𝓁:
+(11.1)     J := [a,a +p)∪ [b,b +q),  I := [a +k−q,a +k)∪ [b +k−p,b +k).
+Then
+
+(11.2)                               ∆J( ˜U) =±                 ∆I(U)∆[a−𝓁,a+k)(U)· ∆[b−𝓁,b+k)(U).
+
+Proof.  Follows from (10.1) together with [MaSc16, Proposition 3.5].         □
+
+  Using Lemma 11.4, we give a formula for circular minors of  ˜W  and  ˜V .
+
+===== PDF PAGE 36 =====
+36                                                PAVEL GALASHIN AND THOMAS LAM
+
+Lemma 11.5.  Let ( ˜W, ˜V ) :=θ(V,W ) and U := stack(V,W ).  Then for j∈ Z, we have
+
+(11.3)                                ∆[j−k,j)( ˜W ) =±  ∆[j−𝓁,j)(W )∆[j−k−𝓁,j)(U),
+
+(11.4)                                  ∆[j,j+𝓁)( ˜V ) =±  ∆[j,j+k)(V )∆[j−𝓁,j+k)(U).
+
+Proof.  The proof is similar to that of Lemma 10.2.  Let us denoteK := [k +𝓁],  ˜U :=τ(U) =
+stack( ˜W, ˜V ),U′ := (U(K))−1·U, and  ˜U′ :=τ(U′) which by Lemma 10.1 equals (U(K))t· ˜U.
+Let V′,W′, ˜V′,  ˜W′ be such that U′ = stack(V′,W′) and  ˜U′ = stack( ˜W′, ˜V′).  Note that the
+submatrix  of  ˜U′  with  column  set  [𝓁 + 1, 2𝓁 +k + 1)  is  upper  triangular  with±1’s  on  the
+diagonal.  Applying Lemma 11.4 to U′ and  ˜U′ with a =𝓁−k + 1, b =j, p =k, q =𝓁 yields
+
+                                    ∆[j,j+𝓁)( ˜V′) =±    ∆[j,j+k)(V′)1· ∆[j−𝓁,j+k)(U′).
+
+Let r := det(U(K)).  Applying the same lemma to U  and  ˜U, we get
+
+                                r−1· ∆[j,j+𝓁)( ˜V ) =±  r· ∆[j,j+k)(V )r·r· ∆[j−𝓁,j+k)(U).
+
+This proves (11.4).  The proof of  (11.3) is completely similar,  except that we need to set
+U′ :=w0· (U(K))−1·U, wherew0 is the (k +𝓁)× (k +𝓁) permutation matrix having (i,j)-th
+entry equal to 1 if i +j =k +𝓁 + 1 and to 0 otherwise.               □
+
+Example 11.6.  Let k = 2, 𝓁 = 1, n = 5, and U  and  ˜U·D be given in Figure 2, with the
+matrix D = diag(2, 4, 8, 10, 4) given in (6.2).  Furthermore, let p = 1, q = 2, a = 1, b = 3,
+so (11.1) yields J ={1, 3, 4} and I ={1, 2, 4}.  By (11.2), we have
+
+(11.5)                                      ∆134( ˜U) =±        ∆124(U)∆125(U)· ∆234(U).
+
+We note that ∆134( ˜U·D) = 20, so the left hand side of (11.5) is ∆134( ˜U) =       202×8×10 =  18.  On
+the other hand, we have
+
+                            ∆124(U) = 2,    ∆125(U) = 2,    ∆234(U) =−8,
+
+so the right hand side of (11.5) is± 18, in agreement with Lemma 11.4.
+  Let us now set j := 3, and verify (11.3) and (11.4).  We have
+                                                            (−1   4)
+                                   ∆[1,3)( ˜W·D) = det         1    0    =−4,
+
+thus  the  left  hand  side  of  (11.3)  is −42×4  =− 12.   The  right  hand  side  of  (11.3)  is  given  by
+±  ∆2(W )∆125(U) =± 12.
+  Similarly, the left hand side of (11.4) is ∆3( ˜V ) =  28 =  14, because ∆3( ˜V·D) = 2.  The right
+hand side of (11.4) is± ∆34(V )∆234(U) =± 28 =± 14.
+
+===== PDF PAGE 37 =====
+                            PARITY DUALITY FOR THE AMPLITUHEDRON                                        37
+11.3.  Coordinates on  Gr(k,n)× Gr(𝓁,n).  For a k×𝓁 matrix T  and an 𝓁×k  matrix S,
+deﬁne                                               (Idk  T    )
+                                      M(T,S) :=        S     Id𝓁  .
+
+Remark 11.7.  By the well known formula for the determinant of a block matrix, we have
+(11.6)                          det(M(T,S)) = det(Idk−TS) = det(Id𝓁−ST ).
+  ForU,U′∈ Mat◦(k +𝓁,n), we writeU≃k,𝓁 U′ ifU =g·U′ for someg∈ GLk(R)×GL𝓁(R).
+Lemma 11.8.  For M(T,S)∈ GLk+𝓁(R) and U∈ Mat◦(k +𝓁,n), we have
+                             τ(M(T,S)·U)≃k,𝓁 M(−St,−Tt)·τ(U).
+Proof.  First,  note  that  the  matrix M(−T,−S)  must  also  be  invertible  because  it  has  the
+same determinant as M(T,S) by (11.6).  Multiplying them together, we get(Idk −T)(Idk  T)(Idk−TS         0)
+
+                         −S    Id𝓁   ·    S     Id𝓁  =        0         Id𝓁−ST    .
+
+In  particular,  the  matrix  on  the  right  hand  side  (which  we  denote  by g)  must  be  invert-
+ible: g∈  GLk(R)× GL𝓁(R).   Thus g−1·M(−T,−S)  = M(T,S)−1,  i.e., M(−T,−S)≃k,𝓁
+M(T,S)−1.  Lemma 11.8 now follows from Lemma 10.1.               □
+  We  introduce  a  convenient  coordinate  chart  on  Gr(k,n)× Gr(𝓁,n).   Let T,S,A,B  be
+k×𝓁,𝓁×k,k×m, and 𝓁×m matrices respectively.  Denote(Idk  T  A)
+
+                                 N(T,S,A,B) :=          S     Id𝓁 B    .
+
+  Take a generic pair (V,W )∈ Gr(k,n)× Gr(𝓁,n), and let span(V,W )∈ Gr(k +𝓁,n) be the
+row span of U  := stack(V,W ).  Since the pair (V,W ) is generic, there exists a unique pair
+T,S such that U([k +𝓁])≃k,𝓁 M(T,S), and thus we can write
+(11.7)       U≃k,𝓁 N(T,S,A +TB,B +SA) =M(T,S)·N(0, 0,A,B).
+Here V ∈ Gr(k,n) is the row span of [Idk|T|A +TB], and W∈ Gr(𝓁,n) is the row span of
+[S| Id𝓁|B +SA].
+  Recall from Deﬁnition 5.1 that the canonical forms on Gr(k,n), Gr(𝓁,n), and Gr(k +𝓁,n)
+are given in these coordinates by
+
+      ωk,n(V ) =±dk×𝓁(T )∧dk×m(A +TB)∆circk   (V )      ,  ω𝓁,n(W ) =±d𝓁×k(S)∧d𝓁×m(B +SA)∆circ𝓁   (W )     ,
+
+
+                                ωk+𝓁,n(U) :=±dk×m(A)∧d𝓁×m(B)∆circk+𝓁(N(0, 0,A,B)).
+
+Lemma 11.9.  In the above notation, we have
+
+          ωk,n∧ω𝓁,n =±(det(M(T,S)))m·dk×𝓁(T )∧d𝓁×k(S)∧dk×m(A)∧d𝓁×m(B)∆circk   (V )· ∆circ𝓁   (W )             .
+
+Proof.  We need to show that after taking the wedge with dk×𝓁(T )∧d𝓁×k(S) (i.e., treating
+the entries of T  and S as constants), we have
+         dk×m(A +TB)∧d𝓁×m(B +SA) =±(det(M(T,S)))m·dk×m(A)∧d𝓁×m(B).
+
+===== PDF PAGE 38 =====
+                 38                                                PAVEL GALASHIN AND THOMAS LAM
+                 Consider a linear operator on the (k +𝓁)-dimensional vector space Rk+𝓁 given by the matrix
+                 M(T,S).   For  vectors v ∈ Rk  and w ∈ R𝓁,  this  operator  sends  (v,w) ∈ Rk+𝓁  to  (v +
+                 Tw,w +Sv).   Therefore  it  sends  the  form ω(v,w)  := dv1∧···∧dvk∧dw1∧···∧dw𝓁
+                 to  det(M(T,S))· ω(v,w).   Letting v  := A(j)  and w  := B(j)  for j ∈  [n],  we  get  that
+                 (A +TB)(j) =v +Tw and (B +SA)(j) =w +Sv, and thus
+                     dk×1((A +TB)(j))∧d𝓁×1((B +SA)(j)) =±det(M(T,S))·dk×1(A(j))∧d𝓁×1(B(j)).
+                 The result follows by applying this to j = 1, 2,...,m.               □
+                    Lemma 11.9 implies that ωk,n∧ω𝓁,n =±ωk+𝓁,n∧ωKer, where
+
+                               ωKer :=±(det(M(T,S)))m· ∆circk+𝓁(N(0, 0,A,B))·dk×𝓁(T )∧d𝓁×k(S)∆circk   (V )· ∆circ𝓁   (W )
+
+                    We ﬁrst prove Proposition 5.7 which states thatωk+𝓁,n is preserved byτ, and then we will
+                 concentrate on showing that ωk+𝓁,n∧ωKer is preserved by θ.
+
+                 11.4.  Proof of Proposition 5.7.  We start by constructing two collectionsC,Cop of (k +𝓁)-
+                 element subsets of [n] such that they both form clusters for Gr(k +𝓁,n), and whenever I
+                 and J  are related by (11.1), we have I∈C if and only if J∈Cop.  Explicitly,C is the set of) that are unions of two cyclic intervals, one of which is of the form [c, 1 +k) for
+                 all I∈( [n]k+𝓁
+                 c∈ [n] (if c> 1 +k then we view this interval modulo n).  Either of the two cyclic intervals) that are unions of two cyclic
+                 is allowed to be empty.  Similarly,Cop is the set of allJ∈( [n]k+𝓁
+                 intervals, one of which is of the form [1, 1 +p) for somep≥ 0.  It is easy to check5 that both
+                 C andCop are maximal weakly separated collections of size (k +𝓁)m + 1, which is one more
+                 than the dimension of Gr(k +𝓁,n).
+                    Let us index the elements ofC  byC  :={I0,I1,...,I(k+𝓁)m} and consider the coordinate
+                 chart on Gr(k+𝓁,n) given by{∆I|I∈C}, rescaled so that ∆I0 = 1 forI0 := [𝓁+1, 2𝓁+k+1)
+                 modulo n.  Then by Proposition 5.3, we have
+
+                                             ωk+𝓁,n(U) =±d∆I1(U)∆I1(U) ∧···∧ d∆I(k+𝓁)m(U)∆I(k+𝓁)m(U) .
+
+                 Similarly, lettingCop :={J0,J1,...,J(k+𝓁)m} so that J0 = [k +𝓁], we have
+
+                                             ωk+𝓁,n( ˜U) =±d∆J1( ˜U)∆J1( ˜U) ∧···∧ d∆J(k+𝓁)m( ˜U)∆J(k+𝓁)m( ˜U) .
+
+                 If I∈C is a cyclic interval (there are n such intervals in bothC andCop), then Lemma 10.5
+                 provides a cyclic interval J∈Cop such that
+
+                                                              ∆J( ˜U) = ±1∆I(U).
+
+                 Diﬀerentiating both sides, we get that
+                                                           d∆J( ˜U)
+                                                            ∆J( ˜U)  =±d∆I(U)∆I(U) .
+
+
+                    5In the language of [Pos07],Cop is the collection of face labels of the corresponding   -diagram, whileC is
+                 the collection of face labels of the “opposite”  -diagram.
+
+
+
+
+
+
+LL
+
+===== PDF PAGE 39 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                        39
+
+Thus the expression for ωk+𝓁,n( ˜U) contains d∆K(U) for all cyclic intervals K  of [n] of size
+k +𝓁.  Therefore we may treat them as constants while computingd∆J( ˜U) for otherJ∈Cop.
+For eachJ∈Cop, Lemma 11.4 provides a setI∈C and cyclic intervalsK,L⊂ [n] such that
+
+                                       ∆J( ˜U) =±       ∆I(U)∆K(U)· ∆L(U).
+
+Diﬀerentiating both sides and ignoring the terms with d∆K(U) and d∆L(U), we get
+                                           d∆J( ˜U)
+                                           ∆J( ˜U)  =±d∆I(U)∆I(U) .
+Applying this to all J∈Cop ﬁnishes the proof.                  □
+
+11.5.  Proof of Theorem 5.9.  Consider the cyclic shift mapσ : Mat◦(k +𝓁,n)→ Mat◦(k +
+𝓁,n) sending a matrix U  with columns U(j),j∈ Z such that U(j +n) = (−1)k−1U(j) to a
+matrixσU deﬁned by (σU)(j) :=U(j−1).  This operator acts onV  andW similarly.  Rather
+than working with the maps θ and τ, we will work with their cyclically shifted versions:
+                                        τ′ :=σ𝓁◦τ,  θ′ :=σ𝓁◦θ.
+By (10.1), the map τ′  coincides (up to sign) with the right twist map of [MuSp17].  Since
+the map θ′ diﬀers from the map θ by a cyclic shift, and the forms ωk,n, ω𝓁,n, and ωk+𝓁,n are
+preserved by σ, it suﬃces to prove the version of Theorem 5.9 with θ replaced with θ′.
+Proof of Theorem 5.9.  We have shown above thatωk+𝓁,n is preserved byθ, and therefore by
+θ′.  What we need to show in order to complete the proof of Theorem 5.9 is thatωKer∧ωk+𝓁,n
+is preserved by θ′ up to a sign.  Let us split ωKer into a product of two terms:
+
+                          ωKer =±dk×𝓁(T )∧d𝓁×k(S)(det(M(T,S)))k+𝓁·         ∆circk+𝓁(U)∆circk   (V )· ∆circ𝓁   (W ).
+
+Here we are using the fact that ∆circk+𝓁(U) = (det(M(T,S)))n· ∆circk+𝓁(N(0, 0,A,B)).
+  By Lemma 10.5, we have ∆circk+𝓁(U)· ∆circk+𝓁( ˜U) =±1, and then Lemma 11.5 implies
+
+(11.8)                                     ∆circk+𝓁(U)∆circk   (V )· ∆circ𝓁   (W ) =±        ∆circk+𝓁( ˜U)∆circk   ( ˜W )· ∆circ𝓁   ( ˜V ).
+
+  Note  that ωKer  itself  may  not  be  preserved  by θ′.   Indeed,  let  ˜T, ˜S,  ˜A, ˜B  be  the  unique
+matrices such that
+                  τ′(N(T,S,A +TB,B +SA))≃k,𝓁 N( ˜T, ˜S,  ˜A +  ˜T ˜B, ˜B + ˜S ˜A).
+Let  us  write  down  ˜T, ˜S,  ˜A, ˜B  more  explicitly.   Recall  that N(T,S,A + TB,B + SA)  =
+M(T,S)·N(0, 0,A,B).  Thus by Lemma 11.8, we have
+   τ′(N(T,S,A +TB,B +SA))≃k,𝓁 M(−St,−Tt)·H =M(−St,−Tt)·H([k +𝓁])·H′,
+where H :=τ′(N(0, 0,A,B)), H([k +𝓁]) is the square submatrix of H  spanned by the ﬁrst
+k +𝓁 columns, andH′ := (H([k +𝓁]))−1·H.  We see that the ﬁrst k +𝓁 columns ofH′ form
+an identity matrix, and therefore we can write H′ =N(0, 0,  ˜A, ˜B) for some  ˜A, ˜B.  Thus  ˜T, ˜S
+are the unique matrices such that
+(11.9)             M( ˜T, ˜S)≃k,𝓁 M(−St,−Tt)·H([k +𝓁]).
+
+===== PDF PAGE 40 =====
+40                                                PAVEL GALASHIN AND THOMAS LAM
+(We will later show that such matrices exist, i.e., that the upper left k×k  and the lower
+right 𝓁×𝓁 submatrices of the matrix on the right hand side are invertible.)  We see that
+the entries of H, and therefore of  ˜A and  ˜B, depend on the entries of A and B  but not on
+the entries of T  and S.  However, the entries of  ˜T  and  ˜S  depend on the entries of all four
+matricesT,S,A,B.  By deﬁnition,ωKer is proportional todk×𝓁(T )∧d𝓁×k(S), so the pullback
+of ωKer under θ′ will be proportional to dk×𝓁( ˜T )∧d𝓁×k( ˜S), and therefore will contain daij’s
+anddbij’s as well asdtij’s anddsij’s.  This shows that ωKer is not in general preserved by θ′.
+  On the other hand, sinceωk+𝓁,n is preserved byθ′ and is proportional todk×m(A)∧d𝓁×m(B),
+we only need to show that ωKer is preserved by θ′ when we treat A and B as constants.  We
+now investigate how exactly the matrices  ˜T  and  ˜S depend on T,S,A,B.
+Lemma 11.10.  The matrix H([k +𝓁]) from  (11.9) is an upper triangular (k +𝓁)× (k +𝓁)
+matrix with±1’s on the diagonal.
+Proof.  This is clear from the deﬁnition of the map τ′:  for j≤ k +𝓁, the j-th column of H
+is orthogonal to columns j + 1,j + 2,...,k +𝓁 of N(0, 0,A,B), and its scalar product with
+thej-th column ofN(0, 0,A,B) equals to±1.  Since the ﬁrst k +𝓁 columns ofN(0, 0,A,B)
+form an identity matrix, the result follows.                    □
+  In particular, it follows from Lemma 11.10 that the upper left k×k and lower right 𝓁×𝓁
+submatrices of M(−St,−Tt)·H([k +𝓁]) are invertible, which proves the existence of  ˜T, ˜S
+satisfying (11.9).  Recall that the entries of H([k +𝓁]) depend only on the entries of A and
+B, which we treat as constants since we are taking the wedge with dk×m(A)∧d𝓁×m(B).  Our
+next result is illustrated in Example 11.12.
+Lemma 11.11.  Suppose that for some constant upper triangular (k +𝓁)× (k +𝓁) matrix E
+with±1’s on the diagonal, we have
+                                       M( ˜T, ˜S)≃k,𝓁 M(T,S)·E.
+Then
+
+(11.10)            dk×𝓁( ˜T )∧d𝓁×k( ˜S)(det(M( ˜T, ˜S)))k+𝓁  =±dk×𝓁(T )∧d𝓁×k(S)(det(M(T,S)))k+𝓁.
+
+Proof.  We can write E as a block matrix            (P  Q)
+
+                                              E =     0  R     ,
+
+whereP  (resp.,R) is an upper triangular matrix of sizek×k (resp.,𝓁×𝓁) with±1’s on the
+diagonal.  In this notation,
+                              ˜T  =P−1(Q +TR),     ˜S = (R +SQ)−1SP.
+If Q = 0 then we clearly have
+                            dk×𝓁( ˜T ) =±dk×𝓁(T ),  d𝓁×k( ˜S) =±d𝓁×k(S),
+and by (11.6), det(M( ˜T, ˜S)) = det(M(T,S)), which shows (11.10) in this case.  Note that
+if E =E(1)·E(2)···E(N) is a product of upper triangular matrices with±1’s on diagonals,
+then it suﬃces to prove the lemma for E(i) for each 1≤i≤N, because then the result will
+follow by induction.  The case when E is a diagonal matrix has already been shown above,
+and we may thus assume thatE is a Chevalley generator, i.e., a unit upper triangular matrix
+
+===== PDF PAGE 41 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                        41
+with a single nonzero oﬀ-diagonal entry in position (i,i + 1) for some 1≤i<k +𝓁.  Ifi⁄=k
+then Q  =  0  so  we  are  done.   Now  suppose  that i  = k  and  thus Q  has  a  single  non-zero
+entry Qk1 = q for some constant q.  We are going to verify (11.10) in this case by a direct
+computation, see also Example 11.12 below.
+  We  have  ˜T  = Q +T  and  thus dk×𝓁( ˜T )  = dk×𝓁(T ).   Now,  we  have  ˜S  =  (Id𝓁 +SQ)−1S.
+Denote S = (sij).  Let us ﬁrst compute the matrix Id𝓁 +SQ and its inverse:                        
+                      1 +qs1k   0 ...   0                                     1
+                                                                              1+qs1k     0 ...   0
+                        qs2k      1 ...   0 ;    (Id𝓁 +SQ)−1 =      − qs2k               .
+        Id𝓁 +SQ =            ...         0   ...   0                           1+qs1k    1 ...   0...         0   ...   0
+
+                           qs𝓁k       0 ...   1                             − qs𝓁k1+qs1k    0 ...   1
+
+Thus det((Id𝓁 +SQ)−1) =       11+qs1k .  Note that
+                                   (Idk            0      )                (Idk  Q    )
+                     M( ˜T, ˜S) =     0     (Id𝓁 +SQ)−1      ·M(T,S)·         0     Id𝓁  ,
+
+and therefore
+
+(11.11)                                     det(M( ˜T, ˜S)) = det(M(T,S))1 +qs1k  .
+
+It remains to compute d𝓁×k( ˜S), so denote  ˜S = (˜sij).  We have
+
+             ˜s1k =  s1k1 +qs1k,  d˜s1k =   ds1k(1 +qs1k)2 ;
+
+             ˜s1j =  s1j1 +qs1k,  d˜s1j =  ds1j1 +qs1k +α,    (1≤j <k);
+
+             ˜sik =−qsiks1k1 +qs1k  +sik =  sik1 +qs1k,  d˜sik =  dsik1 +qs1k +β,    (1<i≤𝓁);
+
+             ˜sij =−qsiks1j1 +qs1k  +sij,  d˜sij =dsij +γ,    (1≤j <k, 1<i≤𝓁).
+
+Hereα andβ denote sums of terms involvingds1k, whileγ denotes a sum of terms involving
+ds1k, ds1j, and dsik.  Thus each of those terms vanishes when we take the wedge of all ˜sij’s.
+We have shown that
+                                        d𝓁×k( ˜S) =  d𝓁×k(S)(1 +qs1k)k+𝓁,
+
+and combining this with (11.11), we get
+          dk×𝓁( ˜T )∧d𝓁×k( ˜S)
+          (det(M( ˜T, ˜S)))k+𝓁  =     dk×𝓁(T )∧d𝓁×k(S)(1 +qs1k)k+𝓁(det(M( ˜T, ˜S)))k+𝓁  = dk×𝓁(T )∧d𝓁×k(S)(det(M(T,S)))k+𝓁,
+ﬁnishing the proof of Lemma 11.11.                       □
+  Theorem  5.9  follows  from  Lemmas  11.10  and  11.11,  combined  with  Equations  (11.8)
+and (11.9).                                  □
+Example 11.12.  Let us illustrate Lemma 11.11 in the case k =𝓁 = 1.  We haveM(T,S) =
+(1 t)                                                                                     (1 q)
+  s   1  ,  so the right hand side of  (11.10) is  dt∧ds(1−st)2 .  Suppose that E  =        0   1    for some
+
+===== PDF PAGE 42 =====
+42                                                PAVEL GALASHIN AND THOMAS LAM
+constant q.  Thus             (1  q +t     )       (  1  q +t)          (1   ˜t)
+
+            M(T,S)·E =          s   1 +qs     ≃k,𝓁      s            =    ˜s   1  =M( ˜T, ˜S).
+                                                      1+qs      1
+So ˜t =q +t and ˜s =  s1+qs.  We have:
+
+                       d˜t =dt,  d˜s =   ds(1 +qs)2,    det(M( ˜T, ˜S)) =  1−st1 +qs,
+
+and therefore the left hand side of (11.10) equals
+                                          d˜t∧d˜s
+                                      det(M( ˜T, ˜S))2  = dt∧ds(1−st)2.
+Proof of Theorem 5.13.  We deduce the result as a simple corollary of Theorem 5.9.  For an
+aﬃne permutationf∈  ˜Sn(−k,𝓁), we need to show thatθ sendsωk+f∧ω𝓁,n to±ωk,n∧ω𝓁+f−1.
+We proceed by induction on inv(f), the base case inv(f) = 0 being precisely the content of
+Theorem 5.9.  Suppose that g ⋖f  in the aﬃne Bruhat order for some f,g∈  ˜Sn(−k,𝓁), and
+that the result has already been shown for f.  By Proposition 12.1 below, the form ωk+g  is
+obtained from ωk+f  by taking a residue, and the same is true for f−1 and g−1:
+                       ResΠCk+gωk+f =±ωk+g,    ResΠC
+                                                           𝓁+g−1ω𝓁+f−1 =±ω𝓁+g−1
+  Let A⊂ ΠCk+f× GrC(𝓁,n) be the Zariski open subset such that
+    (1)stack(  V,W )∈ Mat◦(k +𝓁,n) whenever (V,W )∈A,
+    (2) θ extends to an isomorphism θ :A→B where B⊂ GrC(k,n)× ΠC𝓁+f−1,
+    (3) θ sends A∩ (ΠCk+g× GrC(𝓁,n)) isomorphically to B∩ (GrC(𝓁,n)× ΠC𝓁+g−1).
+BothA⊂ ΠCk+f× GrC(𝓁,n) andA∩ (ΠCk+g× GrC(𝓁,n))⊂ ΠCk+g× GrC(𝓁,n) will be nonempty
+Zariski open subsets,  since by Theorem 4.7 the corresponding positive points will be con-
+tained  in  this  locus.   Taking  residues  commutes  with  isomorphisms,  so  by  induction  we
+compute
+                    θ∗(ωk,n∧ω𝓁+g−1) =θ∗(ResB∩(GrC(𝓁,n)×ΠC
+                                                                 𝓁+g−1)ωk,n∧ω𝓁+f−1)
+                                        = ResA∩(ΠCk+g×GrC(𝓁,n))θ∗(ωk,n∧ω𝓁+f−1)
+                                        =± ResA∩(ΠCk+g×GrC(𝓁,n))(ωk+f∧ω𝓁,n)
+                                        =±ωk+g∧ω𝓁,n.                 □
+
+                            12.  The amplituhedron form:  proofs
+  In this section, we prove Theorem 8.16, as well as several other statements given in Sec-
+tion 8.  Before we proceed, we recall some further background that was omitted from that
+section.
+
+12.1.  Residues.  We start with the deﬁnition of the residue operator  Res.  Suppose we are
+given a rational form ω  on a complex variety X.  Let C⊂ X  be an irreducible subvariety
+of codimension one.  Consider some smooth Zariski open subset U⊂X  such that U∩C  is
+Zariski open in C.  Suppose that z : U→ C is a regular map such that C∩U  is the set of
+solutions toz = 0.  Denote the remaining coordinates on U  byu, so that every point inU  is
+
+===== PDF PAGE 43 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                        43
+written as (z,u) in this coordinate chart.  We say that ω has a simple pole  at C  if inside U
+we have
+                                   ω(z,u) =ω′(u)∧ dzz  +ω′′(z,u),
+
+where ω′′(z,u)  and ω′(u)  are  rational  forms  on U,  and ω′(u)  is  non-zero.   When ω  has  a
+simple pole at C, we deﬁne the residue by
+                                            ResCω :=ω′|U∩C
+This deﬁnes ResCω as a rational form on U∩C, and thus on C.
+Proposition 12.1 ([Lam16b, Theorem 13.2]).  For aﬃne permutations f,g∈  ˜Sn(−k,n−k)
+such that g ⋖f  in the aﬃne Bruhat order, we have
+(12.1)                                             ResΠCk+gωk+f =±ωk+g.
+
+12.2.  Degree  of  a  map.  Let α  : X → Y  be  a  morphism  between  irreducible  complex
+varieties of the same dimension.  If dim(α(X)) = dim(X)(= dim(Y )),  then there exists a
+nonempty Zariski open subset B⊆ Y  such that α restricts to a d-fold covering map from
+α−1(B) to B.  In other words, α is locally a diﬀeomorphism on α−1(B), and for y∈ B  we
+have|α−1(y)| =d.  We say thatα has degree deg(α) =d.  If dim(α(X))< dim(X), we deﬁne
+deg(α) =∞.  If α : X99K Y  is instead a rational map, then we have deg(α) = deg(α|A)
+whereA⊆X is the locus whereα is deﬁned.  Ifα has degree deg(α) = 1, then it is birational:
+it restricts to an isomorphism between dense Zariski open subsets of X and Y .
+  In [Lam16a], an integer df∈{1, 2,...,∞} is assigned to each f∈  ˜Sn(−k,n−k) so that
+for  a  dense  Zariski  open  subset A⊂  GrC(k +m,n),  the  rational  map Z  :  GrC(k,n)99K
+GrC(k,k +m)  has  degree df  whenever Z ∈ A.   Since  Gr>0(k +m,n)  is  Zariski  dense  in
+GrC(k +m,n), this statement also holds for Z  in an open dense subset of Gr>0(k +m,n).
+An aﬃne permutation f∈  ˜Sn(−k,n−k) such that inv(f) = km has degree 1 in the sense
+of Deﬁnition 8.1 if and only if df = 1.
+
+Proof of Proposition 8.12.  Suppose thatdf = 1.  LetA⊂ GrC(k +m,n) be the Zariski open
+dense subset such that Z  : Gr(k,n)99K Gr(k,k +m) has degree 1 for Z∈ A.  For Z∈ A,
+letBZ⊂ GrC(k,k +m) be the dense Zariski open subset such thatZ :Z−1(BZ)→BZ is an
+isomorphism.  Consider the Zariski open subset C⊂ FlC(𝓁,k +𝓁;n) deﬁned by
+                      C ={(W,U)|Z =W⊥∈A and  span(U·Zt)∈BZ}.
+ThenZ :Z−1(C)→C is an isomorphism, and thusZ : ΠCk+f× GrC(𝓁,n)99K FlC(𝓁,k +𝓁;n)
+has degree one.                                □
+
+Proof of Proposition 8.8.  Note  that  Π>0k+f  is  homeomorphic  to  an  open  ball.    Since f  is
+(n,k,m)-admissible,  the  restriction  of Z  to  Π>0k+f  is  injective.   By  Brouwer’s  invariance  of
+domain  theorem  [Bro12],  we  get  that  it  is  a  homeomorphism  onto  its  image,  because  the
+dimension  of  Π>0k+f  equals km.   Therefore  the  restriction  of Z  to  Π>0k+f  either  preserves  or
+reverses  its  topological  orientation  (see  [GH81,  Section  22]  for  background  on  topological
+orientation).   For  smooth  manifolds,  it  is  well  known  that  the  notions  of  topological  and
+smooth orientation agree with each other.  Thus whenever the Jacobian of Z  is nonzero on
+Π>0k+f, its sign is the same.                           □
+
+===== PDF PAGE 44 =====
+44                                                PAVEL GALASHIN AND THOMAS LAM
+
+Proof of Proposition 8.13.  The product Π>0k+f× Gr⊥>0(k +m,n) is homeomorphic to an open
+ball. Whenf is (n,k,m)-admissible, the restriction ofZ to Π>0k+f×Gr⊥>0(k+m,n) is injective.
+The rest of the proof is identical to that of Proposition 8.8.             □
+Remark  12.2.  Even  when df >  1,  we  can  still  deﬁne  the  pushforward Z∗ωk+f  of  the
+canonical form, but the deﬁnition is more complicated.  See [Lam16b] for details.
+12.3.  Aﬃne  Stanley  symmetric  functions.  We  review  the  results  of  the  second  au-
+thor [Lam06, Lam16a] that allow one to give a purely combinatorial characterization of a
+degree 1 positroid cell.  We refer the reader to [Sta99] for background on symmetric functions.
+Deﬁnition 12.3.  An element v∈  ˜Sn is called cyclically decreasing  if it has a reduced word
+v = sj1sj2...sjN  such that the indices j1,j2,...,jN  are pairwise distinct modulo n, and if
+ja =i + 1 and jb =i modulo n for some a,b≤N  then we have a<b.
+   Given an element f∈  ˜Sn, deﬁne the aﬃne Stanley symmetric function
+                           ˜Ff(x1,x2,... ) :=  ∑            xinv(f1)1   xinv(f2)2   ...xinv(fr)r   ,
+
+                                                 f=f1f2...fr
+where the sum is over all factorizationsf =f1f2...fr such thatf1,...,fr∈  ˜Sn are cyclically
+decreasing.  We list some properties of  ˜Ff  together with the references to the places where
+they have been proven in the literature.
+Proposition 12.4.
+    (1)For each   f∈  ˜Sn,  ˜Ff  is a symmetric function [Lam06, Theorem 6].
+    (2)For each   f∈  ˜Sn, we have ω+ ˜Ff =  ˜Ff−1  [Lam06, Theorem 15].
+    (3)If      inv(f)  = k𝓁  for  some f ∈   ˜Sn(−k,n−k)  then f  has  degree  1  if  and  only  if  the
+         coeﬃcient of s𝓁k  in  ˜Ff  equals to 1 [Lam16a, Proposition 4.8].
+   Here ω+  denotes  a  certain  involution  on  a  subset  Λ(n)  of  the  algebra  Λ  of  symmetric
+functions,  and s𝓁k ∈  Λ(n)  denotes  the  Schur  function  indexed  by  a  rectangular  partition
+𝓁k := (𝓁,𝓁,...,𝓁|{z}).  Since ω+s𝓁k =sk𝓁, Proposition 12.4 implies Proposition 8.5.
+
+          k times
+Remark 12.5.  Proposition 8.5 can also be deduced directly from Proposition 4.8, since f
+has  degree  1  if  and  only  if  F(V,Z)∩ Π>0k+f  contains  one  point  for  a  generic  pair  (V,Z)∈
+Π>0k+f× Gr>0(k +m,n).
+12.4.  Proof of Theorem 8.16.  The proof of Theorem 5.13 shows that for the rational map
+                              θ : ΠCk+f× GrC(𝓁,n)99K GrC(k,n)× ΠC𝓁+f−1,
+we have θ∗(ωk,n∧ω𝓁+f−1) =±ωk+f∧ω𝓁,n for each f∈  ˜Sn(−k,𝓁).  By Theorem 3.5 together
+with  Corollary  8.7,  the  only  thing  left  to  show  is  that  the  sign  is  “+”  when  both  forms
+are  chosen  to  be  positive  as  in  Deﬁnition  8.9.   We  choose  some  reference  form ωrefFl(𝓁,k+𝓁;n)
+on Fl(𝓁,k +𝓁;n) and some reference form ωrefFl(k,k+𝓁;n) on Fl(k,k +𝓁;n) so that ωrefFl(𝓁,k+𝓁;n) =
+˜θ∗ωrefFl(k,k+𝓁;n).  The sign of ωk+f  is chosen in such a way that the formsZ∗(ωk+f∧ω𝓁,n) and
+ωrefFl(𝓁,k+𝓁;n) have the same sign onA>0k+f.  The sign of ω𝓁+f−1  is chosen in such a way that the
+formsZ∗(ωk,n∧ω𝓁+f−1) andωrefFl(𝓁,k+𝓁;n) have the same sign onA>0𝓁+f−1.  Note that ˜θ sendsA>0k+f
+toA>0𝓁+f−1  and pulls ωrefFl(k,k+𝓁;n) back to ωrefFl(𝓁,k+𝓁;n).  Since the diagram (7.2) is commutative,
+
+===== PDF PAGE 45 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                        45
+we conclude thatθ∗(ωk,n∧ω𝓁+f−1) =ωk+f∧ω𝓁,n with the above choice of signs, ﬁnishing the
+proof of Theorem 8.16.                             □
+
+                         13.  Open questions and future directions
+  In addition to the multiple conjectures already mentioned in the text (Conjectures 3.8,
+3.9, 8.4, 8.11, 8.15), we list several other exciting questions.
+13.1.  Positive Laurent formulas for the twisted Pl¨ucker coordinates.  Letθ(V,W ) =
+( ˜W, ˜V ).   Theorem  4.7  (ii)  asserts  that  if  the  Pl¨ucker  coordinates  of V  and Z  := W⊥  are
+nonnegative then so are the Pl¨ucker coordinates of  ˜Z :=  ˜W⊥ and  ˜V .  In fact, we believe that
+an even stronger property holds.
+Conjecture 13.1. LetU := stack(V,W )∈ Mat◦(k +𝓁,n),θ(V,W ) = ( ˜W, ˜V ),  ˜U :=τ(U) =
+stack( ˜W, ˜V ),Z :=W⊥, and  ˜Z :=  ˜W⊥.  Then there exist some polynomialsH andH′ in the
+maximal minors of V  and Z with nonnegative integer coeﬃcients such that) is equal to
+    (1)the maximal minor ∆   I( ˜Z) for I∈(  [n]𝓁+m
+                                                      H
+                                           ±∏j∈I ∆[j−𝓁,j+k)(U);
+    (2)the maximal minor ∆   I( ˜V ) for I∈([n]) is equal to
+                                                     𝓁
+                                                      H′
+                                           ±∏j∈I ∆[j−𝓁,j+k)(U).
+  Here the sign± in the denominator is chosen so that it is positive.  (Recall that the sign
+of ∆[j−𝓁,j+k)(U) is predicted by Lemma 10.5.)
+  Note  that  the  case  of  this  conjecture  where I  is  a  circular  interval  of  [n]  follows  from
+Lemma 11.5.
+Example 13.2.  For the case k  = 2, 𝓁 = 1, m = 2, n = 5,  let us suppose that W  is the
+row span of the 1× 5 matrix (p,−q,r,−s,t), so that the maximal minors of Z are precisely
+p,q,r,s,t≥ 0.  Then we have
+
+          ∆245( ˜Z) = ∆13(alt( ˜W )) = pr∆24(V ) +qr∆14(V ) +ps∆23(V ) +qs∆13(V )−∆125(U)∆234(U)          .
+
+Speciﬁcally, for the matrices V  and W  considered in (6.1), we have
+           p = 1,  q = 1,  r = 3,  s = 2,  t = 1,    ∆125(U) = 2,    ∆234(U) =−8,
+thus the formula above yields
+
+                 ∆13(alt( ˜W )) = 3∆24(V ) + 3∆14(V ) + 2∆23(V ) + 2∆13(V )16                                 = 78,
+
+which is indeed the case as we see by computing ∆13(alt( ˜W )) directly from (6.3).
+Remark 13.3. There is a formal similarity between our stacked twist map and the geomet-
+ric R-matrix  of  Frieden  [Fri17],  which  is  essentially  also  a  birational  map R  :  Gr(k,n)×
+Gr(𝓁,n)99K  Gr(𝓁,n)× Gr(k,n).   Furthermore,  the  geometric R-matrix  can  be  written  in
+terms of subtraction-free rational formulae, and tropicalizes to the combinatorial R-matrix.
+We do not know of a direct relation between the stacked twist map and the geometric R-
+matrix.
+
+===== PDF PAGE 46 =====
+46                                                PAVEL GALASHIN AND THOMAS LAM
+  The  twist  map τ  :  Mat◦(k +𝓁,n)→  Mat◦(k +𝓁,n)  satisﬁes  Lemma  10.1.   Given  any
+subgroupG⊂ GLk+𝓁(R), one can consider the subgroupGt :={gt|g∈G}. By Lemma 10.1,
+if we haveU′ =g·U  forU,U′∈ Mat◦(k +𝓁,n) andg∈G then the matrices  ˜U :=τ(U) and
+˜U′ :=τ(U′) are related by  ˜U′ = (g−1)t· ˜U.  Thereforeτ reduces to a map Mat◦(k +𝓁,n)/G→
+Mat◦(k +𝓁,n)/Gt, where we are taking the quotients modulo the left action ofG (resp.,Gt).
+There are several interesting choices for G.
+      •  Taking G := GLk(R)× GL𝓁(R) recovers the stacked twist map.                                 (A B)
+      •  TakingG to be a maximal parabolic subgroup consisting of block matrices                      0  C     ,
+         where A is k×k, B is k×𝓁, and C is 𝓁×𝓁, yields a map on two-step ﬂag varieties:
+         τ  : Fl◦(𝓁,k +𝓁;n)→ Fl◦(k,k +𝓁;n) sending (W,U) to ( ˜W, ˜U).  Conjecturally, the
+         maximal minors of  ˜W  can be written as rational functions in terms of the maximal
+         minors ofW  andU.  For instance, in the setting of Example 13.2, we could also write
+
+                                ∆13(alt( ˜W )) = p∆234(U) +q∆134(U)∆125(U)∆234(U)  ,
+
+         which for W  and U  given in (6.1) yields  1×(−8)+1×(−6)2×(−8)       =  78.  However, the total posi-
+         tivity of alt( ˜W ) is obscure in this expression, because ∆134(U) can be both negative
+         and positive when V∈ Gr>0(k,n) and  ˜W∈ Gr⊥>0(k +m,n).
+      •  Finally,  taking G to be the subgroup of lower-triangular matrices and letting r  :=
+         k +𝓁 yields a map τ : Fl◦(1, 2,...,r;n)→ Fl◦(1, 2,...,r;n) that takes a partial ﬂag
+         V• :=V1⊂V2⊂···⊂Vr (where Vi is the span of the ﬁrst i rows of U) to a partial
+         ﬂag  ˜V•  :=  ˜V1⊂  ˜V2⊂···⊂  ˜Vr  (where  ˜Vi  is the span of the last i rows of  ˜U).  The
+         partial ﬂag V• is determined by the ﬂag minors  of U, where a ﬂag minor is a minor) for 1≤ i≤ r.  Similarly, the partial
+         of U  with row set [i] and column set J∈([n]i
+         ﬂag  ˜V•  is determined by the  opposite  ﬂag  minors  of U,  i.e.,  minors of U  with row) for 1≤ i≤ r.  In fact, an explicit
+         set{n−i + 1,...,n} and column set J∈([n]i
+         combinatorial formula in terms of matchings in a plabic graph [Pos07] for the opposite
+         ﬂag minors of  ˜U  in terms of ﬂag minors of U  can be proven in a straightforward but
+         tedious fashion.  To do so, one needs to combine the technique used in the proof of
+         Lemma 11.5 with [MaSc16, Theorem 1.1].  As a consequence of their formula, we get
+         the following result.
+         Proposition 13.4.  If  ˜U =τ(U) for some U∈ Mat◦(k +𝓁,n) then the opposite ﬂag
+         minors of  ˜U  are positive Laurent polynomials in the ﬂag minors of U.
+13.2.  A polynomial expression for the amplituhedron form.  Recall that in our ex-
+ample in Section 6.3, we have computed the amplituhedron form ω(T )An,k,m(Z)  for k = 𝓁 = 1,
+m = 2, n = 4, see (8.8).  We observe that this expression equals
+
+                                 ω(T )An,k,m(Z) = H(s,p,q,x,y)·dx∧dy∆circk+𝓁(U)     ,
+
+where U  is  given  by  (8.5)  and H(s,p,q,x,y)  = qsx + psy + pq.   Let  us  generalize  this
+observation to other values of k,𝓁,m,n using our coordinates from Section 11.3.
+  Similarly to  (8.9),  the coordinates  that we  assign to  a pair  (W,U)∈  Fl(𝓁,k +𝓁;n)  are
+going to be matricesS,A,B of respective sizes𝓁×k,k×m, and𝓁×m so thatW  is the row
+
+===== PDF PAGE 47 =====
+                             PARITY DUALITY FOR THE AMPLITUHEDRON                                        47
+span of [S| Id𝓁|B] while U  is the row span of
+                                             ( S     Id𝓁 B)
+(13.1)                                         Idk     0  A     .
+
+Taking                                         (Idk −S     0      )
+
+(13.2)                   Z :=                     0 −B   Id𝓁        ,
+
+we get Z⊥ =W .
+Conjecture  13.5.  There  exists  a  polynomial H(S,A,B)  in  the  entries  of  the  matrices
+S,A,B such that
+                                  ω(T )An,k,m(Z) = H(S,A,B)·dk×m(A)∆circk+𝓁(U)    ,
+
+where U  is given by (13.1) and Z is given by (13.2).  The universal amplituhedron form can
+be written in the coordinates (13.1) as
+
+                      ω(T )An,k,≥m = H(S,A,B)·dk×m(A)∧d𝓁×k(S)∧d𝓁×m(B)∆circk+𝓁(U)· ∆circ𝓁   (W )        ,
+
+where W  =Z⊥ is the row span of [S| Id𝓁|B].
+  The polynomialH(S,A,B) from the above conjecture should take positive values whenever
+there  exists V ∈  Gr>0(k,n)  such  that  span(V,W )  = U  for U  being  given  by  (13.1)  and
+W∈ Gr⊥>0(k +m,n) being the row span of [S| Id𝓁|B].
+
+13.3.  Stackable cells.  Even though for the amplituhedron we naturally haveW∈ Gr⊥>0(k+
+m,n), the stacked twist map construction suggests that there should be symmetry between
+V  and W .  In this section, we generalize our previous results to the case when both V  and
+Z :=W⊥ belong to lower positroid cells.  Let us deﬁne) :={alt(V )|V∈ Π>0k+f}
+                                  alt(Π>0k+f
+
+Deﬁnition 13.6.  For two aﬃne permutations f∈  ˜Sn(−k,n−k) and g∈  ˜Sn(−𝓁,n−𝓁), we), we have stack(V,W )∈
+say thatf andg are stackable if for allV∈ Π>0k+f andW∈ alt(Π>0𝓁+g
+Mat◦(k +𝓁,n).
+  As we saw in the proof of Lemma 10.5,f andg are stackable if and only if for everyj∈ Z,
+there exists I∈Mk+f  and J∈M𝓁+g  such that I∪J  ={j−𝓁,j−𝓁 + 1,...,j +k− 1}
+modulo n.  This operation corresponds to taking the  union  of matroids, more precisely, f
+and g are stackable if the positroid envelope  (in the sense of [KLS13]) of the matroid union
+Mk+f∨M𝓁+g is the uniform matroid of rank k +𝓁 on n elements.
+  Of course one can check whether f  and g are stackable by going through all j∈ [n] and
+all  pairs  of I ∈Mk+f  and J ∈M𝓁+g,  and  this  algorithm  works  in  general  for  unions  of
+matroids.  We ask whether the fact that the matroidsMk+f  andM𝓁+g are positroids makes
+this easier to check.
+Problem 13.7. Find a simple necessary and suﬃcient condition forf andg to be stackable.
+  The following result extends Theorems 3.5 and 5.13, and has a similar proof.
+
+===== PDF PAGE 48 =====
+48                                                PAVEL GALASHIN AND THOMAS LAM
+
+Theorem 13.8.  Iff∈  ˜Sn(−k,𝓁) andg∈  ˜Sn(−𝓁,k) are stackable cells then the stacked twist
+map descends to a diﬀeomorphism                               (         )
+                            θ : Π>0k+f× alt(Π>0𝓁+g)→ alt       Π>0        × Π>0
+                                                                  𝓁+g−1        k+f−1
+satisfying
+(13.3)               θ∗(ω𝓁+g−1∧ωk+f−1) =±ωk+f∧ω𝓁+g.
+  We  note  that  however  in  the  original  description  of  the  problem  coming  from  physics,
+the  matrices Z  and V  play  asymmetric  roles.   Namely, Z  encodes  external  data,  i.e.   the
+momenta  of  the  particles  in  the  experiment,  while  the  matrix V  are  hidden  variables  or
+degrees of freedom that are integrated out in the ﬁnal scattering amplitude [AHT14].
+Problem 13.9.  Explain the symmetry between V  and W  = Z⊥ from the point of view of
+scattering amplitudes.
+13.4.  Bistellar ﬂips and the generalized Baues problem.  Recall that for k = 1, the
+amplituhedronAn,k,m(Z) is just a cyclic polytope C(n,m) in the m-dimensional projective
+space [Stu88].  Thus the amplituhedron is a direct generalization of a cyclic polytope, and
+in this section we list some properties of cyclic polytopes that we expect to generalize to
+amplituhedra.  One of such properties is already stated as Conjecture 3.9.
+  Recall that for anyg∈  ˜Sn(−k,𝓁), we have deﬁned triangulations ofZ(Π>0k+g) in Section 7.
+For example if g∈  ˜Sn(−k,𝓁) satisﬁes inv(g) = k𝓁 and is (n,k,m)-admissible then Z(Π>0k+g)
+has  only  one  triangulation{g}.   Let  us  say  that g ∈   ˜Sn(−k,n− k)  is  nearly  (n,k,m)-
+admissible  if  inv(g)  = k𝓁− 1,  dim(Z(Π>0k+g))  = km  for  all Z ∈  Gr>0(k +m,n),  and  for
+any h ⋖g,  we  have  either  degh  =  1  for  all Z ∈  Gr>0(k +m,n)  or  degh  = ∞  for  all
+Z∈ Gr>0(k +m,n).
+Conjecture  13.10.  Let g ∈   ˜Sn(−k,n− k)  be  a  nearly  (n,k,m)-admissible  aﬃne  per-
+mutation.   Then  there  exist  two  disjoint  setsTg  = {h1,...,hN} ⊂   ˜Sn(−k,𝓁)  andT′g  =
+{h′1,...,h′N}⊂   ˜Sn(−k,𝓁)  of  aﬃne  permutations  of  the  same  size  such  that  for  each Z ∈
+Gr>0(k +m,n),Tg  andT′g  are the only two triangulations of Z(Π>0k+g).  The unionTg∪T′g
+consists of all aﬃne permutations h ⋖g such that degh = 1.
+  Assuming  that  the  above  conjecture  is  true,  we  say  that  two  (n,k,m)-triangulations
+T,T′⊂  ˜Sn(−k,n−k) of the amplituhedron diﬀer by a ﬂip if there exists a nearly (n,k,m)-
+admissible aﬃne permutation g∈  ˜Sn(−k,n−k) such thatTg⊂T ,T′g⊂T′, and
+                                              T\Tg =T′\T′g.
+This is a direct generalization of bistellar ﬂips of triangulations of polytopes.  In particular, it
+was shown in [Ram97, Theorem 1.1] that any two triangulations of a cyclic polytopeC(n,m)
+are connected by a sequence of ﬂips.
+Conjecture  13.11.  Any  two  triangulations  of  the  amplituhedron  are  connected  by  a  se-
+quence of ﬂips.
+  We note that Conjectures 13.10 and 13.11 together imply that all triangulations of the
+amplituhedron have the same cardinality.  This is a major step towards Conjecture 3.9, but
+the latter additionally gives a simple formula for the size of any such triangulation.
+
+===== PDF PAGE 49 =====
+                              PARITY DUALITY FOR THE AMPLITUHEDRON                                        49
+Example  13.12.  Let k  =  2, 𝓁  =  2, m  =  4, n  =  8,  and  consider  an  aﬃne  permutation
+h ∈   ˜Sn(−k,𝓁)  given  by h  =  [2, 1, 4, 3, 6, 5, 8, 7]  in  window  notation.   The  corresponding
+positroid cell Π>0k+h, known as the four-mass box  [AHBC+16, Section 11], satisﬁes degh = 2.
+Let us now take g := [1, 2, 4, 3, 6, 5, 8, 7], so that h ⋖g in the aﬃne Bruhat order.  Thus g is
+not nearly (n,k,m)-admissible.  It is not clear to us whether g has any proper subdivisions,
+and whether there exists a subdivision of the amplituhedron which involves g as one of the
+cells.  If such a subdivision exists and g  has no triangulations then it is not the case that
+every subdivision of the amplituhedron can be further reﬁned to a triangulation.
+  Additionally,  we  note  that  apart  from h  there  are  8  aﬃne  permutations h′ ⋖g  satisfy-
+ing  degh′⁄=∞,  and  all  of  them  actually  have  degree  1.   Together  with h,  these  9  aﬃne
+permutations  give  rise  to  an  identity  involving  pushforwards  of  canonical  forms,  as  ex-
+plained  in  [AHBC+16,  Section  11].   Moreover,  there  exists  an  expression  for ωAn,k,m(Z)  of
+the form (8.2) with M(2, 2, 2) = 20 terms in the right hand side, one of which is ωZ(Π>0
+                                                                                                              k+h).
+Even though by Conjectures 3.9 and 8.11, each (n,k,m)-triangulation of the amplituhedron
+has 20 cells and yields an expression forωAn,k,m(Z) with 20 terms, the corresponding 20 aﬃne
+permutations mentioned above do not form an (n,k,m)-triangulation sinceh is not (n,k,m)-
+admissible, and some other permutations in this collection are not (n,k,m)-compatible with
+each other.  We thank Jake Bourjaily for sharing the details of this example with us.
+  Consider a simple graphG whose vertices are triangulations of the amplituhedron, and two
+triangulations are connected by an edge if they diﬀer by a ﬂip.  Thus Conjecture 13.11 states
+that this graph is connected.  One can continue this process by “gluing” a higher-dimensional
+cell to this graph corresponding to each coarser subdivision of the amplituhedron.  In the
+case of polytopes, the homotopy type of the resulting CW complex is the subject of the gen-
+eralized Baues problem of [BKS94], see [Rei99] for a survey.  Formally, deﬁne the Baues poset
+ω(An,k,m(Z)) to be the partially ordered set consisting of all proper6 (n,k,m)-subdivisions
+of the amplituhedron, ordered by reﬁnement.
+Problem 13.13.  Is it true that the Baues poset ω(An,k,m(Z)) is homotopy equivalent to a
+(k𝓁− 1)-dimensional sphere?
+  For the case k = 1, the statement of Problem 13.13 was shown in [RS00].  We note that
+Theorem  7.2  shows  that  the  Baues  poset  of  the  (n,k,m)-amplituhedron  is  isomorphic  to
+that of the (n,𝓁,m)-amplituhedron, and thus Problem 13.13 has a positive answer also in
+the case 𝓁 = 1.  We do not know whether Example 13.12 provides any obstructions for the
+statement of Problem 13.13 to be true.
+  For polytopes, the generalized Baues problem is closely related to  regular  triangulations
+and secondary polytopes  of [GKZ08].
+Problem 13.14. Generalize the notion of a regular triangulation to the amplituhedron case.
+Example  13.15.  We  have  veriﬁed  our  conjectures  computationally  in  the  case k  = 𝓁  =
+m = 2 and n = 6.  There are 48 (n,k,m)-admissible aﬃne permutations f∈  ˜Sn(−k,n−k)
+such that inv(f) =k𝓁, and they are precisely all aﬃne permutations that have degree 1 (see
+Conjecture 8.4).  They form 120 triangulations, and each of those consists of M(2, 2, 1) = 6
+cells  (see  Conjecture  3.9).   The  ﬂip  graph G  in  this  case  has  120  vertices  and  278  edges,
+and is connected (see Conjecture 13.11).  Finally, there are 696 proper subdivisions of the
+
+  6By deﬁnition, the only subdivision of the amplituhedron that is not proper is the one that consists of
+the top cell{id0}.
+
+===== PDF PAGE 50 =====
+50                                                PAVEL GALASHIN AND THOMAS LAM
+amplituhedron,  and the corresponding Baues poset has homology groups equal to that of
+a 3-dimensional sphere, showing some substantial evidence towards the positive answer to
+Problem 13.13.
+13.5.  BCFW cells.  Form = 4, there is a certain interesting collectionTk,𝓁 ={f1,...,fN}⊂
+˜Sn(−k,𝓁) of positroid cells for each k  and 𝓁, see [BCFW05, AHBC+16, AHT14].  Up to a
+cyclic shift, we getT𝓁,k ={f−11 ,...,f−1N}, as we have noted in Remark 3.7.  This collection
+of cells, known as the BCFW  triangulation, is believed to have all the nice properties that
+we have considered in this paper, in particular, it can be used (and in fact is widely used)
+to compute the amplituhedron form.
+Conjecture 13.16.  The BCFW triangulationTk,𝓁 is an (n,k,m)-triangulation of degree 1
+for each k and 𝓁 (and m = 4).
+  This conjecture holds in the casek = 1 of cyclic polytopes (and therefore it holds for𝓁 = 1
+as well by Corollary 8.7).  A part of Conjecture 13.16 (that the elements ofTk,𝓁 are pairwise
+(n,k,m)-compatible) has been proven for k = 2 in [KWZ17].  As before, our results imply
+that the elements ofT𝓁,k are pairwise (n,𝓁,m)-compatible for k = 2.
+
+13.6.  Cohomology classes.  Let X  be a smooth projective complex algebraic variety and
+Y⊂X a subvariety.  Let [Y ]∈H∗(X,Z) denote the cohomology class ofY .  The cohomology
+classes [Z(ΠCk+f)]∈ H∗(GrC(k,k +m),Z) for generic Z∈ GrC(k +m,n) (or, equivalently,
+for Z  belonging to a dense subset of Gr>0(k +m,n)) were determined in [Lam16a].  Recall
+that in Section 12.3, we have deﬁned the aﬃne Stanley symmetric function  ˜Ff.  In [Lam16a],
+it is shown that the cohomology class [Z(ΠCk+f)] is represented by the symmetric function
+τk+m( ˜Ff), deﬁned by
+
+                           τk+m( ˜Ff) =∑       cµ+𝓁sµ       if        ˜Ff =∑    cλsλ.
+                                            µ                               λ
+Here µ+𝓁 is the partition obtained from µ by adding 𝓁 columns of height k to the left of µ
+(in English notation).  The term is omitted if this is not a partition.
+  It  is  an  open  problem  to  understand  the  cohomology  classes  [Z(ΠCk+f)]  when Z  is  not
+generic.  Note that in the k = 1 polytope case, Z(ΠCk+f) is always a linear hypersubspace of
+projective space, so the cohomology class [Z(ΠCk+f)]∈ H∗(GrC(k,k +m),Z) is simply the
+eﬀective generator of Hd(GrC(k,k +m),Z) where d is the codimension of Z(ΠCk+f).
+  It would be interesting to extend the calculation of [Lam16a] to the universal setting.
+Problem 13.17. What is the cohomology class [ACk+f] inH∗(FlC(k,k +𝓁;n),Z) and how is
+it related to [AC𝓁+f−1]?
+
+                                                References
+[AHBC+16]Nima Arkani-Hamed, Jacob Bourjaily, Freddy Cachazo, Alexander Goncharov, Alexander Post-
+             nikov, and Jaroslav Trnka. Grassmannian Geometry of Scattering Amplitudes. Cambridge Uni-
+             versity Press, Cambridge, 2016.
+[AHBL17]Nima Arkani-Hamed, Yuntao Bai, and Thomas Lam. Positive geometries and canonical forms.
+             arXiv:1703.04541, 2017.
+[AHT14]Nima Arkani-Hamed and Jaroslav Trnka. The amplituhedron.                J.  High  Energy  Phys., (10):33,
+             2014.
+
+===== PDF PAGE 51 =====
+                                   PARITY DUALITY FOR THE AMPLITUHEDRON                                        51
+
+[AHTT18]Nima  Arkani-Hamed,  Hugh  Thomas,  and  Jaroslav  Trnka.  Unwinding  the  amplituhedron  in
+                binary. Journal of High Energy Physics, 2018(1):16, Jan 2018.
+[BCF05]Ruth  Britto,  Freddy  Cachazo,  and  Bo  Feng.  New  recursion  relations  for  tree  amplitudes  of
+                gluons. Nuclear Phys. B, 715(1-2):499–522, 2005.
+[BCFW05]Ruth  Britto,  Freddy  Cachazo,  Bo  Feng,  and  Edward  Witten.  Direct  proof  of  the  tree-level
+                scattering amplitude recursion relation in Yang-Mills theory.  Phys.  Rev.  Lett., 94(18):181602,
+                4, 2005.
+[BFZ96]Arkady Berenstein, Sergey Fomin, and Andrei Zelevinsky. Parametrizations of canonical bases
+                and totally positive matrices. Adv. Math., 122(1):49–149, 1996.
+[BKS94]L. J. Billera, M. M. Kapranov, and B. Sturmfels. Cellular strings on polytopes.                Proc.  Amer.
+                Math. Soc., 122(2):549–555, 1994.
+[Bro12]L.E.J.  Brouwer.  Beweis  der  invarianz  des            n-dimensionalen  gebiets.  Mathematische  Annalen,
+                71:305–313, 1912.
+[BZ97]Arkady  Berenstein  and  Andrei  Zelevinsky.  Total  positivity  in  Schubert  varieties.             Comment.
+                Math. Helv., 72(1):128–166, 1997.
+[ERR00]Paul H. Edelman, J¨org Rambau, and Victor Reiner. On subdivision posets of cyclic polytopes.
+                European J. Combin., 21(1):85–101, 2000. Combinatorics of polytopes.
+[Fri17]   Gabriel Frieden. The geometric       R-matrix for aﬃne crystals of type A. arXiv:1710.07243, 2017.
+[FZ02]Sergey Fomin and Andrei Zelevinsky. Cluster algebras. I. Foundations.             J.  Amer.  Math.  Soc.,
+                15(2):497–529 (electronic), 2002.
+[GGS+14]J. K. Golden,  A.B. Goncharov,  M. Spradlin,  C. Vergu,  and A. Volovich. Motivic amplitudes
+                and cluster coordinates. J. High Energy Phys., page 56, 2014.
+[GH81]Marvin J. Greenberg and John R. Harper.             Algebraic topology, volume 58 of Mathematics Lecture
+                Note  Series.  Benjamin/Cummings  Publishing  Co.,  Inc.,  Advanced  Book  Program,  Reading,
+                Mass., 1981. A ﬁrst course.
+[GKL17]Pavel Galashin, Steven N. Karp, and Thomas Lam. The totally nonnegative Grassmannian is
+                a ball. arXiv:1707.02010, 2017.
+[GKZ08]I.  M.  Gelfand,  M.  M.  Kapranov,  and  A.  V.  Zelevinsky.                Discriminants,  resultants  and  multi-
+                dimensional determinants. Modern Birkh¨auser Classics. Birkh¨auser Boston, Inc., Boston, MA,
+                2008. Reprint of the 1994 edition.
+[Kar]    Steven N. Karp. Moment curves and cyclic symmetry for positive Grassmannians. In prepara-
+                tion.
+[KLS13]Allen Knutson, Thomas Lam, and David E. Speyer. Positroid varieties:  juggling and geometry.
+                Compos. Math., 149(10):1710–1752, 2013.
+[KW17]Steven  N.  Karp  and  Lauren  K.  Williams.  The            m  =  1  amplituhedron  and  cyclic  hyperplane
+                arrangements. International Mathematics Research Notices, 2017.
+[KWZ17]Steven  N.  Karp,  Lauren  K.  Williams,  and  Yan  X  Zhang.  Decompositions  of  amplituhedra.
+                arXiv:1708.09525, 2017.
+[Lam06]Thomas Lam. Aﬃne Stanley symmetric functions.               Amer. J. Math., 128(6):1553–1586, 2006.
+[Lam16a]Thomas  Lam.  Amplituhedron  cells  and  Stanley  symmetric  functions.                  Comm.  Math.  Phys.,
+                343(3):1025–1037, 2016.
+[Lam16b]Thomas Lam. Totally nonnegative Grassmannian and Grassmann polytopes. In                 Current devel-
+                opments in mathematics 2014, pages 51–152. Int. Press, Somerville, MA, 2016.
+[LZ98]Bernard Leclerc and Andrei Zelevinsky. Quasicommuting families of quantum Pl¨ucker coordi-
+                nates. In Kirillov’s seminar on representation theory, volume 181 of Amer. Math. Soc. Transl.
+                Ser. 2, pages 85–108. Amer. Math. Soc., Providence, RI, 1998.
+[Mac04]Percy A. MacMahon.               Combinatory analysis. Vol. I, II (bound in one volume). Dover Phoenix
+                Editions. Dover Publications, Inc., Mineola, NY, 2004. Reprint of An introduction to combina-
+                tory analysis (1920) and Combinatory analysis. Vol. I, II (1915, 1916).
+[MaSc16]R. J. Marsh and J. S. Scott. Twists of Pl¨ucker coordinates as dimer partition functions.                 Comm.
+                Math. Phys., 341(3):821–884, 2016.
+[MuSp17]Greg Muller and David E. Speyer. The twist for positroid varieties.                  Proc. Lond. Math. Soc. (3),
+                115(5):1014–1071, 2017.
+
+===== PDF PAGE 52 =====
+52                                                PAVEL GALASHIN AND THOMAS LAM
+
+[OPS15]Suho Oh, Alexander Postnikov, and David E. Speyer. Weak separation and plabic graphs.               Proc.
+               Lond. Math. Soc. (3), 110(3):721–754, 2015.
+[OT12]Steﬀen Oppermann and Hugh Thomas. Higher-dimensional cluster combinatorics and represen-
+               tation theory. J. Eur. Math. Soc. (JEMS), 14(6):1679–1737, 2012.
+[Pos07] Alexander  Postnikov.  Total  positivity,   Grassmannians,   and  networks.  Preprint,           http://
+               math.mit.edu/~apost/papers/tpgrass.pdf, 2007.
+[Ram97]J¨org  Rambau.  Triangulations  of  cyclic  polytopes  and  higher  Bruhat  orders.                Mathematika,
+               44(1):162–194, 1997.
+[Rei99]Victor Reiner. The generalized Baues problem. In             New perspectives in algebraic combinatorics
+               (Berkeley, CA, 1996–97), volume 38 of Math. Sci. Res. Inst. Publ., pages 293–336. Cambridge
+               Univ. Press, Cambridge, 1999.
+[RS00]J¨org  Rambau  and  Francisco  Santos.  The  generalized  Baues  problem  for  cyclic  polytopes.  I.
+               European J. Combin., 21(1):65–83, 2000. Combinatorics of polytopes.
+[Sco79]R. F. Scott. Note on a theorem of Prof. Cayley’s.             Messeng. Math., 8:155–157, 1879.
+[Sco06]J. S. Scott. Grassmannians and cluster algebras.             Proc. London Math. Soc. (3), 92(2):345–380,
+               2006.
+[Sta99]Richard  P.  Stanley.              Enumerative  combinatorics.  Vol.  2,  volume  62  of  Cambridge  Studies  in
+               Advanced  Mathematics.  Cambridge  University  Press,  Cambridge,  1999.  With  a  foreword  by
+               Gian-Carlo Rota and appendix 1 by Sergey Fomin.
+[Stu88]Bernd Sturmfels. Totally positive matrices and cyclic polytopes. In             Proceedings of the Victoria
+               Conference  on  Combinatorial  Matrix  Analysis  (Victoria,  BC,  1987), volume 107, pages 275–
+               281, 1988.
+[Tho02]Hugh Thomas. New combinatorial descriptions of the triangulations of cyclic polytopes and the
+               second higher Stasheﬀ-Tamari posets. Order, 19(4):327–342, 2002.
+
+   Department of Mathematics, Massachusetts Institute of Technology, 77 Massachusetts
+Avenue, Cambridge, MA 02139, USA
+   E-mail address:  galashin@mit.edu
+
+   Department of Mathematics, University of Michigan, 2074 East Hall, 530 Church Street,
+Ann Arbor, MI 48109-1043, USA
+   E-mail address:  tfylam@umich.edu

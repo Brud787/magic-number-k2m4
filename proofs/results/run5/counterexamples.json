@@ -1,0 +1,52 @@
+{
+  "claim_tag": "PROVED",
+  "scope": "Exactfinite results and failed mechanisms; alln unresolved",
+  "complete_tiling_generation_counterexamples": [],
+  "complete_tiling_cardinality_counterexamples": [],
+  "absence_certified_for_n": [
+    7,
+    8
+  ],
+  "absence_for_all_n_claimed": false,
+  "finite_generation_theorem": "results/run5/generation_ranks.json",
+  "failed_mechanisms": [
+    {
+      "claim_tag": "FAILED",
+      "name": "ORDINARY_SOURCE_BOUNDARY_AFTER_GEOMETRIC_PARENT_MAP",
+      "n": 8,
+      "coefficient_field": "F2",
+      "nonzero_product_columns": 96,
+      "total_nonzero_entries": 1680,
+      "proof_reference": "research/run5/SOURCE_CHAIN_TEST.md"
+    },
+    {
+      "claim_tag": "FAILED",
+      "name": "COORDINATE_QUOTIENT_BY_NONADMISSIBLE_CLOSURES_IS_GEOMETRIC_KERNEL",
+      "n": 8,
+      "formal_H8_dimension_over_F2": 15,
+      "spurious_unit_cycle_affine": [
+        1,
+        4,
+        6,
+        7,
+        5,
+        8,
+        10,
+        11
+      ],
+      "unit_cycle_coefficient_sum": 1,
+      "is_geometric_indicator_relation": false,
+      "source_artifact": "results/run5/source_chain_test.json"
+    },
+    {
+      "claim_tag": "FAILED",
+      "name": "COMMON_POSITROID_REFINEMENT_FOR_DISTINCT_TILINGS",
+      "scope": "SOURCE_BRUHAT_REFINEMENT",
+      "proof_reference": "research/run5/BAUES.md"
+    }
+  ],
+  "nonzero_source_cycles_are_not_counterexamples": true,
+  "positive_real_four_mass_multiplicity_preserved": true,
+  "printed_spurion_discrepancy_preserved": true,
+  "next_scope": "n>=9 and generalalln hypotheses remain unproved"
+}

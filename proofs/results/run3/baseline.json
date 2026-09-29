@@ -1,0 +1,9 @@
+{
+  "command": "PYTHONPATH=src .venv/bin/python -m pytest -q",
+  "passed": 66,
+  "duration_seconds": 14.31,
+  "status": "COMPUTATIONALLY-VERIFIED",
+  "prior_file_count": 99,
+  "hashes": "results/run3/baseline_hashes.json",
+  "scope": "Full existing suite passed before changes"
+}

@@ -1,0 +1,31 @@
+[PASS] membership-core classification
+[PASS] membership-core counts
+[PASS] four-mass two-preimage certificate
+[PASS] spurion inversion certificate
+[PASS] 29 parent-core exhaustion
+[PASS] 3<->3 relation certificates
+[PASS] 5<->5 relation certificates
+[PASS] ten-wall rank-nine certificates
+[PASS] hostile parent 1 determinant
+[PASS] hostile parent 2 determinant
+[PASS] n=9 tile universe = 942
+[PASS] n=9 local relations = 693
+[PASS] rank(L9) = 470
+[PASS] n=9 witnesses = 472
+[PASS] n=9 exact membership decisions = 444624
+[PASS] rank(A9) = 472
+[PASS] selected indicator determinant = 4
+[PASS] A9 R9^T = 0
+[PASS] K9 = L9 certificate chain
+[PASS] normalized n=6
+[PASS] normalized n=7
+[PASS] normalized n=8
+[PASS] normalized n=9
+[PASS] normalized n=10 determinant = -1
+[PASS] normalized n=11 determinant = 1
+[PASS] support cutoff
+[PASS] n=8 signed unit functional
+[PASS] n=9 signed unit functional
+[PASS] saved unit-weight profile probes
+[PASS] publication artifact hashes
+ALL PUBLICATION-CRITICAL CERTIFICATES PASSED

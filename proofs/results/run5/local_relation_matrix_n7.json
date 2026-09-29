@@ -1,0 +1,7171 @@
+{
+  "n": 7,
+  "k": 2,
+  "m": 4,
+  "claim_tag": "COMPUTATIONALLY-VERIFIED",
+  "scope": "FULL_RUN4_ONE_PARENT_RELATION_SPAN_IN_COMPLETE_ALL_Z_TILE_UNIVERSE",
+  "tile_universe_reference": "results/run2/child_status_n7.json",
+  "local_relation_reference": "results/run4/sign_relations.json",
+  "tile_count": 21,
+  "column_affine_permutations": [
+    [
+      1,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10
+    ],
+    [
+      2,
+      4,
+      5,
+      6,
+      8,
+      7,
+      10
+    ],
+    [
+      2,
+      4,
+      5,
+      7,
+      6,
+      8,
+      10
+    ],
+    [
+      2,
+      4,
+      6,
+      5,
+      7,
+      8,
+      10
+    ],
+    [
+      2,
+      5,
+      4,
+      6,
+      7,
+      8,
+      10
+    ],
+    [
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      7
+    ],
+    [
+      3,
+      4,
+      5,
+      7,
+      6,
+      9,
+      8
+    ],
+    [
+      3,
+      4,
+      5,
+      7,
+      8,
+      6,
+      9
+    ],
+    [
+      3,
+      4,
+      6,
+      5,
+      7,
+      9,
+      8
+    ],
+    [
+      3,
+      4,
+      6,
+      5,
+      8,
+      7,
+      9
+    ],
+    [
+      3,
+      4,
+      6,
+      7,
+      5,
+      8,
+      9
+    ],
+    [
+      3,
+      5,
+      4,
+      6,
+      7,
+      9,
+      8
+    ],
+    [
+      3,
+      5,
+      4,
+      6,
+      8,
+      7,
+      9
+    ],
+    [
+      3,
+      5,
+      4,
+      7,
+      6,
+      8,
+      9
+    ],
+    [
+      3,
+      5,
+      6,
+      4,
+      7,
+      8,
+      9
+    ],
+    [
+      4,
+      2,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    [
+      4,
+      3,
+      5,
+      6,
+      7,
+      9,
+      8
+    ],
+    [
+      4,
+      3,
+      5,
+      6,
+      8,
+      7,
+      9
+    ],
+    [
+      4,
+      3,
+      5,
+      7,
+      6,
+      8,
+      9
+    ],
+    [
+      4,
+      3,
+      6,
+      5,
+      7,
+      8,
+      9
+    ],
+    [
+      4,
+      5,
+      3,
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  "tiles": [
+    {
+      "column": 0,
+      "affine": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "classes": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "support": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            1,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10
+          ],
+          "parallel_classes": [
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 6,
+            "a": 1,
+            "b": 2,
+            "c": 4,
+            "d": 5,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 1
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 1,
+      "affine": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        7,
+        10
+      ],
+      "classes": [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            2,
+            4,
+            5,
+            6,
+            8,
+            7,
+            10
+          ],
+          "parallel_classes": [
+            [
+              1,
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              6,
+              7
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 3
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 2,
+      "affine": [
+        2,
+        4,
+        5,
+        7,
+        6,
+        8,
+        10
+      ],
+      "classes": [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            2,
+            4,
+            5,
+            7,
+            6,
+            8,
+            10
+          ],
+          "parallel_classes": [
+            [
+              1,
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 5
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 3,
+      "affine": [
+        2,
+        4,
+        6,
+        5,
+        7,
+        8,
+        10
+      ],
+      "classes": [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            2,
+            4,
+            6,
+            5,
+            7,
+            8,
+            10
+          ],
+          "parallel_classes": [
+            [
+              1,
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 1
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 4,
+      "affine": [
+        2,
+        5,
+        4,
+        6,
+        7,
+        8,
+        10
+      ],
+      "classes": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            2,
+            5,
+            4,
+            6,
+            7,
+            8,
+            10
+          ],
+          "parallel_classes": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              6,
+              7
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 5
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 5,
+      "affine": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        7
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            7
+          ],
+          "parallel_classes": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 6,
+            "a": 1,
+            "b": 2,
+            "c": 4,
+            "d": 5,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 0
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 6,
+      "affine": [
+        3,
+        4,
+        5,
+        7,
+        6,
+        9,
+        8
+      ],
+      "classes": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            3,
+            4,
+            5,
+            7,
+            6,
+            9,
+            8
+          ],
+          "parallel_classes": [
+            [
+              7,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              6,
+              7
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 2
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 7,
+      "affine": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        6,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            3,
+            4,
+            5,
+            7,
+            8,
+            6,
+            9
+          ],
+          "parallel_classes": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 6,
+            "a": 1,
+            "b": 2,
+            "c": 4,
+            "d": 5,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 6
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 8,
+      "affine": [
+        3,
+        4,
+        6,
+        5,
+        7,
+        9,
+        8
+      ],
+      "classes": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            3,
+            4,
+            6,
+            5,
+            7,
+            9,
+            8
+          ],
+          "parallel_classes": [
+            [
+              7,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 4
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 9,
+      "affine": [
+        3,
+        4,
+        6,
+        5,
+        8,
+        7,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            3,
+            4,
+            6,
+            5,
+            8,
+            7,
+            9
+          ],
+          "parallel_classes": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              6,
+              7
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 1
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 10,
+      "affine": [
+        3,
+        4,
+        6,
+        7,
+        5,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            3,
+            4,
+            6,
+            7,
+            5,
+            8,
+            9
+          ],
+          "parallel_classes": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 6,
+            "a": 1,
+            "b": 2,
+            "c": 4,
+            "d": 5,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 5
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 11,
+      "affine": [
+        3,
+        5,
+        4,
+        6,
+        7,
+        9,
+        8
+      ],
+      "classes": [
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            3,
+            5,
+            4,
+            6,
+            7,
+            9,
+            8
+          ],
+          "parallel_classes": [
+            [
+              7,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 0
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 12,
+      "affine": [
+        3,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            3,
+            5,
+            4,
+            6,
+            8,
+            7,
+            9
+          ],
+          "parallel_classes": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 3
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 13,
+      "affine": [
+        3,
+        5,
+        4,
+        7,
+        6,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            3,
+            5,
+            4,
+            7,
+            6,
+            8,
+            9
+          ],
+          "parallel_classes": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              6,
+              7
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 0
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 14,
+      "affine": [
+        3,
+        5,
+        6,
+        4,
+        7,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            3,
+            5,
+            6,
+            4,
+            7,
+            8,
+            9
+          ],
+          "parallel_classes": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 6,
+            "a": 1,
+            "b": 2,
+            "c": 4,
+            "d": 5,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 4
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 15,
+      "affine": [
+        4,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            4,
+            2,
+            5,
+            6,
+            7,
+            8,
+            10
+          ],
+          "parallel_classes": [
+            [
+              1
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 6,
+            "a": 1,
+            "b": 2,
+            "c": 4,
+            "d": 5,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 2
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 16,
+      "affine": [
+        4,
+        3,
+        5,
+        6,
+        7,
+        9,
+        8
+      ],
+      "classes": [
+        [
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            4,
+            3,
+            5,
+            6,
+            7,
+            9,
+            8
+          ],
+          "parallel_classes": [
+            [
+              7,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              6,
+              7
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 4
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 17,
+      "affine": [
+        4,
+        3,
+        5,
+        6,
+        8,
+        7,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            4,
+            3,
+            5,
+            6,
+            8,
+            7,
+            9
+          ],
+          "parallel_classes": [
+            [
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 6
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 18,
+      "affine": [
+        4,
+        3,
+        5,
+        7,
+        6,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            4,
+            3,
+            5,
+            7,
+            6,
+            8,
+            9
+          ],
+          "parallel_classes": [
+            [
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 2
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 19,
+      "affine": [
+        4,
+        3,
+        6,
+        5,
+        7,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            4,
+            3,
+            6,
+            5,
+            7,
+            8,
+            9
+          ],
+          "parallel_classes": [
+            [
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 7,
+            "a": 1,
+            "b": 2,
+            "c": 5,
+            "d": 6,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              6,
+              7
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 6
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    },
+    {
+      "column": 20,
+      "affine": [
+        4,
+        5,
+        3,
+        6,
+        7,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 8,
+      "admissibility": {
+        "status": "CERTIFIED_TILE",
+        "tile_kind": "BCFW",
+        "claim_tag": "SOURCE-VERIFIED",
+        "scope": "ALL_Z",
+        "certificate": {
+          "affine": [
+            4,
+            5,
+            3,
+            6,
+            7,
+            8,
+            9
+          ],
+          "parallel_classes": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ],
+          "dimension": 8,
+          "tile_status": "CERTIFIED_TILE",
+          "scope": "ALL_Z",
+          "bcfw_status": "BCFW",
+          "recipe": {
+            "product_n": 6,
+            "a": 1,
+            "b": 2,
+            "c": 4,
+            "d": 5,
+            "rank_one_side": "R",
+            "rank_one_support": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "zero_insertion_embedding": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "dihedral_direction": 1,
+            "dihedral_shift": 3
+          },
+          "proof": "BCFW v3 Def6.2/Fig10/Prop6.8, Def7.1, Example7.5, Thm8.7"
+        }
+      }
+    }
+  ],
+  "relation_count": 7,
+  "rows": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      1,
+      -1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      1,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1,
+      1,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0,
+      -1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      1,
+      0,
+      -1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "relations": [
+    {
+      "id": "n7-P000",
+      "row_index": 0,
+      "terms": [
+        {
+          "column": 15,
+          "coefficient": 1
+        },
+        {
+          "column": 16,
+          "coefficient": -1
+        },
+        {
+          "column": 17,
+          "coefficient": 1
+        },
+        {
+          "column": 18,
+          "coefficient": -1
+        },
+        {
+          "column": 19,
+          "coefficient": 1
+        },
+        {
+          "column": 20,
+          "coefficient": -1
+        }
+      ],
+      "parent_affines": [
+        [
+          4,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "transport_origins": [
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": -1,
+          "dihedral_shift": 2,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": 1,
+          "parent_affine": [
+            4,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": 1,
+          "dihedral_shift": 1,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": -1,
+          "parent_affine": [
+            4,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "coefficient_sum": 0,
+      "scope": "ALL_Z_GEOMETRIC_INDICATOR_RELATION",
+      "proof_reference": "research/run4/LOCAL_PARENT_THEOREM.md"
+    },
+    {
+      "id": "n7-P001",
+      "row_index": 1,
+      "terms": [
+        {
+          "column": 4,
+          "coefficient": 1
+        },
+        {
+          "column": 11,
+          "coefficient": -1
+        },
+        {
+          "column": 12,
+          "coefficient": 1
+        },
+        {
+          "column": 13,
+          "coefficient": -1
+        },
+        {
+          "column": 14,
+          "coefficient": 1
+        },
+        {
+          "column": 20,
+          "coefficient": -1
+        }
+      ],
+      "parent_affines": [
+        [
+          3,
+          5,
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "transport_origins": [
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": -1,
+          "dihedral_shift": 3,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": -1,
+          "parent_affine": [
+            3,
+            5,
+            4,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": 1,
+          "dihedral_shift": 2,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": 1,
+          "parent_affine": [
+            3,
+            5,
+            4,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "coefficient_sum": 0,
+      "scope": "ALL_Z_GEOMETRIC_INDICATOR_RELATION",
+      "proof_reference": "research/run4/LOCAL_PARENT_THEOREM.md"
+    },
+    {
+      "id": "n7-P002",
+      "row_index": 2,
+      "terms": [
+        {
+          "column": 3,
+          "coefficient": 1
+        },
+        {
+          "column": 8,
+          "coefficient": -1
+        },
+        {
+          "column": 9,
+          "coefficient": 1
+        },
+        {
+          "column": 10,
+          "coefficient": -1
+        },
+        {
+          "column": 14,
+          "coefficient": 1
+        },
+        {
+          "column": 19,
+          "coefficient": -1
+        }
+      ],
+      "parent_affines": [
+        [
+          3,
+          4,
+          6,
+          5,
+          7,
+          8,
+          9
+        ]
+      ],
+      "transport_origins": [
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": -1,
+          "dihedral_shift": 4,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": 1,
+          "parent_affine": [
+            3,
+            4,
+            6,
+            5,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": 1,
+          "dihedral_shift": 3,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": -1,
+          "parent_affine": [
+            3,
+            4,
+            6,
+            5,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "coefficient_sum": 0,
+      "scope": "ALL_Z_GEOMETRIC_INDICATOR_RELATION",
+      "proof_reference": "research/run4/LOCAL_PARENT_THEOREM.md"
+    },
+    {
+      "id": "n7-P003",
+      "row_index": 3,
+      "terms": [
+        {
+          "column": 2,
+          "coefficient": 1
+        },
+        {
+          "column": 6,
+          "coefficient": -1
+        },
+        {
+          "column": 7,
+          "coefficient": 1
+        },
+        {
+          "column": 10,
+          "coefficient": -1
+        },
+        {
+          "column": 13,
+          "coefficient": 1
+        },
+        {
+          "column": 18,
+          "coefficient": -1
+        }
+      ],
+      "parent_affines": [
+        [
+          3,
+          4,
+          5,
+          7,
+          6,
+          8,
+          9
+        ]
+      ],
+      "transport_origins": [
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": -1,
+          "dihedral_shift": 5,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": -1,
+          "parent_affine": [
+            3,
+            4,
+            5,
+            7,
+            6,
+            8,
+            9
+          ]
+        },
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": 1,
+          "dihedral_shift": 4,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": 1,
+          "parent_affine": [
+            3,
+            4,
+            5,
+            7,
+            6,
+            8,
+            9
+          ]
+        }
+      ],
+      "coefficient_sum": 0,
+      "scope": "ALL_Z_GEOMETRIC_INDICATOR_RELATION",
+      "proof_reference": "research/run4/LOCAL_PARENT_THEOREM.md"
+    },
+    {
+      "id": "n7-P004",
+      "row_index": 4,
+      "terms": [
+        {
+          "column": 1,
+          "coefficient": 1
+        },
+        {
+          "column": 5,
+          "coefficient": -1
+        },
+        {
+          "column": 7,
+          "coefficient": 1
+        },
+        {
+          "column": 9,
+          "coefficient": -1
+        },
+        {
+          "column": 12,
+          "coefficient": 1
+        },
+        {
+          "column": 17,
+          "coefficient": -1
+        }
+      ],
+      "parent_affines": [
+        [
+          3,
+          4,
+          5,
+          6,
+          8,
+          7,
+          9
+        ]
+      ],
+      "transport_origins": [
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": -1,
+          "dihedral_shift": 6,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": 1,
+          "parent_affine": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            7,
+            9
+          ]
+        },
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": 1,
+          "dihedral_shift": 5,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": -1,
+          "parent_affine": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            7,
+            9
+          ]
+        }
+      ],
+      "coefficient_sum": 0,
+      "scope": "ALL_Z_GEOMETRIC_INDICATOR_RELATION",
+      "proof_reference": "research/run4/LOCAL_PARENT_THEOREM.md"
+    },
+    {
+      "id": "n7-P005",
+      "row_index": 5,
+      "terms": [
+        {
+          "column": 0,
+          "coefficient": 1
+        },
+        {
+          "column": 1,
+          "coefficient": -1
+        },
+        {
+          "column": 2,
+          "coefficient": 1
+        },
+        {
+          "column": 3,
+          "coefficient": -1
+        },
+        {
+          "column": 4,
+          "coefficient": 1
+        },
+        {
+          "column": 15,
+          "coefficient": -1
+        }
+      ],
+      "parent_affines": [
+        [
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10
+        ]
+      ],
+      "transport_origins": [
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": -1,
+          "dihedral_shift": 1,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": 1,
+          "parent_affine": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10
+          ]
+        },
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": 1,
+          "dihedral_shift": 0,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": -1,
+          "parent_affine": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10
+          ]
+        }
+      ],
+      "coefficient_sum": 0,
+      "scope": "ALL_Z_GEOMETRIC_INDICATOR_RELATION",
+      "proof_reference": "research/run4/LOCAL_PARENT_THEOREM.md"
+    },
+    {
+      "id": "n7-P006",
+      "row_index": 6,
+      "terms": [
+        {
+          "column": 0,
+          "coefficient": 1
+        },
+        {
+          "column": 5,
+          "coefficient": -1
+        },
+        {
+          "column": 6,
+          "coefficient": 1
+        },
+        {
+          "column": 8,
+          "coefficient": -1
+        },
+        {
+          "column": 11,
+          "coefficient": 1
+        },
+        {
+          "column": 16,
+          "coefficient": -1
+        }
+      ],
+      "parent_affines": [
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          8
+        ]
+      ],
+      "transport_origins": [
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": -1,
+          "dihedral_shift": 0,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": -1,
+          "parent_affine": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            8
+          ]
+        },
+        {
+          "source_relation": "run4-core-1-1-1-1-1-2",
+          "core_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "core_n": 7,
+          "dihedral_direction": 1,
+          "dihedral_shift": 6,
+          "increasing_support": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "common_sign": 1,
+          "parent_affine": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            8
+          ]
+        }
+      ],
+      "coefficient_sum": 0,
+      "scope": "ALL_Z_GEOMETRIC_INDICATOR_RELATION",
+      "proof_reference": "research/run4/LOCAL_PARENT_THEOREM.md"
+    }
+  ],
+  "parents": [
+    {
+      "affine": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "classes": [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 9,
+      "core_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "core_id": "core-1-1-1-1-1-2",
+      "sector": "BALANCED",
+      "source_facet_count": 8,
+      "admissible_facets": [
+        [
+          1,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          8,
+          7,
+          10
+        ],
+        [
+          2,
+          4,
+          5,
+          7,
+          6,
+          8,
+          10
+        ],
+        [
+          2,
+          4,
+          6,
+          5,
+          7,
+          8,
+          10
+        ],
+        [
+          2,
+          5,
+          4,
+          6,
+          7,
+          8,
+          10
+        ],
+        [
+          4,
+          2,
+          5,
+          6,
+          7,
+          8,
+          10
+        ]
+      ],
+      "relation_rows": [
+        5
+      ]
+    },
+    {
+      "affine": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        8
+      ],
+      "classes": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 9,
+      "core_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "core_id": "core-1-1-1-1-1-2",
+      "sector": "BALANCED",
+      "source_facet_count": 8,
+      "admissible_facets": [
+        [
+          1,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          7,
+          6,
+          9,
+          8
+        ],
+        [
+          3,
+          4,
+          6,
+          5,
+          7,
+          9,
+          8
+        ],
+        [
+          3,
+          5,
+          4,
+          6,
+          7,
+          9,
+          8
+        ],
+        [
+          4,
+          3,
+          5,
+          6,
+          7,
+          9,
+          8
+        ]
+      ],
+      "relation_rows": [
+        6
+      ]
+    },
+    {
+      "affine": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        7,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 9,
+      "core_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "core_id": "core-1-1-1-1-1-2",
+      "sector": "BALANCED",
+      "source_facet_count": 8,
+      "admissible_facets": [
+        [
+          2,
+          4,
+          5,
+          6,
+          8,
+          7,
+          10
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          7,
+          8,
+          6,
+          9
+        ],
+        [
+          3,
+          4,
+          6,
+          5,
+          8,
+          7,
+          9
+        ],
+        [
+          3,
+          5,
+          4,
+          6,
+          8,
+          7,
+          9
+        ],
+        [
+          4,
+          3,
+          5,
+          6,
+          8,
+          7,
+          9
+        ]
+      ],
+      "relation_rows": [
+        4
+      ]
+    },
+    {
+      "affine": [
+        3,
+        4,
+        5,
+        7,
+        6,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 9,
+      "core_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "core_id": "core-1-1-1-1-1-2",
+      "sector": "BALANCED",
+      "source_facet_count": 8,
+      "admissible_facets": [
+        [
+          2,
+          4,
+          5,
+          7,
+          6,
+          8,
+          10
+        ],
+        [
+          3,
+          4,
+          5,
+          7,
+          6,
+          9,
+          8
+        ],
+        [
+          3,
+          4,
+          5,
+          7,
+          8,
+          6,
+          9
+        ],
+        [
+          3,
+          4,
+          6,
+          7,
+          5,
+          8,
+          9
+        ],
+        [
+          3,
+          5,
+          4,
+          7,
+          6,
+          8,
+          9
+        ],
+        [
+          4,
+          3,
+          5,
+          7,
+          6,
+          8,
+          9
+        ]
+      ],
+      "relation_rows": [
+        3
+      ]
+    },
+    {
+      "affine": [
+        3,
+        4,
+        6,
+        5,
+        7,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 9,
+      "core_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "core_id": "core-1-1-1-1-1-2",
+      "sector": "BALANCED",
+      "source_facet_count": 8,
+      "admissible_facets": [
+        [
+          2,
+          4,
+          6,
+          5,
+          7,
+          8,
+          10
+        ],
+        [
+          3,
+          4,
+          6,
+          5,
+          7,
+          9,
+          8
+        ],
+        [
+          3,
+          4,
+          6,
+          5,
+          8,
+          7,
+          9
+        ],
+        [
+          3,
+          4,
+          6,
+          7,
+          5,
+          8,
+          9
+        ],
+        [
+          3,
+          5,
+          6,
+          4,
+          7,
+          8,
+          9
+        ],
+        [
+          4,
+          3,
+          6,
+          5,
+          7,
+          8,
+          9
+        ]
+      ],
+      "relation_rows": [
+        2
+      ]
+    },
+    {
+      "affine": [
+        3,
+        5,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 9,
+      "core_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "core_id": "core-1-1-1-1-1-2",
+      "sector": "BALANCED",
+      "source_facet_count": 8,
+      "admissible_facets": [
+        [
+          2,
+          5,
+          4,
+          6,
+          7,
+          8,
+          10
+        ],
+        [
+          3,
+          5,
+          4,
+          6,
+          7,
+          9,
+          8
+        ],
+        [
+          3,
+          5,
+          4,
+          6,
+          8,
+          7,
+          9
+        ],
+        [
+          3,
+          5,
+          4,
+          7,
+          6,
+          8,
+          9
+        ],
+        [
+          3,
+          5,
+          6,
+          4,
+          7,
+          8,
+          9
+        ],
+        [
+          4,
+          5,
+          3,
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "relation_rows": [
+        1
+      ]
+    },
+    {
+      "affine": [
+        4,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "classes": [
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "bases": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "necklace": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "support": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimension": 9,
+      "core_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "core_id": "core-1-1-1-1-1-2",
+      "sector": "BALANCED",
+      "source_facet_count": 8,
+      "admissible_facets": [
+        [
+          4,
+          2,
+          5,
+          6,
+          7,
+          8,
+          10
+        ],
+        [
+          4,
+          3,
+          5,
+          6,
+          7,
+          9,
+          8
+        ],
+        [
+          4,
+          3,
+          5,
+          6,
+          8,
+          7,
+          9
+        ],
+        [
+          4,
+          3,
+          5,
+          7,
+          6,
+          8,
+          9
+        ],
+        [
+          4,
+          3,
+          6,
+          5,
+          7,
+          8,
+          9
+        ],
+        [
+          4,
+          5,
+          3,
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "relation_rows": [
+        0
+      ]
+    }
+  ],
+  "source_parent_count": 7,
+  "parent_sector_counts": {
+    "BALANCED": 7
+  },
+  "rank_over_Q": 6,
+  "independent_row_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "pivot_columns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    15
+  ],
+  "quotient_dimension": 15,
+  "all_row_sums_zero": true,
+  "not_claimed": "The full indicator kernel, arbitrary-tiling generation, or flip connectivity"
+}
